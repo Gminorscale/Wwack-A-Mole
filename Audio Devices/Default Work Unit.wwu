@@ -5,8 +5,6 @@
 			<ChildrenList>
 				<AudioDevice Name="System" ID="{8F49477F-AB40-4282-92CE-B78646136F33}" PluginName="System" CompanyID="0" PluginID="174" PluginType="7"/>
 				<AudioDevice Name="No_Output" ID="{08ADCCC5-C849-4CD1-AF35-5B36FD57CCC9}" PluginName="No Output" CompanyID="0" PluginID="181" PluginType="7"/>
-				<AudioDevice Name="Bad" ID="{BA5E7D74-67EA-409A-BB47-5F4A8017E637}" PluginName="System" CompanyID="0" PluginID="174" PluginType="7"/>
-				<AudioDevice Name="Good" ID="{DB153016-A975-482F-8795-CE4D5D80ACA7}" PluginName="System" CompanyID="0" PluginID="174" PluginType="7"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioDevices>

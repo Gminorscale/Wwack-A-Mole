@@ -2878,18 +2878,11 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<MidiFileSource Name="A#3" ID="{02F6CBA0-BA55-4FAC-B26C-04CD0A893295}" ShortID="948083653">
+												<AudioFileSource Name="Swooshes, Whoosh, Short, Ropes, Swirling, Dry 02 SND55481 3" ID="{7AD05831-29B7-4072-802E-9EE8A748EF75}">
 													<Language>SFX</Language>
-													<MidiFile>A#3.mid</MidiFile>
+													<AudioFile>Swooshes, Whoosh, Short, Ropes, Swirling, Dry 02 SND55481 3.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="795445410"/>
-													</MediaIDList>
-												</MidiFileSource>
-												<AudioFileSource Name="Swooshes, Swish, Clothy SND55566" ID="{DDBB68D8-268F-4C42-AA86-FB87D030A967}">
-													<Language>SFX</Language>
-													<AudioFile>Swooshes, Swish, Clothy SND55566.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="109476831"/>
+														<MediaID ID="182556369"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -2910,74 +2903,13 @@
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="Swooshes, Swish, Clothy SND55566" ID="{9E398A3D-74CD-471A-999C-744942B770E9}">
+																				<MusicClip Name="Swooshes, Whoosh, Short, Ropes, Swirling, Dry 02 SND55481 3" ID="{0D272DD8-2C68-4B80-8989-D7262F1B8351}">
 																					<PropertyList>
-																						<Property Name="BeginTrimOffset" Type="Real64" Value="250"/>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="578.84375"/>
-																						<Property Name="FadeInDuration" Type="Real64" Value="147.557328015952"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="327.458333333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																						<Property Name="PlayAt" Type="Real64" Value="-250"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="Swooshes, Swish, Clothy SND55566" ID="{DDBB68D8-268F-4C42-AA86-FB87D030A967}"/>
-																					<PropertyCurveList>
-																						<PropertyCurve PropertyName="Highpass">
-																							<Curve Name="" ID="{BCEB2B0D-E818-472E-9167-5C685AE65EBE}">
-																								<PropertyList>
-																									<Property Name="Flags" Type="int32" Value="1"/>
-																								</PropertyList>
-																								<PointList>
-																									<Point>
-																										<XPos>0.25</XPos>
-																										<YPos>0</YPos>
-																										<Flags>5</Flags>
-																									</Point>
-																									<Point>
-																										<XPos>0.57884375</XPos>
-																										<YPos>0</YPos>
-																										<Flags>37</Flags>
-																									</Point>
-																								</PointList>
-																							</Curve>
-																						</PropertyCurve>
-																						<PropertyCurve PropertyName="Lowpass">
-																							<Curve Name="" ID="{72B3630D-98BA-4076-8E90-7CA82B4A90A5}">
-																								<PropertyList>
-																									<Property Name="Flags" Type="int32" Value="1"/>
-																								</PropertyList>
-																								<PointList>
-																									<Point>
-																										<XPos>0.25</XPos>
-																										<YPos>0</YPos>
-																										<Flags>5</Flags>
-																									</Point>
-																									<Point>
-																										<XPos>0.57884375</XPos>
-																										<YPos>0</YPos>
-																										<Flags>37</Flags>
-																									</Point>
-																								</PointList>
-																							</Curve>
-																						</PropertyCurve>
-																						<PropertyCurve PropertyName="Volume">
-																							<Curve Name="" ID="{3C5A973B-A208-4868-A750-D2D873AF304C}">
-																								<PropertyList>
-																									<Property Name="Flags" Type="int32" Value="3"/>
-																								</PropertyList>
-																								<PointList>
-																									<Point>
-																										<XPos>0.25</XPos>
-																										<YPos>0</YPos>
-																										<Flags>5</Flags>
-																									</Point>
-																									<Point>
-																										<XPos>0.57884375</XPos>
-																										<YPos>0</YPos>
-																										<Flags>37</Flags>
-																									</Point>
-																								</PointList>
-																							</Curve>
-																						</PropertyCurve>
-																					</PropertyCurveList>
+																					<AudioSourceRef Name="Swooshes, Whoosh, Short, Ropes, Swirling, Dry 02 SND55481 3" ID="{7AD05831-29B7-4072-802E-9EE8A748EF75}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -3161,7 +3093,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-14</Value>
+								<Value>-27</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>

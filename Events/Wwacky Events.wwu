@@ -261,25 +261,28 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Hammer" ID="{BAF8E0BC-EA40-42C2-9DF1-4B7DA1B20596}" ShortID="877619220"/>
-				<Event Name="GameStart" ID="{EC530C51-3F00-4955-A6C0-873F33B47FD6}">
+				<Folder Name="Game Events" ID="{9EB9C61A-9121-488D-8136-FE911DCEBE7F}" ShortID="453489998">
 					<ChildrenList>
-						<Action Name="" ID="{4AF30E41-8EDF-4813-9A16-C164A8244572}" ShortID="918842833">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="MoleGenerator" ID="{A668554E-3175-42A3-A0D1-04F01B69B17E}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{3D1EC155-AD1B-4813-9420-0EAD9FB8425B}" ShortID="964780823">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="LevelMusic" ID="{0982BB1F-FA6E-4850-BFAB-462E0DC60D69}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="GameStart" ID="{EC530C51-3F00-4955-A6C0-873F33B47FD6}">
+							<ChildrenList>
+								<Action Name="" ID="{4AF30E41-8EDF-4813-9A16-C164A8244572}" ShortID="918842833">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MoleGenerator" ID="{A668554E-3175-42A3-A0D1-04F01B69B17E}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3D1EC155-AD1B-4813-9420-0EAD9FB8425B}" ShortID="964780823">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LevelMusic" ID="{0982BB1F-FA6E-4850-BFAB-462E0DC60D69}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

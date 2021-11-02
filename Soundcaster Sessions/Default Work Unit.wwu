@@ -4,20 +4,6 @@
 		<WorkUnit Name="Default Work Unit" ID="{83EC5A7A-B0BB-426E-B2A1-2BED2615671E}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundcasterSession Name="Game" ID="{D7882449-05E9-42B1-AB66-8355AB564989}">
-					<ModuleList>
-						<Module>
-							<ObjectRef Name="Village" ID="{15AEE407-9181-4198-B8D9-88807806C23D}" WorkUnitID="{313C057B-0561-41AF-8216-7300737D57A9}"/>
-							<Position X="0" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="EnemyGenerator" ID="{20A2120E-3E07-4060-A39C-C9873884B8EC}" WorkUnitID="{313C057B-0561-41AF-8216-7300737D57A9}"/>
-							<Position X="0" Y="2"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="City" ID="{3EFDCE43-0732-426B-920F-8316BFF4F5DE}" WorkUnitID="{313C057B-0561-41AF-8216-7300737D57A9}"/>
-							<Position X="1" Y="0"/>
-						</Module>
-					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true"/>
@@ -47,14 +33,14 @@
 						</Module>
 						<Module>
 							<ObjectRef Name="GameStart" ID="{EC530C51-3F00-4955-A6C0-873F33B47FD6}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
-							<Position X="3" Y="0"/>
+							<Position X="2" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Up" ID="{CC84DC04-5C92-4D60-A566-FBC341FBBD6C}"/>
-						<CurrentSwitchRef Name="Mole03" ID="{8E7E658A-9D2A-43A7-ADEE-5B60BA172492}"/>
+						<CurrentSwitchRef Name="Down" ID="{8648D8C3-7A0E-4764-812C-67064E79A5D5}"/>
+						<CurrentSwitchRef Name="NoMole" ID="{934513DA-57BF-4AE4-B9EE-0926F944604C}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
