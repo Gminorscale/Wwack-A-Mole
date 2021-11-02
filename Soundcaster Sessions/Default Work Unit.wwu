@@ -3,16 +3,6 @@
 	<SoundcasterSessions>
 		<WorkUnit Name="Default Work Unit" ID="{83EC5A7A-B0BB-426E-B2A1-2BED2615671E}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundcasterSession Name="Game" ID="{D7882449-05E9-42B1-AB66-8355AB564989}">
-					<RTPCValueList ShowAll="true"/>
-					<CurrentStateList ShowAll="true"/>
-					<CurrentSwitchList ShowAll="true"/>
-				</SoundcasterSession>
-				<SoundcasterSession Name="New Soundcaster Session" ID="{DE3D2859-9195-4FD6-9895-7F2E47673F5D}">
-					<RTPCValueList ShowAll="true"/>
-					<CurrentStateList ShowAll="true"/>
-					<CurrentSwitchList ShowAll="true"/>
-				</SoundcasterSession>
 				<SoundcasterSession Name="Wwack-A-Mole" ID="{DCED2E28-B0A5-4B18-A79D-DD1D20507D84}">
 					<ModuleList>
 						<Module>
@@ -39,8 +29,8 @@
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Down" ID="{8648D8C3-7A0E-4764-812C-67064E79A5D5}"/>
-						<CurrentSwitchRef Name="NoMole" ID="{934513DA-57BF-4AE4-B9EE-0926F944604C}"/>
+						<CurrentSwitchRef Name="Up" ID="{CC84DC04-5C92-4D60-A566-FBC341FBBD6C}"/>
+						<CurrentSwitchRef Name="Mole04" ID="{8F9DF798-43EA-4449-B4B1-D06B514DF413}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
