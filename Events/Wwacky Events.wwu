@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E2A14253-EA94-4285-9180-16C35D098AFA}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Wwacky Events" ID="{E2A14253-EA94-4285-9180-16C35D098AFA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="MoleGenerator" ID="{D9560442-D36F-4A30-AB44-0E4CF5F59B95}" ShortID="330640258">
+					<ChildrenList>
+						<Event Name="MoleUp" ID="{47B116CB-E156-4BF4-ADF8-52A64C476CDB}">
+							<ChildrenList>
+								<Action Name="" ID="{B0FD3E19-2F6F-4B10-B82F-1BD47402610F}" ShortID="113306088">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Up" ID="{CC84DC04-5C92-4D60-A566-FBC341FBBD6C}" WorkUnitID="{7F031A29-2220-4BF0-83A4-E137A95B420B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MoleDown" ID="{3ECA2D9D-0F95-4ABF-947E-56BBEEFCCCCA}">
+							<ChildrenList>
+								<Action Name="" ID="{8A8F3189-9BD8-47AE-AFC7-9185472CCE73}" ShortID="439770538">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Down" ID="{8648D8C3-7A0E-4764-812C-67064E79A5D5}" WorkUnitID="{7F031A29-2220-4BF0-83A4-E137A95B420B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Hit" ID="{DE62E14D-B1C9-46FA-8157-DC6B9DD8B197}">
+							<ChildrenList>
+								<Action Name="" ID="{7B3A572C-6DF9-42E8-A96B-3E64B7A33926}" ShortID="412531364">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hit" ID="{B4A1C7C4-8590-4101-A145-9635A0C74A06}" WorkUnitID="{7F031A29-2220-4BF0-83A4-E137A95B420B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Miss" ID="{AF4C29A5-B9C2-4F16-A5D9-2A38B444786B}">
+							<ChildrenList>
+								<Action Name="" ID="{63387CF6-CCD0-49D1-B6F0-5F29EF57F87D}" ShortID="452634665">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Miss" ID="{DC2E32D3-DAC1-409B-9BEB-124D2BAFAA94}" WorkUnitID="{7F031A29-2220-4BF0-83A4-E137A95B420B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="MoleNumber" ID="{6ACF48B1-779A-4EB1-B7A0-75923131754D}" ShortID="442329870">
+					<ChildrenList>
+						<Event Name="Mole02" ID="{A8AB4FA7-4134-463A-B000-449B847D317B}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="16"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{AD6530E3-DD94-4990-9FF1-0CD1BC108DFC}" ShortID="201459823">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mole02" ID="{053EF673-0B66-4070-87EE-E26D44150886}" WorkUnitID="{7F031A29-2220-4BF0-83A4-E137A95B420B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Mole03" ID="{2B42EB64-878F-436C-814F-B8D3AFA4C454}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="18"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{4BC91B63-4EB1-450A-984B-1E5CEC23ECB3}" ShortID="375062726">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mole03" ID="{8E7E658A-9D2A-43A7-ADEE-5B60BA172492}" WorkUnitID="{7F031A29-2220-4BF0-83A4-E137A95B420B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Mole04" ID="{1A6C85D2-3DBC-4CA4-93A9-8089607B9838}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="19"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{1F036E01-9890-44C1-9C97-141BC10AE109}" ShortID="37334770">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mole04" ID="{8F9DF798-43EA-4449-B4B1-D06B514DF413}" WorkUnitID="{7F031A29-2220-4BF0-83A4-E137A95B420B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Mole01" ID="{80C19F83-735A-4834-AE92-50EB2A7073A3}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="14"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{5E27B329-5154-4400-BB42-FFBB6A573B5B}" ShortID="457588839">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mole01" ID="{53414473-8A3A-47B7-8064-AF42D22946A4}" WorkUnitID="{7F031A29-2220-4BF0-83A4-E137A95B420B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="NoMole" ID="{E73CE015-C021-4A55-8C8C-DBAE43BCED45}">
+							<ChildrenList>
+								<Action Name="" ID="{EB61BC29-7342-4E68-BB78-55DED0057DEE}" ShortID="841662238">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="NoMole" ID="{934513DA-57BF-4AE4-B9EE-0926F944604C}" WorkUnitID="{7F031A29-2220-4BF0-83A4-E137A95B420B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="WackButton" ID="{76B2E970-3A21-4C2E-BBF6-5A3220E7C67F}" ShortID="939149766">
+					<ChildrenList>
+						<Event Name="Wack01" ID="{667D66DA-D55B-4936-8EC5-23D15BB81276}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="14"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{630ECB37-BCE4-48F0-B213-A1F5E1B02220}" ShortID="1010769965">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hammer01" ID="{4A5066F1-BAAD-44EF-BD30-495EEE49D8B1}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E24FB611-B105-4925-B7B4-70CF9C50D905}" ShortID="445242681">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hammer01" ID="{4A5066F1-BAAD-44EF-BD30-495EEE49D8B1}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Wack02" ID="{565C7EBC-97D0-4AE8-B42C-02DDCACAA0A2}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="16"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{738CCC85-2549-409C-82E8-A588FCF0DCD2}" ShortID="801006241">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hammer02" ID="{F4A9D092-C371-4EBF-A7CB-4668A88C9400}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{01CFF9F3-2E24-425F-BB37-56E004B80441}" ShortID="998626181">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hammer02" ID="{F4A9D092-C371-4EBF-A7CB-4668A88C9400}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Wack03" ID="{9D9688F0-777B-4828-A5E5-489C74DE3387}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="18"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{089F8C11-DDE5-4CB7-A133-610D408D9458}" ShortID="395306376">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hammer03" ID="{D3C72DFE-D96B-47A7-AEB1-51F61788085A}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{362A061B-FCF0-45F7-AA8E-E20815D6AE06}" ShortID="604758252">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hammer03" ID="{D3C72DFE-D96B-47A7-AEB1-51F61788085A}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Wack04" ID="{BE52C247-20EF-4FF0-9040-35FCDC0837BC}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="19"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{B4DAB07E-72CB-4359-AE79-584DD88C2274}" ShortID="469419851">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hammer04" ID="{3B682889-40E5-4FA9-BD34-37B74A9177FB}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1DDA10F7-CE5A-4CBA-9A41-312329C82036}" ShortID="906163350">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hammer04" ID="{3B682889-40E5-4FA9-BD34-37B74A9177FB}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Hammer" ID="{BAF8E0BC-EA40-42C2-9DF1-4B7DA1B20596}" ShortID="877619220"/>
+				<Event Name="GameStart" ID="{EC530C51-3F00-4955-A6C0-873F33B47FD6}">
+					<ChildrenList>
+						<Action Name="" ID="{4AF30E41-8EDF-4813-9A16-C164A8244572}" ShortID="918842833">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MoleGenerator" ID="{A668554E-3175-42A3-A0D1-04F01B69B17E}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3D1EC155-AD1B-4813-9420-0EAD9FB8425B}" ShortID="964780823">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LevelMusic" ID="{0982BB1F-FA6E-4850-BFAB-462E0DC60D69}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{20F2D740-376D-40DD-805E-15C970E42A85}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{20F2D740-376D-40DD-805E-15C970E42A85}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="GenerateEnemy" ID="{A292A9D0-AEBB-4117-BB01-D9D2F33CE036}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{9BAE751C-5652-45C7-B22E-044789782B80}" ShortID="83865104">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Multiplying Enemies" ID="{DAFA94EC-1A21-41EB-ABFB-6F9CE35B76AF}" WorkUnitID="{CAD4B287-AD99-4841-9A6C-49B013BE3B0C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Hammer01" ID="{97051FD5-652B-4704-A07C-AE5C2E4D527E}">
+					<ChildrenList>
+						<Action Name="" ID="{99D32F21-FD4C-4D82-A9AA-3E777503585E}" ShortID="686990362">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hammer01" ID="{4A5066F1-BAAD-44EF-BD30-495EEE49D8B1}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

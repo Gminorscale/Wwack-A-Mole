@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{83EC5A7A-B0BB-426E-B2A1-2BED2615671E}" SchemaVersion="103">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{83EC5A7A-B0BB-426E-B2A1-2BED2615671E}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Game" ID="{D7882449-05E9-42B1-AB66-8355AB564989}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Village" ID="{15AEE407-9181-4198-B8D9-88807806C23D}" WorkUnitID="{313C057B-0561-41AF-8216-7300737D57A9}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EnemyGenerator" ID="{20A2120E-3E07-4060-A39C-C9873884B8EC}" WorkUnitID="{313C057B-0561-41AF-8216-7300737D57A9}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="City" ID="{3EFDCE43-0732-426B-920F-8316BFF4F5DE}" WorkUnitID="{313C057B-0561-41AF-8216-7300737D57A9}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{DE3D2859-9195-4FD6-9895-7F2E47673F5D}">
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Wwack-A-Mole" ID="{DCED2E28-B0A5-4B18-A79D-DD1D20507D84}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Wack01" ID="{667D66DA-D55B-4936-8EC5-23D15BB81276}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Wack03" ID="{9D9688F0-777B-4828-A5E5-489C74DE3387}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Wack02" ID="{565C7EBC-97D0-4AE8-B42C-02DDCACAA0A2}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Wack04" ID="{BE52C247-20EF-4FF0-9040-35FCDC0837BC}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="GameStart" ID="{EC530C51-3F00-4955-A6C0-873F33B47FD6}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Up" ID="{CC84DC04-5C92-4D60-A566-FBC341FBBD6C}"/>
+						<CurrentSwitchRef Name="Mole03" ID="{8E7E658A-9D2A-43A7-ADEE-5B60BA172492}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

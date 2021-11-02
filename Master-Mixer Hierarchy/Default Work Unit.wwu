@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0F52BAB4-0413-4A60-B78D-2DE0FF4A9FFD}" SchemaVersion="103">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{0F52BAB4-0413-4A60-B78D-2DE0FF4A9FFD}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="WwackAMole" ID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

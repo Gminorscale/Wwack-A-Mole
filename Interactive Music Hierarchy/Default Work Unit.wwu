@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A11C7275-3ED3-4FC8-97B3-AAD65284AF0F}" SchemaVersion="103">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{A11C7275-3ED3-4FC8-97B3-AAD65284AF0F}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="ResourceManagement" ID="{313C057B-0561-41AF-8216-7300737D57A9}" PersistMode="Reference"/>
+				<WorkUnit Name="Wwacamole" ID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

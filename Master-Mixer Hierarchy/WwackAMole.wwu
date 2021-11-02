@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}" SchemaVersion="103" RootDocumentID="{0F52BAB4-0413-4A60-B78D-2DE0FF4A9FFD}" ParentDocumentID="{0F52BAB4-0413-4A60-B78D-2DE0FF4A9FFD}">
+	<Busses>
+		<WorkUnit Name="WwackAMole" ID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}" OwnerID="{0F52BAB4-0413-4A60-B78D-2DE0FF4A9FFD}" PersistMode="Nested">
+			<ChildrenList>
+				<Bus Name="Wack It!" ID="{630E0ADC-C724-436E-A3F4-504AE93BE054}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{8F49477F-AB40-4282-92CE-B78646136F33}" WorkUnitID="{92279BD2-CC06-4E81-A01E-FB3ABAC90304}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</Bus>
+				<Bus Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="1"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="Good" ID="{DB153016-A975-482F-8795-CE4D5D80ACA7}" WorkUnitID="{92279BD2-CC06-4E81-A01E-FB3ABAC90304}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>
