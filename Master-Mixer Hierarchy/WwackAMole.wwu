@@ -27,6 +27,18 @@
 					</ReferenceList>
 					<ObjectLists/>
 				</Bus>
+				<Bus Name="Readme" ID="{1D71027E-10D7-4C11-99B0-A67B6481D751}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="2"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{8F49477F-AB40-4282-92CE-B78646136F33}" WorkUnitID="{92279BD2-CC06-4E81-A01E-FB3ABAC90304}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</Bus>
 			</ChildrenList>
 		</WorkUnit>
 	</Busses>
