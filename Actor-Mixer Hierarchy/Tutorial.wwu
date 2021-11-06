@@ -91,7 +91,7 @@
 						<ActiveSource Name="Wwise Silence" ID="{CB5520FC-1260-4D48-936E-01E23AA15BAF}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="They will pop up randomly" ID="{4FD0CF8A-995D-4C33-A4E5-475BB264724D}" ShortID="266044627">
+				<Sound Name="They pop up by random" ID="{4FD0CF8A-995D-4C33-A4E5-475BB264724D}" ShortID="266044627">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
