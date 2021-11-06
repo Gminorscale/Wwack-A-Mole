@@ -25,9 +25,15 @@
 							<ObjectRef Name="GameStart" ID="{EC530C51-3F00-4955-A6C0-873F33B47FD6}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
 							<Position X="2" Y="2"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="SkipTutorial" ID="{45B52736-AE9D-474F-A729-D0B29A80C15B}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
+							<Position X="3" Y="2"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
-					<CurrentStateList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Score_Is_00" ID="{C5D1E8AD-7298-44C0-A690-DAD250963DBC}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Down" ID="{8648D8C3-7A0E-4764-812C-67064E79A5D5}"/>
 						<CurrentSwitchRef Name="NoMole" ID="{934513DA-57BF-4AE4-B9EE-0926F944604C}"/>
