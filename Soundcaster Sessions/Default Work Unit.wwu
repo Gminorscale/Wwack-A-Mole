@@ -27,9 +27,7 @@
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
-					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Score_Is_00" ID="{C5D1E8AD-7298-44C0-A690-DAD250963DBC}"/>
-					</CurrentStateList>
+					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Down" ID="{8648D8C3-7A0E-4764-812C-67064E79A5D5}"/>
 						<CurrentSwitchRef Name="NoMole" ID="{934513DA-57BF-4AE4-B9EE-0926F944604C}"/>
