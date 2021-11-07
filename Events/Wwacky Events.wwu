@@ -293,16 +293,6 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{866E468F-C114-4679-B332-E9DAE9307F81}" ShortID="634129066">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="41"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Set_State_Score_Is_00" ID="{B1A5019A-21A5-4B8E-83D9-6C10B4299497}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="SkipTutorial" ID="{45B52736-AE9D-474F-A729-D0B29A80C15B}">
@@ -396,7 +386,7 @@
 								<Action Name="" ID="{98E095AB-7FA0-49C9-9BBB-B7B797835E37}" ShortID="469095046">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="They pop up by random" ID="{4FD0CF8A-995D-4C33-A4E5-475BB264724D}" WorkUnitID="{E37A1765-81C3-4083-AF35-DD51BAEACF6D}"/>
+											<ObjectRef Name="They will pop up randomly" ID="{4FD0CF8A-995D-4C33-A4E5-475BB264724D}" WorkUnitID="{E37A1765-81C3-4083-AF35-DD51BAEACF6D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
