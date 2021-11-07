@@ -305,7 +305,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="SkipTutorial" ID="{45B52736-AE9D-474F-A729-D0B29A80C15B}">
+						<Event Name="Skip_Intro_Tutorial" ID="{45B52736-AE9D-474F-A729-D0B29A80C15B}">
 							<ChildrenList>
 								<Action Name="" ID="{D3A9322C-1C0F-40B7-BED4-4951D8AC7F3F}" ShortID="428909667">
 									<PropertyList>

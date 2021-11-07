@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{ADE30CC5-54FE-4512-B124-7C1E1A1705D6}" SchemaVersion="103">
+	<Busses>
+		<WorkUnit Name="InvisibleProfiler" ID="{ADE30CC5-54FE-4512-B124-7C1E1A1705D6}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="GameSystems" ID="{B787B525-411C-4D47-A265-B2BE52999119}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{8F49477F-AB40-4282-92CE-B78646136F33}" WorkUnitID="{92279BD2-CC06-4E81-A01E-FB3ABAC90304}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>
