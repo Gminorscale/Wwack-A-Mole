@@ -32,11 +32,12 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Score_Is_00" ID="{C5D1E8AD-7298-44C0-A690-DAD250963DBC}"/>
+						<CurrentStateRef Name="Score_10" ID="{BC044A55-3611-45CA-B70F-C614A68DC1A0}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Down" ID="{8648D8C3-7A0E-4764-812C-67064E79A5D5}"/>
 						<CurrentSwitchRef Name="NoMole" ID="{934513DA-57BF-4AE4-B9EE-0926F944604C}"/>
+						<CurrentSwitchRef Name="Hit" ID="{B4A1C7C4-8590-4101-A145-9635A0C74A06}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
