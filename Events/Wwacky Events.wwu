@@ -293,7 +293,7 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{866E468F-C114-4679-B332-E9DAE9307F81}" ShortID="634129066">
+								<Action Name="" ID="{D604295C-2301-40D2-93C6-334747F7FC07}" ShortID="377831348">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="41"/>
 									</PropertyList>
@@ -321,9 +321,36 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="GameWin" ID="{8BB83181-865E-49E3-88D2-4E6D0F4F0DA0}">
+							<ChildrenList>
+								<Action Name="" ID="{E2FD781D-3BFC-4014-BC2F-66C6AF386D64}" ShortID="493055139">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="36"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+										<Property Name="SeekTime" Type="Real64" Value="183.5"/>
+										<Property Name="SeekType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Circus Music" ID="{F2DA0109-5EB5-4278-AB1F-EA7957732BBC}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{27A5378F-094A-4E8C-9070-3624374F79CC}" ShortID="670989163">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MoleGenerator" ID="{A668554E-3175-42A3-A0D1-04F01B69B17E}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Tutorial Texts" ID="{5E7BAE38-E2A2-43A7-99F9-397D267137F0}" ShortID="328778780">
+				<Folder Name="TextTutorial" ID="{5E7BAE38-E2A2-43A7-99F9-397D267137F0}" ShortID="328778780">
 					<ChildrenList>
 						<Event Name="Welcome_to_Wwack_A_Mole" ID="{331EFB7E-40D7-45F1-9A80-EFE01D2631E2}">
 							<ChildrenList>
@@ -562,10 +589,94 @@
 						</Event>
 						<Event Name="Score_1up" ID="{ACBC1B96-A52C-41E5-86EF-7EDE0C46C38D}">
 							<ChildrenList>
-								<Action Name="" ID="{B2ECE5DE-9971-47DE-880A-5A151FF3E1A0}" ShortID="768122899">
+								<Action Name="" ID="{17870AC7-B7DE-496D-B93B-1CB40C81829D}" ShortID="737236519">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Score_Playlist" ID="{EA1D4D03-06CF-4481-838D-BEF69E50058F}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
+											<ObjectRef Name="Score_SubTracks_Switch" ID="{2FFB482C-61AB-4CE5-BCAB-0AF2FFC9EE4C}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_ScoreSwitch" ID="{2FD464E3-378F-4E62-A8DA-089DCD19FBB4}">
+							<ChildrenList>
+								<Action Name="" ID="{1F9E1919-4B54-42E2-B76A-48997B944826}" ShortID="543059686">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Score_Switch" ID="{AB41B66D-4DF8-4F47-BD44-E031805F9BE5}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Trigger_Stop_ScoreSwitch" ID="{B1CAD7FE-6CD5-4130-A6D7-D11E752F3334}">
+							<ChildrenList>
+								<Action Name="" ID="{563BDBEF-3C37-4CB5-9B9F-394D2DE86415}" ShortID="1022181952">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Stop_ScoreSwitch" ID="{68918ED7-4FCB-4D10-8362-A6F997ADB493}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="TextWin" ID="{72097D85-E530-46F9-A980-B178FAB73821}" ShortID="713823403">
+					<ChildrenList>
+						<Event Name="TextWin_TheEnd" ID="{5DEC3A56-860F-4490-877A-14D5AABF95C4}">
+							<ChildrenList>
+								<Action Name="" ID="{11896A87-7515-4BDC-95DD-5A3D43CCAF00}" ShortID="81096873">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="The End" ID="{F545C387-53F5-40A3-BF0A-5BB235617B55}" WorkUnitID="{E37A1765-81C3-4083-AF35-DD51BAEACF6D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="TextWin_Congratulations_" ID="{518DD0C9-041D-4061-9C9D-1624A05FCF77}">
+							<ChildrenList>
+								<Action Name="" ID="{5234BEEE-F358-4529-93A3-EDDF420CFCDE}" ShortID="265712163">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Congratulations!" ID="{75B2B796-8AA2-4FB3-8AFC-36E4A65563AB}" WorkUnitID="{E37A1765-81C3-4083-AF35-DD51BAEACF6D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="TextWin_How_Wwonderful" ID="{053C031A-34BA-4ACF-BE08-D13FA7AE1651}">
+							<ChildrenList>
+								<Action Name="" ID="{1CBBB4A7-FD82-4DB9-9D83-2F2CAEEDB64B}" ShortID="358244179">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="How Wwonderful" ID="{793F4148-993F-4529-A953-A5A3A524BF46}" WorkUnitID="{E37A1765-81C3-4083-AF35-DD51BAEACF6D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="TextWin_You_beat_the_game" ID="{A650B38E-ECA3-483B-B169-42421BA2E9F7}">
+							<ChildrenList>
+								<Action Name="" ID="{7DCEF0FF-135A-4930-8C6C-1D85CF37BF37}" ShortID="267475088">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="You beat the game" ID="{B465539C-D8DF-4982-9C1E-E889DDD95D39}" WorkUnitID="{E37A1765-81C3-4083-AF35-DD51BAEACF6D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="TextWin_And_wwacked_the_moles" ID="{44624DEA-3004-4698-85C8-52B61E5643F4}">
+							<ChildrenList>
+								<Action Name="" ID="{85B48F85-421C-4C4C-893A-55A24188CEB9}" ShortID="187354631">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="And wwacked the moles" ID="{0662B976-80C5-4D11-8EE0-FC67B9F7F46D}" WorkUnitID="{E37A1765-81C3-4083-AF35-DD51BAEACF6D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

@@ -32,11 +32,22 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Score_02" ID="{9154BB59-84CA-4B5C-811E-66BD75E2A5C9}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Up" ID="{CC84DC04-5C92-4D60-A566-FBC341FBBD6C}"/>
+						<CurrentSwitchRef Name="Mole04" ID="{8F9DF798-43EA-4449-B4B1-D06B514DF413}"/>
+						<CurrentSwitchRef Name="Hit" ID="{B4A1C7C4-8590-4101-A145-9635A0C74A06}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Music Playlist Reset" ID="{DED5AACF-DD51-4090-96A6-DD48F30CC9AF}">
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Score_10" ID="{BC044A55-3611-45CA-B70F-C614A68DC1A0}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Down" ID="{8648D8C3-7A0E-4764-812C-67064E79A5D5}"/>
-						<CurrentSwitchRef Name="NoMole" ID="{934513DA-57BF-4AE4-B9EE-0926F944604C}"/>
+						<CurrentSwitchRef Name="Up" ID="{CC84DC04-5C92-4D60-A566-FBC341FBBD6C}"/>
+						<CurrentSwitchRef Name="Mole02" ID="{053EF673-0B66-4070-87EE-E26D44150886}"/>
 						<CurrentSwitchRef Name="Hit" ID="{B4A1C7C4-8590-4101-A145-9635A0C74A06}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
