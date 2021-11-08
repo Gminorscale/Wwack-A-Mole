@@ -3,17 +3,17 @@
 	<Effects>
 		<WorkUnit Name="Default Work Unit" ID="{747E6F96-78C1-4BCF-BF5A-BA9236499A64}" PersistMode="Standalone">
 			<ChildrenList>
-				<Effect Name="Pitchdown_LFO" ID="{80DE86FB-EB96-418A-81BC-1BC88F04550E}" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+				<Effect Name="GameMusic_Pitch" ID="{F7259245-C80D-4695-8816-D0857505F90C}" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
 					<PropertyList>
 						<Property Name="Pitch" Type="Real32">
 							<RTPCList>
-								<RTPC Name="" ID="{23FC2A7F-4258-4EDE-A05D-1EE04EBE9AA4}" ShortID="556817479">
+								<RTPC Name="" ID="{6486B7F1-738C-4B50-B038-4148DE9CE386}" ShortID="694871781">
 									<ReferenceList>
 										<Reference Name="ControlInput">
 											<ObjectRef Name="GameMusic_Pitch" ID="{03EF4C80-2D62-486A-B585-3E7A535615D1}" WorkUnitID="{657DA3D1-2A15-4614-858F-3631F369059C}"/>
 										</Reference>
 									</ReferenceList>
-									<Curve Name="" ID="{B9DCC48E-5E7D-42AF-BAF8-60986261CEBA}">
+									<Curve Name="" ID="{AB8DF7AA-B7A0-4E9F-B1A3-374839D40FDA}">
 										<PropertyList>
 											<Property Name="Flags" Type="int32" Value="1"/>
 										</PropertyList>
@@ -24,13 +24,50 @@
 												<Flags>5</Flags>
 											</Point>
 											<Point>
-												<XPos>74.93261</XPos>
-												<YPos>-1623.71968</YPos>
+												<XPos>100</XPos>
+												<YPos>-4800</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="Distortion" ID="{C34331DD-AC4C-4D38-9071-EBFFFC6DE69D}" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+					<PropertyList>
+						<Property Name="PostEQBand1Enable" Type="bool" Value="True"/>
+						<Property Name="PostEQBand1FilterType" Type="int32" Value="4"/>
+						<Property Name="PostEQBand1Frequency" Type="Real32" Value="218"/>
+						<Property Name="PostEQBand1Gain" Type="Real32" Value="2"/>
+						<Property Name="PreEQBand1Gain" Type="Real32" Value="1"/>
+						<Property Name="WetDryMix" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{2BB202DD-F973-4441-9424-AC06BDEBEA77}" ShortID="1007956207">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="GameMusic_Pitch" ID="{03EF4C80-2D62-486A-B585-3E7A535615D1}" WorkUnitID="{657DA3D1-2A15-4614-858F-3631F369059C}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{246E9D2F-B2F3-4C70-8872-6D287331A94D}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>15.90296</XPos>
+												<YPos>73.93353</YPos>
 												<Flags>0</Flags>
 											</Point>
 											<Point>
 												<XPos>100</XPos>
-												<YPos>-4800</YPos>
+												<YPos>96.18056</YPos>
 												<Flags>37</Flags>
 											</Point>
 										</PointList>

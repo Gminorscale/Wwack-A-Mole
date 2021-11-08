@@ -1209,7 +1209,48 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
 								</Reference>
 								<Reference Name="Effect0" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
-									<ObjectRef Name="Pitchdown_LFO" ID="{80DE86FB-EB96-418A-81BC-1BC88F04550E}" WorkUnitID="{747E6F96-78C1-4BCF-BF5A-BA9236499A64}"/>
+									<ObjectRef Name="GameMusic_Pitch" ID="{F7259245-C80D-4695-8816-D0857505F90C}" WorkUnitID="{747E6F96-78C1-4BCF-BF5A-BA9236499A64}"/>
+								</Reference>
+								<Reference Name="Effect1">
+									<Custom>
+										<Effect Name="Wwise Time Stretch (Custom)" ID="{3C94F509-7DCC-40AD-B7E3-D0ECA36C3F75}" ShortID="1041106465" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+											<PropertyList>
+												<Property Name="TimeStretch" Type="Real32">
+													<RTPCList>
+														<RTPC Name="" ID="{71A9ECA7-CC7C-4641-80AC-63FCC93429D0}" ShortID="808953543">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="GameMusic_Pitch" ID="{03EF4C80-2D62-486A-B585-3E7A535615D1}" WorkUnitID="{657DA3D1-2A15-4614-858F-3631F369059C}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{6EAF1DFC-510E-43F5-97EE-F54419A59CB6}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>100</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>66.30728</XPos>
+																		<YPos>124.62412</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>225.78125</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+										</Effect>
+									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
@@ -3490,7 +3531,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+									<ObjectRef Name="GameSystems" ID="{B787B525-411C-4D47-A265-B2BE52999119}" WorkUnitID="{ADE30CC5-54FE-4512-B124-7C1E1A1705D6}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -3865,7 +3906,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+									<ObjectRef Name="GameSystems" ID="{B787B525-411C-4D47-A265-B2BE52999119}" WorkUnitID="{ADE30CC5-54FE-4512-B124-7C1E1A1705D6}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -3910,6 +3951,17 @@
 																			<ReferenceList>
 																				<Reference Name="PostEventTarget">
 																					<ObjectRef Name="GameOver" ID="{F83CA660-7C08-4D03-900A-17BE774A6C67}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
+																				</Reference>
+																			</ReferenceList>
+																		</MusicEventCue>
+																	</Local>
+																</Reference>
+																<Reference>
+																	<Local>
+																		<MusicEventCue Name="" ID="{A9A0BF64-DC0D-4102-9A49-97A0E236F074}" ShortID="974733252">
+																			<ReferenceList>
+																				<Reference Name="PostEventTarget">
+																					<ObjectRef Name="Set_State_Lifes_Left_00" ID="{B18B676D-553B-4B4C-8A47-7BC9E8D3BA20}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
 																				</Reference>
 																			</ReferenceList>
 																		</MusicEventCue>

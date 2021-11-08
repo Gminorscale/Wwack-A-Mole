@@ -37,12 +37,12 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Lifes_Left_01" ID="{A212BD1B-7524-43AB-A4DA-D425A30680B8}"/>
+						<CurrentStateRef Name="Lifes_Left_00" ID="{32AD6A3F-7F55-4131-A0C7-532CC5AA77EC}"/>
 						<CurrentStateRef Name="Score_00" ID="{A38C85E3-5072-4394-B1A4-24723BD1B196}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Up" ID="{CC84DC04-5C92-4D60-A566-FBC341FBBD6C}"/>
-						<CurrentSwitchRef Name="Mole03" ID="{8E7E658A-9D2A-43A7-ADEE-5B60BA172492}"/>
+						<CurrentSwitchRef Name="Mole01" ID="{53414473-8A3A-47B7-8064-AF42D22946A4}"/>
 						<CurrentSwitchRef Name="Hit" ID="{B4A1C7C4-8590-4101-A145-9635A0C74A06}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
