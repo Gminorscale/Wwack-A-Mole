@@ -8,7 +8,7 @@ Instructions to play:
 1. Press F6 to activate the profiler view
 2. Press both the _start Capture_ and _Show Live Data_ buttons in the top toolbar
 3. Make sure that the _Voice Graphs_ tab is visible.
-4. In the filter text field, write out **mole** to only see the moles popping up on the screen.
+4. In the _Object Filter_ text field, locate the Work Unit in the _Mixer Master Hiearchy_ called **WwackAMole** to only see the moles and releveant info popping up on the screen.
 5. Open the Soundcaster and place it underneath the voice graph, so you can see both at the same time. Open the session called _Wwack-A-Mole_
 6. Press **Game start** enjoy the music and start wwacking some moles by pressing the events on the Soundcaster screen!
 
