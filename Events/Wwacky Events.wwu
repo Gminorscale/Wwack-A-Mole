@@ -276,6 +276,16 @@
 					<ChildrenList>
 						<Event Name="GameStart" ID="{EC530C51-3F00-4955-A6C0-873F33B47FD6}">
 							<ChildrenList>
+								<Action Name="" ID="{D89E06B8-21AF-4CAB-A4DB-72AE1F58F02F}" ShortID="789826634">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GameMusic_Pitch" ID="{03EF4C80-2D62-486A-B585-3E7A535615D1}" WorkUnitID="{657DA3D1-2A15-4614-858F-3631F369059C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{3D1EC155-AD1B-4813-9420-0EAD9FB8425B}" ShortID="964780823">
 									<ReferenceList>
 										<Reference Name="Target">
@@ -300,6 +310,26 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Set_State_Score_Is_00" ID="{B1A5019A-21A5-4B8E-83D9-6C10B4299497}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{CE69AC93-3358-407A-9C18-871377B6B213}" ShortID="841611757">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Set_State_Lifes_Left_03" ID="{1CD3B0FE-7ED9-487D-AB77-EC1C143A9F45}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FBC79353-5B48-408D-8AAC-50D602E16859}" ShortID="1043477860">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="26"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Circus Music" ID="{F2DA0109-5EB5-4278-AB1F-EA7957732BBC}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -343,6 +373,63 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="MoleGenerator" ID="{A668554E-3175-42A3-A0D1-04F01B69B17E}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="GameOver" ID="{F83CA660-7C08-4D03-900A-17BE774A6C67}">
+							<ChildrenList>
+								<Action Name="" ID="{0505792B-1FEF-4943-B998-0C23BA6CE7AF}" ShortID="863334894">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MoleGenerator" ID="{A668554E-3175-42A3-A0D1-04F01B69B17E}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A81063DF-13EE-40E3-AF8F-97ECFDE759D9}" ShortID="20481101">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="FadeTime" Type="Real64" Value="12"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="100"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GameMusic_Pitch" ID="{03EF4C80-2D62-486A-B585-3E7A535615D1}" WorkUnitID="{657DA3D1-2A15-4614-858F-3631F369059C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{56D368D7-4846-483C-B421-ECAF810E69F3}" ShortID="715725472">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="26"/>
+										<Property Name="FadeTime" Type="Real64" Value="12"/>
+										<Property Name="Lowpass" Type="int16" Value="100"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Circus Music" ID="{F2DA0109-5EB5-4278-AB1F-EA7957732BBC}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B975B1A1-DCD4-46A8-B9B6-4641EC759002}" ShortID="674059967">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Game over" ID="{8A9BF275-B616-426E-A093-3C6C83EA2ACB}" WorkUnitID="{E37A1765-81C3-4083-AF35-DD51BAEACF6D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9F53F9C6-BECA-495B-8969-D60395C4B9E9}" ShortID="664668505">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Delay" Type="Real64" Value="10"/>
+										<Property Name="FadeTime" Type="Real64" Value="9.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Circus Music" ID="{F2DA0109-5EB5-4278-AB1F-EA7957732BBC}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -677,6 +764,77 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="And wwacked the moles" ID="{0662B976-80C5-4D11-8EE0-FC67B9F7F46D}" WorkUnitID="{E37A1765-81C3-4083-AF35-DD51BAEACF6D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Lifes" ID="{F44AF921-1715-4392-B203-101FAF92435A}" ShortID="1050103728">
+					<ChildrenList>
+						<Event Name="Set_State_Lifes_Left_00" ID="{B18B676D-553B-4B4C-8A47-7BC9E8D3BA20}">
+							<ChildrenList>
+								<Action Name="" ID="{2EA0B5C9-7DA2-404E-9A5B-060F0FBDD90F}" ShortID="3555108">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Lifes_Left_00" ID="{32AD6A3F-7F55-4131-A0C7-532CC5AA77EC}" WorkUnitID="{FBA09FCB-8EB1-4B60-A999-7D5625B47F42}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Lifes_Left_01" ID="{68AEEC4E-7121-4084-8113-131CE4650838}">
+							<ChildrenList>
+								<Action Name="" ID="{82494620-DD40-4372-B88C-365A17FE1923}" ShortID="819467008">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Lifes_Left_01" ID="{A212BD1B-7524-43AB-A4DA-D425A30680B8}" WorkUnitID="{FBA09FCB-8EB1-4B60-A999-7D5625B47F42}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Lifes_Left_03" ID="{1CD3B0FE-7ED9-487D-AB77-EC1C143A9F45}">
+							<ChildrenList>
+								<Action Name="" ID="{C79C5006-A870-42EE-BD07-FC1F6F3C51FD}" ShortID="632480357">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Lifes_Left_03" ID="{D34250FE-4B86-49AD-ABC0-6F5FA3B6BFE9}" WorkUnitID="{FBA09FCB-8EB1-4B60-A999-7D5625B47F42}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Lifes_Left_02" ID="{99BCC7D6-47AC-402D-9645-32C1D50BB395}">
+							<ChildrenList>
+								<Action Name="" ID="{4F74524A-6A0F-487E-BC50-39312A474B25}" ShortID="223671366">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Lifes_Left_02" ID="{AF8DCDC7-3277-4A3D-BF73-FC79ED1A5DAC}" WorkUnitID="{FBA09FCB-8EB1-4B60-A999-7D5625B47F42}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Life_1down" ID="{DB793179-AA0A-4E8F-9C5A-9B18CDDD30DF}">
+							<ChildrenList>
+								<Action Name="" ID="{398A9E92-456E-4444-978F-9CF07F1C691E}" ShortID="56113294">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LifeCounter" ID="{C6E3BC59-8C39-4DEC-8917-C26B4D13B84E}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

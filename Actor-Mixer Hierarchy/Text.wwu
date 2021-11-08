@@ -275,6 +275,32 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="GameOverText" ID="{06438E43-2079-4DBD-A39E-8F089E6A75F1}" ShortID="678446198">
+					<ChildrenList>
+						<Sound Name="Game over" ID="{8A9BF275-B616-426E-A093-3C6C83EA2ACB}" ShortID="559530745">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Readme" ID="{1D71027E-10D7-4C11-99B0-A67B6481D751}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="Wwise Silence" ID="{A18396FF-56A7-4E8B-996D-AD6DF2523F46}" ShortID="1045879568" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+									<PropertyList>
+										<Property Name="Length" Type="Real32" Value="6"/>
+									</PropertyList>
+									<Language>SFX</Language>
+								</SourcePlugin>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Wwise Silence" ID="{A18396FF-56A7-4E8B-996D-AD6DF2523F46}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

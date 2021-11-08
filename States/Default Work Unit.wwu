@@ -19,6 +19,15 @@
 						<State Name="Score_10" ID="{BC044A55-3611-45CA-B70F-C614A68DC1A0}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="Lives" ID="{923BC94B-3DA5-408A-8C66-46D8F256ABD8}">
+					<ChildrenList>
+						<State Name="None" ID="{52FC3E81-457B-4108-BB71-BDCE9C2D6A9F}"/>
+						<State Name="Lifes_Left_00" ID="{32AD6A3F-7F55-4131-A0C7-532CC5AA77EC}"/>
+						<State Name="Lifes_Left_01" ID="{A212BD1B-7524-43AB-A4DA-D425A30680B8}"/>
+						<State Name="Lifes_Left_02" ID="{AF8DCDC7-3277-4A3D-BF73-FC79ED1A5DAC}"/>
+						<State Name="Lifes_Left_03" ID="{D34250FE-4B86-49AD-ABC0-6F5FA3B6BFE9}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

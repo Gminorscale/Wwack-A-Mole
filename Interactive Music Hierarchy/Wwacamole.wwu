@@ -1201,11 +1201,15 @@
 						<MusicSegment Name="Circus Music" ID="{F2DA0109-5EB5-4278-AB1F-EA7957732BBC}" ShortID="292886062">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="196173.333333333"/>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+									<ObjectRef Name="Pitchdown_LFO" ID="{80DE86FB-EB96-418A-81BC-1BC88F04550E}" WorkUnitID="{747E6F96-78C1-4BCF-BF5A-BA9236499A64}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
@@ -1789,6 +1793,17 @@
 																						</MusicClip>
 																					</Local>
 																				</Reference>
+																				<Reference>
+																					<Local>
+																						<MusicEventCue Name="" ID="{F865EA0E-11A2-4972-B98C-5827D7C40989}" ShortID="421330279">
+																							<ReferenceList>
+																								<Reference Name="PostEventTarget">
+																									<ObjectRef Name="Life_1down" ID="{DB793179-AA0A-4E8F-9C5A-9B18CDDD30DF}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
+																								</Reference>
+																							</ReferenceList>
+																						</MusicEventCue>
+																					</Local>
+																				</Reference>
 																			</ObjectList>
 																		</ObjectLists>
 																	</MusicTrackSequence>
@@ -2275,6 +2290,17 @@
 																							</PropertyList>
 																							<AudioSourceRef Name="Swooshes, Whoosh, Short, Ropes, Swirling, Dry 02 SND55481 2" ID="{D0E045C6-8CF5-4A4B-B794-4060CEF61611}"/>
 																						</MusicClip>
+																					</Local>
+																				</Reference>
+																				<Reference>
+																					<Local>
+																						<MusicEventCue Name="" ID="{BA131A91-189D-4599-A4C4-C87F694AE02D}" ShortID="1059711583">
+																							<ReferenceList>
+																								<Reference Name="PostEventTarget">
+																									<ObjectRef Name="Life_1down" ID="{DB793179-AA0A-4E8F-9C5A-9B18CDDD30DF}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
+																								</Reference>
+																							</ReferenceList>
+																						</MusicEventCue>
 																					</Local>
 																				</Reference>
 																			</ObjectList>
@@ -2765,6 +2791,17 @@
 																						</MusicClip>
 																					</Local>
 																				</Reference>
+																				<Reference>
+																					<Local>
+																						<MusicEventCue Name="" ID="{5C790D4F-3B10-4FD6-934A-B30BC89D2342}" ShortID="117734471">
+																							<ReferenceList>
+																								<Reference Name="PostEventTarget">
+																									<ObjectRef Name="Life_1down" ID="{DB793179-AA0A-4E8F-9C5A-9B18CDDD30DF}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
+																								</Reference>
+																							</ReferenceList>
+																						</MusicEventCue>
+																					</Local>
+																				</Reference>
 																			</ObjectList>
 																		</ObjectLists>
 																	</MusicTrackSequence>
@@ -3251,6 +3288,17 @@
 																							</PropertyList>
 																							<AudioSourceRef Name="Swooshes, Whoosh, Short, Ropes, Swirling, Dry 02 SND55481 1" ID="{435E3BED-9775-4B14-981A-17559A3977C1}"/>
 																						</MusicClip>
+																					</Local>
+																				</Reference>
+																				<Reference>
+																					<Local>
+																						<MusicEventCue Name="" ID="{F669C8C1-952E-4B28-A83C-F8B5922B892D}" ShortID="265441496">
+																							<ReferenceList>
+																								<Reference Name="PostEventTarget">
+																									<ObjectRef Name="Life_1down" ID="{DB793179-AA0A-4E8F-9C5A-9B18CDDD30DF}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
+																								</Reference>
+																							</ReferenceList>
+																						</MusicEventCue>
 																					</Local>
 																				</Reference>
 																			</ObjectList>
@@ -3797,6 +3845,152 @@
 									<Reference>
 										<Local>
 											<MusicCue Name="Exit Cue" ID="{F5A036A2-73DF-4009-922A-913657532FE8}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="1000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Lives Counter" ID="{D7E1E8FC-42F9-4AC9-A9EC-3EFF41D5087D}" ShortID="679599611">
+					<ChildrenList>
+						<MusicSegment Name="LifeCounter" ID="{C6E3BC59-8C39-4DEC-8917-C26B4D13B84E}" ShortID="572899822">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="LifesLeft_Switch" ID="{303F4E39-AA3D-4B9A-A719-F034408E90A9}" ShortID="873777019">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Lifes_Left_03" ID="{D34250FE-4B86-49AD-ABC0-6F5FA3B6BFE9}" WorkUnitID="{FBA09FCB-8EB1-4B60-A999-7D5625B47F42}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Lives" ID="{923BC94B-3DA5-408A-8C66-46D8F256ABD8}" WorkUnitID="{FBA09FCB-8EB1-4B60-A999-7D5625B47F42}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{D1A36E30-C77E-4E8F-BC5E-FD9333190DB3}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{84E61A38-D75D-4F9B-9EEB-0F2290D920EA}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{86131937-CD50-4105-BEC0-6AF6DB63344F}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicEventCue Name="" ID="{3E21977F-BA3A-426E-8BB1-13CEEEB21C13}" ShortID="529890298">
+																			<ReferenceList>
+																				<Reference Name="PostEventTarget">
+																					<ObjectRef Name="GameOver" ID="{F83CA660-7C08-4D03-900A-17BE774A6C67}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
+																				</Reference>
+																			</ReferenceList>
+																		</MusicEventCue>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Lifes_Left_01" ID="{A212BD1B-7524-43AB-A4DA-D425A30680B8}" WorkUnitID="{FBA09FCB-8EB1-4B60-A999-7D5625B47F42}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{92CFA26A-4025-4616-B764-D7503BBFE80C}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicEventCue Name="" ID="{735EEED2-C1B7-4824-A70C-B683A82F9CDE}" ShortID="458202525">
+																			<ReferenceList>
+																				<Reference Name="PostEventTarget">
+																					<ObjectRef Name="Set_State_Lifes_Left_01" ID="{68AEEC4E-7121-4084-8113-131CE4650838}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
+																				</Reference>
+																			</ReferenceList>
+																		</MusicEventCue>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Lifes_Left_02" ID="{AF8DCDC7-3277-4A3D-BF73-FC79ED1A5DAC}" WorkUnitID="{FBA09FCB-8EB1-4B60-A999-7D5625B47F42}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{0F83F56C-619F-4083-8106-B86794B44566}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicEventCue Name="" ID="{2F9B26F3-B943-43C9-A4A6-2561E26A4FEC}" ShortID="741741583">
+																			<ReferenceList>
+																				<Reference Name="PostEventTarget">
+																					<ObjectRef Name="Set_State_Lifes_Left_02" ID="{99BCC7D6-47AC-402D-9645-32C1D50BB395}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
+																				</Reference>
+																			</ReferenceList>
+																		</MusicEventCue>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Lifes_Left_03" ID="{D34250FE-4B86-49AD-ABC0-6F5FA3B6BFE9}" WorkUnitID="{FBA09FCB-8EB1-4B60-A999-7D5625B47F42}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{BA5641EA-656E-474D-9EF8-EA9DEAD50146}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{93BEF6DC-CC69-44AE-9AFD-8F5A23D1A754}">
 												<PropertyList>
 													<Property Name="CueType" Type="int16" Value="1"/>
 													<Property Name="TimeMs" Type="Real64" Value="1000"/>

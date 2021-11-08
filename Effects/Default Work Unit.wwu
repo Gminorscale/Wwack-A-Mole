@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{747E6F96-78C1-4BCF-BF5A-BA9236499A64}" SchemaVersion="103">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{747E6F96-78C1-4BCF-BF5A-BA9236499A64}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{747E6F96-78C1-4BCF-BF5A-BA9236499A64}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Pitchdown_LFO" ID="{80DE86FB-EB96-418A-81BC-1BC88F04550E}" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+					<PropertyList>
+						<Property Name="Pitch" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{23FC2A7F-4258-4EDE-A05D-1EE04EBE9AA4}" ShortID="556817479">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="GameMusic_Pitch" ID="{03EF4C80-2D62-486A-B585-3E7A535615D1}" WorkUnitID="{657DA3D1-2A15-4614-858F-3631F369059C}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{B9DCC48E-5E7D-42AF-BAF8-60986261CEBA}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>74.93261</XPos>
+												<YPos>-1623.71968</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>-4800</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>
