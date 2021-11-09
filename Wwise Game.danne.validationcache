@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="103">
 	<ValidationCacheItem File="D:\gits\Wwise Game\Wwise Game\Wwise Game.wproj" DateLow="1636293112" DateHigh="0"/>
-	<ValidationCacheItem File="D:\gits\Wwise Game\Wwise Game\Wwise Game.danne.wsettings" DateLow="1636442700" DateHigh="0"/>
+	<ValidationCacheItem File="D:\gits\Wwise Game\Wwise Game\Wwise Game.danne.wsettings" DateLow="1636445998" DateHigh="0"/>
 	<ValidationCacheItem File="D:\gits\Wwise Game\Wwise Game\Virtual Acoustics\Default Work Unit.wwu" DateLow="1635499592" DateHigh="0"/>
 	<ValidationCacheItem File="D:\gits\Wwise Game\Wwise Game\Triggers\Default Work Unit.wwu" DateLow="1635499590" DateHigh="0"/>
 	<ValidationCacheItem File="D:\gits\Wwise Game\Wwise Game\Switches\Default Work Unit.wwu" DateLow="1636132180" DateHigh="0"/>
-	<ValidationCacheItem File="D:\gits\Wwise Game\Wwise Game\States\Default Work Unit.wwu" DateLow="1636409944" DateHigh="0"/>
-	<ValidationCacheItem File="D:\gits\Wwise Game\Wwise Game\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1636409950" DateHigh="0"/>
+	<ValidationCacheItem File="D:\gits\Wwise Game\Wwise Game\States\Default Work Unit.wwu" DateLow="1636445432" DateHigh="0"/>
+	<ValidationCacheItem File="D:\gits\Wwise Game\Wwise Game\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1636445966" DateHigh="0"/>
 	<ValidationCacheItem File="D:\gits\Wwise Game\Wwise Game\SoundBanks\Default Work Unit.wwu" DateLow="1635499590" DateHigh="0"/>
 	<ValidationCacheItem File="D:\gits\Wwise Game\Wwise Game\Queries\Factory Queries.wwu" DateLow="1619508120" DateHigh="0"/>
 	<ValidationCacheItem File="D:\gits\Wwise Game\Wwise Game\Queries\Default Work Unit.wwu" DateLow="1635499590" DateHigh="0"/>
@@ -18,11 +18,11 @@
 	<ValidationCacheItem File="D:\gits\Wwise Game\Wwise Game\Master-Mixer Hierarchy\WwackAMole.wwu" DateLow="1636318338" DateHigh="0"/>
 	<ValidationCacheItem File="D:\gits\Wwise Game\Wwise Game\Master-Mixer Hierarchy\InvisibleProfiler.wwu" DateLow="1636318338" DateHigh="0"/>
 	<ValidationCacheItem File="D:\gits\Wwise Game\Wwise Game\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1636318338" DateHigh="0"/>
-	<ValidationCacheItem File="D:\gits\Wwise Game\Wwise Game\Interactive Music Hierarchy\Wwacamole.wwu" DateLow="1636409986" DateHigh="0"/>
+	<ValidationCacheItem File="D:\gits\Wwise Game\Wwise Game\Interactive Music Hierarchy\Wwacamole.wwu" DateLow="1636445474" DateHigh="0"/>
 	<ValidationCacheItem File="D:\gits\Wwise Game\Wwise Game\Interactive Music Hierarchy\ResourceManagement.wwu" DateLow="1635807080" DateHigh="0"/>
 	<ValidationCacheItem File="D:\gits\Wwise Game\Wwise Game\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1636206986" DateHigh="0"/>
 	<ValidationCacheItem File="D:\gits\Wwise Game\Wwise Game\Game Parameters\Default Work Unit.wwu" DateLow="1636409944" DateHigh="0"/>
-	<ValidationCacheItem File="D:\gits\Wwise Game\Wwise Game\Events\Wwacky Events.wwu" DateLow="1636409944" DateHigh="0"/>
+	<ValidationCacheItem File="D:\gits\Wwise Game\Wwise Game\Events\Wwacky Events.wwu" DateLow="1636445756" DateHigh="0"/>
 	<ValidationCacheItem File="D:\gits\Wwise Game\Wwise Game\Events\Default Work Unit.wwu" DateLow="1636407224" DateHigh="0"/>
 	<ValidationCacheItem File="D:\gits\Wwise Game\Wwise Game\Effects\Factory Mastering Suite.wwu" DateLow="1619508132" DateHigh="0"/>
 	<ValidationCacheItem File="D:\gits\Wwise Game\Wwise Game\Effects\Factory Effects.wwu" DateLow="1619508120" DateHigh="0"/>

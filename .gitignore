@@ -106,3 +106,5 @@ Wwise Game.danne.wsettings
 Wwise Game.danne.validationcache
 *.validationcache
 *.wsettings
+*.validationcache
+*.validationcache
