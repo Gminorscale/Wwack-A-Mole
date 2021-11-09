@@ -95,7 +95,7 @@
 						</Module>
 						<Module>
 							<ObjectRef Name="Wack03" ID="{9D9688F0-777B-4828-A5E5-489C74DE3387}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
-							<Position X="1" Y="16"/>
+							<Position X="1" Y="15"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="player_experience" ID="{9C48B3AC-983D-4D63-8AE0-578491CD2CA5}" WorkUnitID="{1A888DEB-7874-4D4E-B5E9-C4ADECD565A7}"/>
@@ -114,6 +114,14 @@
 							<Position X="2" Y="9"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Wack02" ID="{565C7EBC-97D0-4AE8-B42C-02DDCACAA0A2}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
+							<Position X="2" Y="14"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Wack04" ID="{BE52C247-20EF-4FF0-9040-35FCDC0837BC}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
+							<Position X="2" Y="15"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Please_assure_that" ID="{D696E0B7-E1A2-4065-9DA1-FEA59E0B2D74}" WorkUnitID="{1A888DEB-7874-4D4E-B5E9-C4ADECD565A7}"/>
 							<Position X="3" Y="1"/>
 						</Module>
@@ -128,14 +136,6 @@
 						<Module>
 							<ObjectRef Name="Wwreckingball_of_Wrath" ID="{C0FEB45A-B371-4AC4-BDC6-10A700907638}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
 							<Position X="3" Y="9"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Wack02" ID="{565C7EBC-97D0-4AE8-B42C-02DDCACAA0A2}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
-							<Position X="3" Y="14"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Wack04" ID="{BE52C247-20EF-4FF0-9040-35FCDC0837BC}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
-							<Position X="3" Y="16"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Upper_Right_Corner" ID="{32752B28-00F3-4E8F-B74E-F7D14BE9CBF3}" WorkUnitID="{1A888DEB-7874-4D4E-B5E9-C4ADECD565A7}"/>
@@ -170,12 +170,12 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Lifes_Left_03" ID="{D34250FE-4B86-49AD-ABC0-6F5FA3B6BFE9}"/>
-						<CurrentStateRef Name="Difficulty_Easy" ID="{E1A90271-C7AA-4EAA-9E0A-483A5BCF1159}"/>
+						<CurrentStateRef Name="Difficulty_Medium" ID="{164CB082-2FFB-4C0F-8B84-0B0694B1D928}"/>
 						<CurrentStateRef Name="Score_00" ID="{A38C85E3-5072-4394-B1A4-24723BD1B196}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Up" ID="{CC84DC04-5C92-4D60-A566-FBC341FBBD6C}"/>
-						<CurrentSwitchRef Name="Mole01" ID="{53414473-8A3A-47B7-8064-AF42D22946A4}"/>
+						<CurrentSwitchRef Name="Mole03" ID="{8E7E658A-9D2A-43A7-ADEE-5B60BA172492}"/>
 						<CurrentSwitchRef Name="Hit" ID="{B4A1C7C4-8590-4101-A145-9635A0C74A06}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>

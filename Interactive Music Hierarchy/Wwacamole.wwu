@@ -2547,8 +2547,14 @@
 										<Property Name="MusicTrackType" Type="int16" Value="3"/>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="None" ID="{01B99BB0-9FB3-45E4-ADDA-64AF25F2B203}" WorkUnitID="{FBA09FCB-8EB1-4B60-A999-7D5625B47F42}"/>
+										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Score" ID="{575308F9-BDF3-4FF8-ACC5-3F751E17EB0E}" WorkUnitID="{FBA09FCB-8EB1-4B60-A999-7D5625B47F42}"/>
 										</Reference>
 									</ReferenceList>
 									<TransitionList>
@@ -2584,7 +2590,11 @@
 																</Reference>
 															</ObjectList>
 														</ObjectLists>
-														<ReferenceList/>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Score_00" ID="{A38C85E3-5072-4394-B1A4-24723BD1B196}" WorkUnitID="{FBA09FCB-8EB1-4B60-A999-7D5625B47F42}"/>
+															</Reference>
+														</ReferenceList>
 													</MusicTrackSequence>
 												</Local>
 											</Reference>
@@ -2606,7 +2616,11 @@
 																</Reference>
 															</ObjectList>
 														</ObjectLists>
-														<ReferenceList/>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Score_00" ID="{A38C85E3-5072-4394-B1A4-24723BD1B196}" WorkUnitID="{FBA09FCB-8EB1-4B60-A999-7D5625B47F42}"/>
+															</Reference>
+														</ReferenceList>
 													</MusicTrackSequence>
 												</Local>
 											</Reference>
@@ -2628,7 +2642,11 @@
 																</Reference>
 															</ObjectList>
 														</ObjectLists>
-														<ReferenceList/>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Score_01" ID="{1075688C-929B-4458-A5F3-F090BEA01F54}" WorkUnitID="{FBA09FCB-8EB1-4B60-A999-7D5625B47F42}"/>
+															</Reference>
+														</ReferenceList>
 													</MusicTrackSequence>
 												</Local>
 											</Reference>
@@ -2650,7 +2668,11 @@
 																</Reference>
 															</ObjectList>
 														</ObjectLists>
-														<ReferenceList/>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Score_02" ID="{9154BB59-84CA-4B5C-811E-66BD75E2A5C9}" WorkUnitID="{FBA09FCB-8EB1-4B60-A999-7D5625B47F42}"/>
+															</Reference>
+														</ReferenceList>
 													</MusicTrackSequence>
 												</Local>
 											</Reference>
@@ -2672,7 +2694,11 @@
 																</Reference>
 															</ObjectList>
 														</ObjectLists>
-														<ReferenceList/>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Score_03" ID="{EA170812-ACDE-4252-B364-46F70B069546}" WorkUnitID="{FBA09FCB-8EB1-4B60-A999-7D5625B47F42}"/>
+															</Reference>
+														</ReferenceList>
 													</MusicTrackSequence>
 												</Local>
 											</Reference>
@@ -2694,7 +2720,11 @@
 																</Reference>
 															</ObjectList>
 														</ObjectLists>
-														<ReferenceList/>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Score_04" ID="{268B0D5E-DDD2-4E16-BA17-6BA33E93867B}" WorkUnitID="{FBA09FCB-8EB1-4B60-A999-7D5625B47F42}"/>
+															</Reference>
+														</ReferenceList>
 													</MusicTrackSequence>
 												</Local>
 											</Reference>
@@ -2716,7 +2746,11 @@
 																</Reference>
 															</ObjectList>
 														</ObjectLists>
-														<ReferenceList/>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Score_05" ID="{9BF782BD-33A1-4D2F-B86F-6572CCCA474C}" WorkUnitID="{FBA09FCB-8EB1-4B60-A999-7D5625B47F42}"/>
+															</Reference>
+														</ReferenceList>
 													</MusicTrackSequence>
 												</Local>
 											</Reference>
@@ -2738,7 +2772,11 @@
 																</Reference>
 															</ObjectList>
 														</ObjectLists>
-														<ReferenceList/>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Score_06" ID="{76059B87-64D8-4F80-8EAE-4080836BBE97}" WorkUnitID="{FBA09FCB-8EB1-4B60-A999-7D5625B47F42}"/>
+															</Reference>
+														</ReferenceList>
 													</MusicTrackSequence>
 												</Local>
 											</Reference>
@@ -2760,7 +2798,11 @@
 																</Reference>
 															</ObjectList>
 														</ObjectLists>
-														<ReferenceList/>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Score_07" ID="{4FEB4023-EBD9-417C-950F-FD66184F061A}" WorkUnitID="{FBA09FCB-8EB1-4B60-A999-7D5625B47F42}"/>
+															</Reference>
+														</ReferenceList>
 													</MusicTrackSequence>
 												</Local>
 											</Reference>
@@ -2782,7 +2824,11 @@
 																</Reference>
 															</ObjectList>
 														</ObjectLists>
-														<ReferenceList/>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Score_08" ID="{46FDDCEC-61B3-45FB-8CF9-BF9911144DD7}" WorkUnitID="{FBA09FCB-8EB1-4B60-A999-7D5625B47F42}"/>
+															</Reference>
+														</ReferenceList>
 													</MusicTrackSequence>
 												</Local>
 											</Reference>
@@ -2804,7 +2850,11 @@
 																</Reference>
 															</ObjectList>
 														</ObjectLists>
-														<ReferenceList/>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Score_09" ID="{3BE4F10E-C4DA-4934-81F8-AAA7747C2760}" WorkUnitID="{FBA09FCB-8EB1-4B60-A999-7D5625B47F42}"/>
+															</Reference>
+														</ReferenceList>
 													</MusicTrackSequence>
 												</Local>
 											</Reference>
@@ -2826,7 +2876,11 @@
 																</Reference>
 															</ObjectList>
 														</ObjectLists>
-														<ReferenceList/>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Score_10" ID="{BC044A55-3611-45CA-B70F-C614A68DC1A0}" WorkUnitID="{FBA09FCB-8EB1-4B60-A999-7D5625B47F42}"/>
+															</Reference>
+														</ReferenceList>
 													</MusicTrackSequence>
 												</Local>
 											</Reference>
@@ -2873,8 +2927,14 @@
 										<Property Name="MusicTrackType" Type="int16" Value="3"/>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Lifes_Left_03" ID="{D34250FE-4B86-49AD-ABC0-6F5FA3B6BFE9}" WorkUnitID="{FBA09FCB-8EB1-4B60-A999-7D5625B47F42}"/>
+										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Lives" ID="{923BC94B-3DA5-408A-8C66-46D8F256ABD8}" WorkUnitID="{FBA09FCB-8EB1-4B60-A999-7D5625B47F42}"/>
 										</Reference>
 									</ReferenceList>
 									<TransitionList>
@@ -2921,7 +2981,11 @@
 																</Reference>
 															</ObjectList>
 														</ObjectLists>
-														<ReferenceList/>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Lifes_Left_01" ID="{A212BD1B-7524-43AB-A4DA-D425A30680B8}" WorkUnitID="{FBA09FCB-8EB1-4B60-A999-7D5625B47F42}"/>
+															</Reference>
+														</ReferenceList>
 													</MusicTrackSequence>
 												</Local>
 											</Reference>
@@ -2943,7 +3007,11 @@
 																</Reference>
 															</ObjectList>
 														</ObjectLists>
-														<ReferenceList/>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Lifes_Left_02" ID="{AF8DCDC7-3277-4A3D-BF73-FC79ED1A5DAC}" WorkUnitID="{FBA09FCB-8EB1-4B60-A999-7D5625B47F42}"/>
+															</Reference>
+														</ReferenceList>
 													</MusicTrackSequence>
 												</Local>
 											</Reference>
@@ -2965,7 +3033,11 @@
 																</Reference>
 															</ObjectList>
 														</ObjectLists>
-														<ReferenceList/>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Lifes_Left_03" ID="{D34250FE-4B86-49AD-ABC0-6F5FA3B6BFE9}" WorkUnitID="{FBA09FCB-8EB1-4B60-A999-7D5625B47F42}"/>
+															</Reference>
+														</ReferenceList>
 													</MusicTrackSequence>
 												</Local>
 											</Reference>
