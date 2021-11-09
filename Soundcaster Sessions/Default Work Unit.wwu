@@ -14,10 +14,6 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Skip_Intro_Tutorial" ID="{45B52736-AE9D-474F-A729-D0B29A80C15B}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
-							<Position X="0" Y="3"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Wack02" ID="{565C7EBC-97D0-4AE8-B42C-02DDCACAA0A2}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -27,19 +23,11 @@
 						</Module>
 						<Module>
 							<ObjectRef Name="GameStart" ID="{EC530C51-3F00-4955-A6C0-873F33B47FD6}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
-							<Position X="2" Y="2"/>
+							<Position X="3" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Wwhat_Is_Wwise" ID="{43EF9F15-A2D7-4A82-981F-EAE8E73C0769}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
-							<Position X="4" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Mmaybe_I_can_Handle_This" ID="{E3AD8858-6441-4A49-82F4-39FCBE205692}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
-							<Position X="4" Y="1"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Wwrecking_Wways_to_Wwin" ID="{C0FEB45A-B371-4AC4-BDC6-10A700907638}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
-							<Position X="4" Y="2"/>
+							<ObjectRef Name="Skip_Intro_Tutorial" ID="{45B52736-AE9D-474F-A729-D0B29A80C15B}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
+							<Position X="3" Y="3"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -51,6 +39,138 @@
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Lifes_Left_03" ID="{D34250FE-4B86-49AD-ABC0-6F5FA3B6BFE9}"/>
 						<CurrentStateRef Name="Difficulty_Hard" ID="{5E837F09-D4AA-4F0A-91FA-1D56912041C8}"/>
+						<CurrentStateRef Name="Score_00" ID="{A38C85E3-5072-4394-B1A4-24723BD1B196}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Up" ID="{CC84DC04-5C92-4D60-A566-FBC341FBBD6C}"/>
+						<CurrentSwitchRef Name="Mole01" ID="{53414473-8A3A-47B7-8064-AF42D22946A4}"/>
+						<CurrentSwitchRef Name="Hit" ID="{B4A1C7C4-8590-4101-A145-9635A0C74A06}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Guided Game" ID="{5CA289FC-B456-4D57-8CD0-5F72CF45054E}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Upper_Left_Corner" ID="{ACDAF480-4F2A-4227-965D-C1F0808C0DB5}" WorkUnitID="{1A888DEB-7874-4D4E-B5E9-C4ADECD565A7}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Lower_Left_Corner" ID="{837A55A7-FF01-471D-832F-27871D9DCF8F}" WorkUnitID="{1A888DEB-7874-4D4E-B5E9-C4ADECD565A7}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Upper_Left_Corner" ID="{ACDAF480-4F2A-4227-965D-C1F0808C0DB5}" WorkUnitID="{1A888DEB-7874-4D4E-B5E9-C4ADECD565A7}"/>
+							<Position X="0" Y="7"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Lower_Left_Corner" ID="{837A55A7-FF01-471D-832F-27871D9DCF8F}" WorkUnitID="{1A888DEB-7874-4D4E-B5E9-C4ADECD565A7}"/>
+							<Position X="0" Y="11"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Upper_Left_Corner" ID="{ACDAF480-4F2A-4227-965D-C1F0808C0DB5}" WorkUnitID="{1A888DEB-7874-4D4E-B5E9-C4ADECD565A7}"/>
+							<Position X="0" Y="13"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Lower_Left_Corner" ID="{837A55A7-FF01-471D-832F-27871D9DCF8F}" WorkUnitID="{1A888DEB-7874-4D4E-B5E9-C4ADECD565A7}"/>
+							<Position X="0" Y="17"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="In_order_to_get_the_best" ID="{964A75D8-3192-4925-A2CE-D66C96931A37}" WorkUnitID="{1A888DEB-7874-4D4E-B5E9-C4ADECD565A7}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="the_soundcaster_window" ID="{CC8ABDE8-8234-4EA4-BC4E-FB119C6365FA}" WorkUnitID="{1A888DEB-7874-4D4E-B5E9-C4ADECD565A7}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Press_F6" ID="{50DAFC60-45C5-4257-8D83-6E8E39619769}" WorkUnitID="{1A888DEB-7874-4D4E-B5E9-C4ADECD565A7}"/>
+							<Position X="1" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Wwhat_Is_Wwise_Even" ID="{43EF9F15-A2D7-4A82-981F-EAE8E73C0769}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
+							<Position X="1" Y="9"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Wack01" ID="{667D66DA-D55B-4936-8EC5-23D15BB81276}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
+							<Position X="1" Y="14"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Wack03" ID="{9D9688F0-777B-4828-A5E5-489C74DE3387}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
+							<Position X="1" Y="16"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="player_experience" ID="{9C48B3AC-983D-4D63-8AE0-578491CD2CA5}" WorkUnitID="{1A888DEB-7874-4D4E-B5E9-C4ADECD565A7}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Fits_to_the_corner_events" ID="{E07C2DEC-ED36-47CA-8EA5-D4B481DC82BD}" WorkUnitID="{1A888DEB-7874-4D4E-B5E9-C4ADECD565A7}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Press_LIVE" ID="{2936AB5A-2259-41CA-96B8-04CE3E2BD2D7}" WorkUnitID="{1A888DEB-7874-4D4E-B5E9-C4ADECD565A7}"/>
+							<Position X="2" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Wwanna_give_it_a_try" ID="{E3AD8858-6441-4A49-82F4-39FCBE205692}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
+							<Position X="2" Y="9"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Please_assure_that" ID="{D696E0B7-E1A2-4065-9DA1-FEA59E0B2D74}" WorkUnitID="{1A888DEB-7874-4D4E-B5E9-C4ADECD565A7}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Marked_with_green" ID="{2EA46D34-28B1-4812-8508-BAC4698B2634}" WorkUnitID="{1A888DEB-7874-4D4E-B5E9-C4ADECD565A7}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Me_when_finished" ID="{2540A238-D6CE-4B41-AFCC-387B2D6FC13D}" WorkUnitID="{1A888DEB-7874-4D4E-B5E9-C4ADECD565A7}"/>
+							<Position X="3" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Wwreckingball_of_Wrath" ID="{C0FEB45A-B371-4AC4-BDC6-10A700907638}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
+							<Position X="3" Y="9"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Wack02" ID="{565C7EBC-97D0-4AE8-B42C-02DDCACAA0A2}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
+							<Position X="3" Y="14"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Wack04" ID="{BE52C247-20EF-4FF0-9040-35FCDC0837BC}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
+							<Position X="3" Y="16"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Upper_Right_Corner" ID="{32752B28-00F3-4E8F-B74E-F7D14BE9CBF3}" WorkUnitID="{1A888DEB-7874-4D4E-B5E9-C4ADECD565A7}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Lower_Right_Corner" ID="{9775A1F6-8279-46A8-9F1A-F5AEC0D8A6C0}" WorkUnitID="{1A888DEB-7874-4D4E-B5E9-C4ADECD565A7}"/>
+							<Position X="4" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Upper_Right_Corner" ID="{32752B28-00F3-4E8F-B74E-F7D14BE9CBF3}" WorkUnitID="{1A888DEB-7874-4D4E-B5E9-C4ADECD565A7}"/>
+							<Position X="4" Y="7"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Lower_Right_Corner" ID="{9775A1F6-8279-46A8-9F1A-F5AEC0D8A6C0}" WorkUnitID="{1A888DEB-7874-4D4E-B5E9-C4ADECD565A7}"/>
+							<Position X="4" Y="11"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Upper_Right_Corner" ID="{32752B28-00F3-4E8F-B74E-F7D14BE9CBF3}" WorkUnitID="{1A888DEB-7874-4D4E-B5E9-C4ADECD565A7}"/>
+							<Position X="4" Y="13"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Lower_Right_Corner" ID="{9775A1F6-8279-46A8-9F1A-F5AEC0D8A6C0}" WorkUnitID="{1A888DEB-7874-4D4E-B5E9-C4ADECD565A7}"/>
+							<Position X="4" Y="17"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="GameMusic_Pitch" ID="{03EF4C80-2D62-486A-B585-3E7A535615D1}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Lifes_Left_03" ID="{D34250FE-4B86-49AD-ABC0-6F5FA3B6BFE9}"/>
+						<CurrentStateRef Name="Difficulty_Easy" ID="{E1A90271-C7AA-4EAA-9E0A-483A5BCF1159}"/>
 						<CurrentStateRef Name="Score_00" ID="{A38C85E3-5072-4394-B1A4-24723BD1B196}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">

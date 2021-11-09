@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1A888DEB-7874-4D4E-B5E9-C4ADECD565A7}" SchemaVersion="103" RootDocumentID="{20F2D740-376D-40DD-805E-15C970E42A85}" ParentDocumentID="{20F2D740-376D-40DD-805E-15C970E42A85}">
+	<Events>
+		<WorkUnit Name="Soundcaster Events" ID="{1A888DEB-7874-4D4E-B5E9-C4ADECD565A7}" OwnerID="{20F2D740-376D-40DD-805E-15C970E42A85}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="Screen 01_Adjustments" ID="{D2DCAD0B-A9A6-4FEE-B52F-3D8E87112458}" ShortID="510782428">
+					<ChildrenList>
+						<Event Name="Upper_Left_Corner" ID="{ACDAF480-4F2A-4227-965D-C1F0808C0DB5}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="4"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Event>
+						<Event Name="Upper_Right_Corner" ID="{32752B28-00F3-4E8F-B74E-F7D14BE9CBF3}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="4"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Event>
+						<Event Name="Lower_Left_Corner" ID="{837A55A7-FF01-471D-832F-27871D9DCF8F}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Event>
+						<Event Name="Lower_Right_Corner" ID="{9775A1F6-8279-46A8-9F1A-F5AEC0D8A6C0}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Event>
+						<Event Name="Before_you_begin" ID="{A5B3300D-0501-4C6B-A4BE-2FF85D3FD865}"/>
+						<Event Name="Please_assure_that" ID="{D696E0B7-E1A2-4065-9DA1-FEA59E0B2D74}"/>
+						<Event Name="the_soundcaster_window" ID="{CC8ABDE8-8234-4EA4-BC4E-FB119C6365FA}"/>
+						<Event Name="Fits_to_the_corner_events" ID="{E07C2DEC-ED36-47CA-8EA5-D4B481DC82BD}"/>
+						<Event Name="Displayed_in_this_window" ID="{5D07EA1F-0D3B-4697-9F29-4D7C071AB276}"/>
+						<Event Name="In_order_to_get_the_best" ID="{964A75D8-3192-4925-A2CE-D66C96931A37}"/>
+						<Event Name="player_experience" ID="{9C48B3AC-983D-4D63-8AE0-578491CD2CA5}"/>
+						<Event Name="Marked_with_green" ID="{2EA46D34-28B1-4812-8508-BAC4698B2634}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Event>
+						<Event Name="Play_Me_when_finished" ID="{2540A238-D6CE-4B41-AFCC-387B2D6FC13D}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="26"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{4DEAD179-1E9D-4DC2-AB2D-1972BF3C3922}" ShortID="814084429">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GameStart" ID="{EC530C51-3F00-4955-A6C0-873F33B47FD6}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Press_F6" ID="{50DAFC60-45C5-4257-8D83-6E8E39619769}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="26"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Event>
+						<Event Name="Press_LIVE" ID="{2936AB5A-2259-41CA-96B8-04CE3E2BD2D7}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="26"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

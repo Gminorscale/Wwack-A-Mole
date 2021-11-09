@@ -843,7 +843,7 @@
 				</Folder>
 				<Folder Name="DifficultySettings" ID="{2996645C-333C-4CA3-B1BC-C2D903681C28}" ShortID="560093755">
 					<ChildrenList>
-						<Event Name="Wwhat_Is_Wwise" ID="{43EF9F15-A2D7-4A82-981F-EAE8E73C0769}">
+						<Event Name="Wwhat_Is_Wwise_Even" ID="{43EF9F15-A2D7-4A82-981F-EAE8E73C0769}">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="17"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -861,7 +861,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Mmaybe_I_can_Handle_This" ID="{E3AD8858-6441-4A49-82F4-39FCBE205692}">
+						<Event Name="Wwanna_give_it_a_try" ID="{E3AD8858-6441-4A49-82F4-39FCBE205692}">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="19"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -879,7 +879,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Wwrecking_Wways_to_Wwin" ID="{C0FEB45A-B371-4AC4-BDC6-10A700907638}">
+						<Event Name="Wwreckingball_of_Wrath" ID="{C0FEB45A-B371-4AC4-BDC6-10A700907638}">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="10"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
