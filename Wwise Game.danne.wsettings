@@ -273,9 +273,9 @@
 				<Property Name="ProjectExplorer\x64_Expanded_2_0" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="Gm97D4b25EeTCFabrPIrtLS6Ug8TBGBKt40t4P9Kn/0="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_0" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="h7LUypmtQUiabEmwE747DA=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="ZRd648OBg0CvNd1RuurPbYey1MqZrUFImmxJsBO+Oww="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_0" Type="string" Value="QNfyIG033UCAXhXJcOQqhQ=="/>
-				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="QNfyIG033UCAXhXJcOQqhQ=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="QNfyIG033UCAXhXJcOQqhVNCoeKU6oVCkYAWw10Jivo="/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_0" Type="string" Value="KRoDfyAi8EuDpOE3qVtCCw=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_0" Type="string" Value=""/>
@@ -286,6 +286,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_8_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_9_0" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_9_1" Type="string" Value=""/>
+				<Property Name="RTPC\GameParameterSimValue\{03EF4C80-2D62-486A-B585-3E7A535615D1}" Type="Real64" Value="50"/>
 				<Property Name="SoundBank Manager\x64_Expand States" Type="string" Value=""/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
 				<Property Name="SoundBankPaths" Type="string">

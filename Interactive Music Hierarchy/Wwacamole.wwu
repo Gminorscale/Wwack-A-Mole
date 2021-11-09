@@ -3903,7 +3903,7 @@
 						</MusicSegment>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Lives Counter" ID="{D7E1E8FC-42F9-4AC9-A9EC-3EFF41D5087D}" ShortID="679599611">
+				<Folder Name="LifeCounter" ID="{D7E1E8FC-42F9-4AC9-A9EC-3EFF41D5087D}" ShortID="679599611">
 					<ChildrenList>
 						<MusicSegment Name="LifeCounter" ID="{C6E3BC59-8C39-4DEC-8917-C26B4D13B84E}" ShortID="572899822">
 							<ReferenceList>
