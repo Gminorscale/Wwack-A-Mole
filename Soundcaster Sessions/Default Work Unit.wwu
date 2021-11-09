@@ -14,6 +14,10 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Skip_Intro_Tutorial" ID="{45B52736-AE9D-474F-A729-D0B29A80C15B}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Wack02" ID="{565C7EBC-97D0-4AE8-B42C-02DDCACAA0A2}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -26,8 +30,16 @@
 							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Skip_Intro_Tutorial" ID="{45B52736-AE9D-474F-A729-D0B29A80C15B}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
-							<Position X="3" Y="2"/>
+							<ObjectRef Name="Wwhat_Is_Wwise" ID="{43EF9F15-A2D7-4A82-981F-EAE8E73C0769}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Mmaybe_I_can_Handle_This" ID="{E3AD8858-6441-4A49-82F4-39FCBE205692}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Wwrecking_Wways_to_Wwin" ID="{C0FEB45A-B371-4AC4-BDC6-10A700907638}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
+							<Position X="4" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -37,7 +49,8 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Lifes_Left_00" ID="{32AD6A3F-7F55-4131-A0C7-532CC5AA77EC}"/>
+						<CurrentStateRef Name="Lifes_Left_03" ID="{D34250FE-4B86-49AD-ABC0-6F5FA3B6BFE9}"/>
+						<CurrentStateRef Name="Difficulty_Hard" ID="{5E837F09-D4AA-4F0A-91FA-1D56912041C8}"/>
 						<CurrentStateRef Name="Score_00" ID="{A38C85E3-5072-4394-B1A4-24723BD1B196}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">

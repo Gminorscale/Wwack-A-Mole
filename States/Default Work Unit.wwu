@@ -28,6 +28,14 @@
 						<State Name="Lifes_Left_03" ID="{D34250FE-4B86-49AD-ABC0-6F5FA3B6BFE9}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="Difficulty" ID="{FDBDD877-4BBA-451E-9AE0-C539567DE19A}">
+					<ChildrenList>
+						<State Name="None" ID="{B58D6015-CE1A-48F1-AFAD-01B66A502AC3}"/>
+						<State Name="Difficulty_Easy" ID="{E1A90271-C7AA-4EAA-9E0A-483A5BCF1159}"/>
+						<State Name="Difficulty_Medium" ID="{164CB082-2FFB-4C0F-8B84-0B0694B1D928}"/>
+						<State Name="Difficulty_Hard" ID="{5E837F09-D4AA-4F0A-91FA-1D56912041C8}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

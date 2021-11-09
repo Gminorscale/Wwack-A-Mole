@@ -66,7 +66,7 @@
 								<Action Name="" ID="{96DD8134-9B6B-4F3A-8CBC-5A7FE0DB08BA}" ShortID="320544983">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="MoleGenerator" ID="{A668554E-3175-42A3-A0D1-04F01B69B17E}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
+											<ObjectRef Name="MoleGenerator_Switch" ID="{B91E3B11-40B2-48F1-8C89-C8E336217C37}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -372,7 +372,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="MoleGenerator" ID="{A668554E-3175-42A3-A0D1-04F01B69B17E}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
+											<ObjectRef Name="MoleGenerator_Switch" ID="{B91E3B11-40B2-48F1-8C89-C8E336217C37}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -386,7 +386,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="MoleGenerator" ID="{A668554E-3175-42A3-A0D1-04F01B69B17E}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
+											<ObjectRef Name="MoleGenerator_Switch" ID="{B91E3B11-40B2-48F1-8C89-C8E336217C37}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -834,6 +834,64 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="LifeCounter" ID="{C6E3BC59-8C39-4DEC-8917-C26B4D13B84E}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="DifficultySettings" ID="{2996645C-333C-4CA3-B1BC-C2D903681C28}" ShortID="560093755">
+					<ChildrenList>
+						<Event Name="Wwhat_Is_Wwise" ID="{43EF9F15-A2D7-4A82-981F-EAE8E73C0769}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{E41D8586-2B28-41A2-8759-A4AC62AA71F3}" ShortID="982992743">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Difficulty_Easy" ID="{E1A90271-C7AA-4EAA-9E0A-483A5BCF1159}" WorkUnitID="{FBA09FCB-8EB1-4B60-A999-7D5625B47F42}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Mmaybe_I_can_Handle_This" ID="{E3AD8858-6441-4A49-82F4-39FCBE205692}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="19"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{27B12383-8231-43AC-B777-CADE73E3AA1B}" ShortID="561743599">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Difficulty_Medium" ID="{164CB082-2FFB-4C0F-8B84-0B0694B1D928}" WorkUnitID="{FBA09FCB-8EB1-4B60-A999-7D5625B47F42}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Wwrecking_Wways_to_Wwin" ID="{C0FEB45A-B371-4AC4-BDC6-10A700907638}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="10"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{5BC7FEB0-BED0-4490-B7D8-0B911977981D}" ShortID="764466571">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Difficulty_Hard" ID="{5E837F09-D4AA-4F0A-91FA-1D56912041C8}" WorkUnitID="{FBA09FCB-8EB1-4B60-A999-7D5625B47F42}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
