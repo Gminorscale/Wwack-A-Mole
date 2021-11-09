@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FDCB34BD-CE8B-4308-A068-190C43346271}" SchemaVersion="103">
+	<Busses>
+		<WorkUnit Name="RedLightGreenLight" ID="{FDCB34BD-CE8B-4308-A068-190C43346271}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="That Scary Robot         with the creepy eyes" ID="{BF9C57EC-6C16-4DA2-88B1-724C0EF08D5B}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="21"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{8F49477F-AB40-4282-92CE-B78646136F33}" WorkUnitID="{92279BD2-CC06-4E81-A01E-FB3ABAC90304}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</Bus>
+				<Bus Name="You, a broke guy" ID="{96A13D0F-5BE5-4B57-91F9-9077F119C55D}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{8F49477F-AB40-4282-92CE-B78646136F33}" WorkUnitID="{92279BD2-CC06-4E81-A01E-FB3ABAC90304}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

@@ -899,6 +899,7 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<WorkUnit Name="Soundcaster Events" ID="{1A888DEB-7874-4D4E-B5E9-C4ADECD565A7}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

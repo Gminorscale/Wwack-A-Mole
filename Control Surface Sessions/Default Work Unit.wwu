@@ -5,7 +5,21 @@
 			<ChildrenList>
 				<ControlSurfaceSession Name="Default Control Surface Session" ID="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}">
 					<ChildrenList>
-						<ControlSurfaceBindingGroup Name="Global" ID="{8ACAB92A-F357-44E2-B73A-BF256B40AC07}"/>
+						<ControlSurfaceBindingGroup Name="Global" ID="{8ACAB92A-F357-44E2-B73A-BF256B40AC07}">
+							<ChildrenList>
+								<ControlSurfaceBinding Name="Binding" ID="{4D0EECC3-E331-428B-837A-0FCF19CB7026}">
+									<PropertyList>
+										<Property Name="TargetName" Type="string" Value="TransportPlayStop"/>
+										<Property Name="TargetType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="TargetObject">
+											<ObjectRef Name="Walk" ID="{5B7A1A54-745D-4B96-B446-4ED45371F595}" WorkUnitID="{8C963A76-7B40-483A-A826-0D7AA8A07B7F}"/>
+										</Reference>
+									</ReferenceList>
+								</ControlSurfaceBinding>
+							</ChildrenList>
+						</ControlSurfaceBindingGroup>
 						<ControlSurfaceBindingGroup Name="Current Selection" ID="{EDC8578E-22FF-4236-A2AE-555E302487F7}">
 							<PropertyList>
 								<Property Name="GroupType" Type="int16" Value="4"/>

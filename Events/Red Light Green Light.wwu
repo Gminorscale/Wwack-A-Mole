@@ -1,0 +1,2534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8C963A76-7B40-483A-A826-0D7AA8A07B7F}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Red Light Green Light" ID="{8C963A76-7B40-483A-A826-0D7AA8A07B7F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="TimeCounter" ID="{22984B8F-081F-4372-BC8D-1C1F283E80E1}" ShortID="733431862">
+					<ChildrenList>
+						<Event Name="Set_Game_Parameter_TimeCounter_08" ID="{51189C27-FBE7-4373-B2F9-51BCC4C9035C}">
+							<ChildrenList>
+								<Action Name="" ID="{7CDE2939-80C9-4392-AAB2-380048454A05}" ShortID="809000604">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="4.8"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B9E26147-D9FA-45F8-8738-A001FF0E95B9}" ShortID="289785778">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_07" ID="{FBEAC3B7-9C59-4617-948A-4ADF58FD0105}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_07" ID="{2E466CDC-2C89-4C68-BBC7-BD7AA24A46F6}">
+							<ChildrenList>
+								<Action Name="" ID="{48D151F5-F1E0-40F4-9F0D-7C7007FA4401}" ShortID="484806205">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="4.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{16DB3658-738B-41F1-AF47-678734346AF5}" ShortID="407684083">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_06" ID="{5EE037AD-EFED-474E-B5A1-1A6CCB339E88}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_06" ID="{6C9C3900-C5F9-41A4-979C-B5CC36278FA9}">
+							<ChildrenList>
+								<Action Name="" ID="{95753ACA-3EB5-4F6A-9383-1B4D5B1B14ED}" ShortID="757174521">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="3.6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E1F3E4BC-48DE-4188-8A30-66859E454A8C}" ShortID="417924313">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_05" ID="{908D84C0-F884-454A-A3C8-9FE6288FEC41}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_02" ID="{8F447890-E826-44AE-884C-207661123A6E}">
+							<ChildrenList>
+								<Action Name="" ID="{77A45CC0-9647-4644-85EC-8EB11F945ACB}" ShortID="846748125">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="1.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{75337925-2150-4C28-8054-275346FDF7DD}" ShortID="108013719">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_01" ID="{DC92FA16-5364-44C6-A0EE-1D1642BDAEB0}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_03" ID="{C5EC7F65-7FBB-459B-B759-5265BF2841A8}">
+							<ChildrenList>
+								<Action Name="" ID="{41C6799A-55CF-47A9-B2C7-C3ED8E64FC16}" ShortID="970368291">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="1.8"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DF280D24-B464-4681-9E43-CACA903BE261}" ShortID="686919256">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_02" ID="{C7333F8A-34B3-45EA-B6D5-B51FDE784A99}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_01" ID="{79900F50-C31C-4F48-AB6E-7E6D230401F8}">
+							<ChildrenList>
+								<Action Name="" ID="{89867045-BE0C-4584-BE0E-CEF1C23523D6}" ShortID="81159692">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="0.6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{CA0F16F6-167B-488C-9938-FB0C7F4347EE}" ShortID="242230224">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_00" ID="{7FDFD575-C129-439F-9516-929444EFD1B1}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_51" ID="{E4413CAB-CD44-4FC6-AAB4-1BCD1D2DB41E}">
+							<ChildrenList>
+								<Action Name="" ID="{FF682C3A-5EEB-4A63-9411-2F5112BC4A33}" ShortID="600101049">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="30.6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C7D62172-F70E-4D8B-A614-8B61C595CE6A}" ShortID="973955460">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_50" ID="{5E00C8E0-1B2E-462A-8E93-32906E559036}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_59" ID="{9CD47EDF-2947-49FD-9516-88CFAB4B0867}">
+							<ChildrenList>
+								<Action Name="" ID="{3576311F-8D7C-47E6-A160-3BBE45932D64}" ShortID="317498271">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="35.4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E2AB42B6-BA30-4D9F-B0CC-768CB4050955}" ShortID="618521940">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_58" ID="{164AC2A5-64E0-4345-AC09-21EAE469980B}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_05" ID="{0AC2DF6E-817E-4DDB-ABD5-0A6ECC719E44}">
+							<ChildrenList>
+								<Action Name="" ID="{17A441CE-C8C5-4D92-B0B8-E3385268C39F}" ShortID="1073159494">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{999258DD-0975-4537-9545-BB9705E7C2F4}" ShortID="375543406">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_04" ID="{3D16614C-E821-499E-9748-D91CC200DFBE}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_60" ID="{A2EB8710-46CB-4536-8391-56304E92775C}">
+							<ChildrenList>
+								<Action Name="" ID="{1880200D-0C69-4550-9047-5B65E4BF9C5D}" ShortID="321249380">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="36"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0B4E9E43-7AEA-4162-8AA2-CC15B4577A57}" ShortID="906464909">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_59" ID="{201BF02E-937A-4C12-8473-9CBE695BB2F6}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_00" ID="{921C2BEF-B9D5-4676-A5AB-E5595A592280}">
+							<ChildrenList>
+								<Action Name="" ID="{97D1524B-D8AA-43B1-80BB-349ACC69D9B9}" ShortID="84394482">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{ADC2C40F-EE30-406C-B7F0-7B26650E17A3}" ShortID="914043495">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_00" ID="{7FDFD575-C129-439F-9516-929444EFD1B1}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_40" ID="{26ED9C99-814B-4EF3-A27E-E25CAEE15EFB}">
+							<ChildrenList>
+								<Action Name="" ID="{38D21501-F87F-4A6D-B1B3-4E801EDA318B}" ShortID="466029824">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="24"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{ABB6400C-F2B1-40D5-9D3F-5E4DA6A4DECF}" ShortID="740508215">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_39" ID="{85357BED-002E-43A8-88E7-A0C1B5933420}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_11" ID="{D91C2B64-3E4F-442D-AB25-FEBD5016C974}">
+							<ChildrenList>
+								<Action Name="" ID="{B560B694-A89D-4AB5-AFD4-39CB4E70B2C4}" ShortID="401609719">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="6.6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F4225900-624E-49D4-A0DA-AE1C1A6DD0CB}" ShortID="519555268">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_10" ID="{78C0486E-C421-4134-9887-FC686C2153BB}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_23" ID="{1C21A727-35DD-47B9-80A9-8698F260ED0E}">
+							<ChildrenList>
+								<Action Name="" ID="{06268803-FD70-44A4-8177-0093DB90209D}" ShortID="451639589">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="13.8"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{985ED557-A97F-4C4F-B619-1E372E06B64C}" ShortID="509529326">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_22" ID="{65F93D51-783A-4D2A-A181-55536A9FC6D0}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_44" ID="{7FBDF5EE-DB5D-4AA9-BA1F-AAE725196981}">
+							<ChildrenList>
+								<Action Name="" ID="{1036CDB7-6464-4F59-85C5-9D7813C4BA27}" ShortID="229514768">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="26.4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{8DD929A0-8A11-4041-83C1-EF87027F42DD}" ShortID="507697010">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_43" ID="{BF000C3B-4DB8-4DFD-BD0D-0B2EFB3390B7}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_18" ID="{100D6F9C-4F85-46F9-B38E-1BCAB8F978BF}">
+							<ChildrenList>
+								<Action Name="" ID="{4B3DA23B-460D-4D19-BB56-B64E38161DA6}" ShortID="400259185">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="10.8"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B690C892-A0E5-44EF-B7AC-15AB3B9BB6BF}" ShortID="241903224">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_17" ID="{AF5135B8-88AE-407B-9950-56A51BBFA288}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_25" ID="{697A022A-9708-4957-BA05-C338FB220830}">
+							<ChildrenList>
+								<Action Name="" ID="{EC370744-040A-489D-9CEB-241859DBF9A9}" ShortID="567985445">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="15"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{539553D7-53C9-48E2-A8BE-3B69B7F34A5B}" ShortID="291284180">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_24" ID="{A9CA6BA1-D1DF-4CCE-A9F5-381AACBB34AE}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_46" ID="{95944BB9-1491-434C-867E-2ED5C50D1AA2}">
+							<ChildrenList>
+								<Action Name="" ID="{DA1FC2AC-FF0A-44BC-9DEE-A0E71B99ADB1}" ShortID="548301418">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="27.6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C19D1B1D-7402-4D57-A639-EDA5814DF7A1}" ShortID="6528822">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_45" ID="{187CF129-F0A9-4B1A-80D0-651DBD082F70}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_47" ID="{3967AC08-A47D-43F4-A2BB-CF39CE734853}">
+							<ChildrenList>
+								<Action Name="" ID="{E4BCB4AE-7D80-44EF-B720-4E39D324FFB9}" ShortID="735210524">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="28.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{ACE4CF1A-EB78-4DAB-8807-5FE76A4C6AF1}" ShortID="251849072">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_46" ID="{C102A05D-3250-46BB-A4DB-F5A6A0CD9BC1}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_39" ID="{97BF3C14-03A3-4F76-900D-59D376C084B0}">
+							<ChildrenList>
+								<Action Name="" ID="{4F7B597E-470C-4FFC-A18E-96CB338801BB}" ShortID="285347573">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="23.4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{34DACDDD-D5BC-4011-87B8-64B64EA304C5}" ShortID="259615972">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_38" ID="{009C1079-94CA-4936-A725-ADB1DDB6D35A}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_21" ID="{812667D5-C48C-4256-A9DB-EBB1BD500E71}">
+							<ChildrenList>
+								<Action Name="" ID="{C7A62163-8AB9-46B2-A2CD-8880F367C0A9}" ShortID="481515782">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A2E9F55F-C664-4851-84BE-0FF206C5370A}" ShortID="848807352">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_20" ID="{4E4A692E-4694-46A3-81DF-AEC04E3C90C7}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_19" ID="{6989AA62-AC0D-441E-92E7-8610CC474827}">
+							<ChildrenList>
+								<Action Name="" ID="{1FEF1E28-D177-437B-B3A3-F54D94B09F4C}" ShortID="364479147">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="11.4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4A761598-6307-48C6-9033-EE25927BEB58}" ShortID="319303673">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_18" ID="{62A0D5CD-633E-4976-9FBA-FC12FAEAD14C}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_41" ID="{9E8026C4-F1C8-4C6A-AA31-00E6CAC79C59}">
+							<ChildrenList>
+								<Action Name="" ID="{22EB808E-3082-4437-BF42-AEA78BE17A25}" ShortID="762406276">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="24.6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{781EFC75-D47D-4916-B10A-C1B01034FE1E}" ShortID="761701000">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_40" ID="{55973F21-1A10-4C0A-83EA-AB64D560B051}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_42" ID="{E122F5CD-4367-4646-83AA-DEB170A1D63E}">
+							<ChildrenList>
+								<Action Name="" ID="{B07BF11E-AB2C-40C3-82F7-D9023996051D}" ShortID="1059723303">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="25.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F1AAC2A2-4799-442E-9960-C00D0D18DBE4}" ShortID="39954793">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_41" ID="{959A94F2-5E78-49F1-8A35-49A0956F9D52}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_34" ID="{764EADA3-1CAE-44BE-978C-E22A279856BC}">
+							<ChildrenList>
+								<Action Name="" ID="{CEACC4ED-8881-47A4-A47B-B528F05A34A3}" ShortID="285840573">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="20.4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A1C2C526-7D38-425B-A78F-5530C00E596B}" ShortID="438615604">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_33" ID="{3C65B50C-08ED-4513-9067-97D3538665A5}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_09" ID="{9792F85A-3D97-4BA1-A29E-F5B68526B207}">
+							<ChildrenList>
+								<Action Name="" ID="{FF1EF331-DE3A-42DF-A552-C3DD5335A624}" ShortID="520589110">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="5.4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6B03C78E-6853-48B8-8ED0-E99C58AFCF82}" ShortID="948186284">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_08" ID="{BC562561-2B30-44A2-8A98-13E8085F8ED0}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_24" ID="{6103780F-16AE-46D3-89D0-5CD4694E3508}">
+							<ChildrenList>
+								<Action Name="" ID="{C6673EFA-4BC7-441E-A6AC-1E8CFEBB25D1}" ShortID="143861235">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="14.4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{295B5258-D6F1-4306-9FAF-3FAFC00FBE3D}" ShortID="940177360">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_23" ID="{B570510B-B080-491F-98F7-BED0A48C72F4}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_43" ID="{00F9E0BC-413B-4239-958F-DE61B95EDE3C}">
+							<ChildrenList>
+								<Action Name="" ID="{8D0F9516-5D9F-49A5-8766-D635E4EE4BAC}" ShortID="677552260">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="25.8"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{96B5A070-8DB3-4D35-8A28-B9F05257A9ED}" ShortID="867349189">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_42" ID="{5A4A4094-4BE1-4BAD-80F4-D6253DC1DDA7}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_22" ID="{AFC49ECE-343A-4728-9C35-D18EF611498D}">
+							<ChildrenList>
+								<Action Name="" ID="{89589751-1CFD-4C4D-BC33-971C91645304}" ShortID="419826322">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="13.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{748039ED-A0AE-4DBF-A851-C665E1AB8483}" ShortID="671431764">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_21" ID="{DB689B6E-04E6-4177-9A79-15375D9D25F9}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_12" ID="{CE235723-F679-4EC2-8C61-89BFD306677E}">
+							<ChildrenList>
+								<Action Name="" ID="{96FDC873-739A-4998-ABDC-CBF3239C53F1}" ShortID="190374716">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="7.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{99D58D1A-D986-4E12-B2FA-79F70F2B0F85}" ShortID="740144706">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_11" ID="{A74ECD43-6C49-4AAC-8BFB-86CE816FAD29}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_33" ID="{EE48D9EE-AB3C-4345-9500-AA7AF6AF1BF3}">
+							<ChildrenList>
+								<Action Name="" ID="{AFD75CF4-DD8D-4828-B105-2C5AB37A3909}" ShortID="207419911">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="19.8"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{436D30CF-F57C-44B8-87C3-E42C33C1A247}" ShortID="678482836">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_32" ID="{8D8D9A71-8F8B-423B-A018-AAC79A800A7F}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_10" ID="{45EAE637-7A72-49EE-942D-3502D8B810E2}">
+							<ChildrenList>
+								<Action Name="" ID="{32F51957-1D0A-4009-8056-D3B8195A9A01}" ShortID="631454007">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{612A5A66-6288-4C72-98BA-D01AC582FF3A}" ShortID="659772449">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_09" ID="{CA5BADAC-F44F-4C78-B83B-F8B82339769B}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_38" ID="{6DF70344-49FC-4307-ABC6-AAD3ECF1387B}">
+							<ChildrenList>
+								<Action Name="" ID="{4DE54D7C-D0FB-4202-B1FA-C15F62F37648}" ShortID="758321352">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="22.8"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{05B29D6C-CB1E-43CC-BC16-0F2997C64C2E}" ShortID="17296139">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_37" ID="{60DC1061-8894-469B-8105-1ACD616A1171}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_45" ID="{8309CD20-DC78-45C7-912D-AE1ACF2DA162}">
+							<ChildrenList>
+								<Action Name="" ID="{2A007815-7E08-4147-A2C2-BB01A09B7F34}" ShortID="997523922">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="27"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7FCE26C3-609E-4ACB-AE74-CEF7F9A98267}" ShortID="292804489">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_44" ID="{09984913-13F9-4DB0-8754-F74F67C5025C}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_56" ID="{E3289C06-BC2C-41BA-913C-37698526C743}">
+							<ChildrenList>
+								<Action Name="" ID="{9A1A4CF5-54A0-4F59-B94A-5347712B77DD}" ShortID="349268617">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="33.6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B60745C9-79F6-49FF-8015-7688FBC88B95}" ShortID="271174843">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_55" ID="{E2FD09FA-CC72-4F08-9D7D-A23D771D982E}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_50" ID="{F0840BA6-A347-4EC5-B3F7-D5A1EDBEA11C}">
+							<ChildrenList>
+								<Action Name="" ID="{3CFEFDA0-DB7A-427B-A4F7-18BCF432DFF8}" ShortID="773147499">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="30"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1A795176-EBF8-4D40-AE6D-2E74266CFC6F}" ShortID="415681640">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_49" ID="{880AA79F-3874-4994-A583-91D5E4F2E443}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_20" ID="{AD123A11-37DE-4F45-961A-9099BF201333}">
+							<ChildrenList>
+								<Action Name="" ID="{130D0CCD-5297-49B7-B36C-5ADC39EB9A1D}" ShortID="233346804">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="12.6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{278BDD47-E932-46D7-A2FB-9E2EBE3B7269}" ShortID="10549869">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_19" ID="{15FC0A42-67C6-45B9-AA04-ACD8159E1CF9}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_28" ID="{D1531B93-76DA-4C5C-82A3-7874F443F958}">
+							<ChildrenList>
+								<Action Name="" ID="{21C13144-4941-41D8-8885-60DCBC7F0D0C}" ShortID="424674199">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="16.8"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{AB113643-2BC8-4429-89CD-1A247635F3FB}" ShortID="165877234">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_27" ID="{EE5D66A9-E024-43A2-87E1-8D049F5FC5C3}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_32" ID="{E153BF39-FB3B-40AB-AC5C-D7E835C535B1}">
+							<ChildrenList>
+								<Action Name="" ID="{7D3BD43D-23E6-4CAB-9D63-E75D59B232A6}" ShortID="918355694">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="19.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{831DBC57-BFDF-429C-A9E4-851487C1951A}" ShortID="746410208">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_31" ID="{D7AB67A7-0618-43E1-8874-0B7FF7E58333}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_35" ID="{F5CC3878-D68C-41DF-B197-98D6A88D3887}">
+							<ChildrenList>
+								<Action Name="" ID="{8CD9EC3F-3C32-4080-875A-C6D3801C576E}" ShortID="320469841">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="21"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{EE56C8DD-5135-429A-A025-9C64C61DB87D}" ShortID="752796567">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_34" ID="{022B3834-A05E-4C5F-8747-805734958836}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_37" ID="{DBF7F492-5B55-4AF9-84A6-BCE265D24A69}">
+							<ChildrenList>
+								<Action Name="" ID="{C97F6579-31A0-4F1B-B088-547407D0B6D2}" ShortID="357358756">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="22.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{BBB219B4-A076-41EC-B086-1434034B0321}" ShortID="338295335">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_36" ID="{7990ACEF-BD24-43F9-B500-83640D6F78FE}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_14" ID="{C549C854-0CB0-4802-93D7-2C56B2A975F0}">
+							<ChildrenList>
+								<Action Name="" ID="{7F1B2B37-726F-449D-8B2A-92EC87827033}" ShortID="715059118">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="8.4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E88FFB6D-D105-4C9F-A4C1-5B9EC6D78BF8}" ShortID="478742134">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_13" ID="{21175D4A-7EF0-4623-B361-0437C7F51863}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_48" ID="{E0329502-DE21-43FA-A913-A1954C835050}">
+							<ChildrenList>
+								<Action Name="" ID="{55F11C80-E949-4A24-8FC6-87EA1F77DDBA}" ShortID="715932475">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="28.8"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E0D942B5-C07B-44B1-B650-717F92152159}" ShortID="521772236">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_47" ID="{25ACC46E-4C88-4CCC-A29F-B35DACD17295}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_49" ID="{77FF0270-D097-4494-8A73-7CD9AF7229AE}">
+							<ChildrenList>
+								<Action Name="" ID="{7A97E932-0BEB-4FF7-952E-71D0489F6AF3}" ShortID="570919420">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="29.4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A0FB42DB-D38B-44E4-8D17-E9A49471FB86}" ShortID="38497429">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_48" ID="{F0B847DB-108F-4689-BEE0-012D1799EAF6}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_57" ID="{A9D5FCF3-8D9E-410F-9C65-2925B7B8A99C}">
+							<ChildrenList>
+								<Action Name="" ID="{5305574F-4948-4D30-89D3-55655D568860}" ShortID="843719547">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="34.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B60CB4E9-556D-4EDD-A37C-5B956E84320B}" ShortID="679146609">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_56" ID="{12B27D74-16FA-4B89-8747-5B15D3580FC3}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_58" ID="{E4FD854A-7882-4812-936C-E0F5D119429C}">
+							<ChildrenList>
+								<Action Name="" ID="{1B871893-65BE-443C-BBE2-423FD1EE66AE}" ShortID="931594462">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="34.8"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{64D01B33-B63E-4CB2-B3E9-084863509253}" ShortID="667708291">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_57" ID="{3DD027C9-EBE5-46B8-BD85-E426328A3B34}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_26" ID="{5E577E11-C770-4160-B2A5-E266DB28EC8F}">
+							<ChildrenList>
+								<Action Name="" ID="{2F6C2F05-586D-4658-A8A0-22955FE961AA}" ShortID="59673956">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="15.6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9D269792-510B-466C-A60C-E05193A54601}" ShortID="266208442">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_25" ID="{1D12E263-FFC6-47FA-97F6-997580ED3465}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_31" ID="{4E60E00B-6962-4303-989B-3710F068A0D5}">
+							<ChildrenList>
+								<Action Name="" ID="{F34E7B5F-C506-402F-A3DF-5704650A4F46}" ShortID="124331991">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="18.6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5E1A7540-FA5E-4306-BCEC-85AC5B647815}" ShortID="386320651">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_30" ID="{5CEA7BF5-D8E4-4095-957F-0CD3F9385876}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_36" ID="{4901CAEA-BE48-493C-89FB-D0CBF5B93C9F}">
+							<ChildrenList>
+								<Action Name="" ID="{D4874543-94EC-48F9-B68F-B6E805B4FA9C}" ShortID="307595772">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="21.6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{84C3DC18-CDF9-4725-AF51-C0AACAD775F8}" ShortID="404622636">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_35" ID="{DC80E787-197C-4ABA-BA86-F8258997A5DB}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_13" ID="{C7BAA99C-5632-442B-A73E-3015D3A3D4F0}">
+							<ChildrenList>
+								<Action Name="" ID="{23D15BF4-808D-4884-9AE6-4C90E1F9EF9F}" ShortID="737419296">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="7.8"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{986B0AB4-CD82-4DD3-B165-90A85091CE75}" ShortID="480710820">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_12" ID="{868594BF-EB87-493D-AA05-3EC77E92F257}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_16" ID="{C985E807-89BE-4BB8-8E94-AA306246E131}">
+							<ChildrenList>
+								<Action Name="" ID="{037C9BAA-433B-463E-8B8F-62652FED7375}" ShortID="71155209">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="9.6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A83850D6-2F66-4107-A058-89EEB60E5462}" ShortID="825268334">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_15" ID="{85C9BC15-B001-43E3-B13D-963A71FDC137}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_29" ID="{B754FB49-9889-4A72-86B1-E2F53CF5F7EE}">
+							<ChildrenList>
+								<Action Name="" ID="{2308450B-5F1C-40EA-AD78-962073D15AF7}" ShortID="395658553">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="17.4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D26D5613-C0E9-48C8-AA8D-0F5EECB8B096}" ShortID="785208694">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_28" ID="{67A54868-2172-4817-BB71-90B5A4332924}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_15" ID="{682D2D73-C238-4622-9A8A-4A44DA2B5D53}">
+							<ChildrenList>
+								<Action Name="" ID="{9D3AC0F1-3D27-4B8B-AA6F-60A8B59C67B7}" ShortID="1041772762">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="9"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{389566CE-0BC6-4CBF-BA05-24EDC3E1F149}" ShortID="962848025">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_14" ID="{B2A26C5A-DE6D-494B-9F00-4DB708AB4B31}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_17" ID="{7B8F85E7-6CD0-4C81-A9C2-76120CB76900}">
+							<ChildrenList>
+								<Action Name="" ID="{0C41467B-24BC-4F6B-9672-2F379851862A}" ShortID="201127046">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="10.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F35CAD47-4E22-451A-8313-0A3C9BFFD4A8}" ShortID="592051589">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_16" ID="{178C4235-43B6-4122-8AA8-1A3E839F9371}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_55" ID="{ABF59863-FD47-4CFA-AB4D-D3A34D8E0697}">
+							<ChildrenList>
+								<Action Name="" ID="{5A25A619-0B37-429D-A15C-D93C688D12A2}" ShortID="359594918">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="33"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{931D30E1-A41F-4876-A1FD-DFB1FB78761F}" ShortID="410118417">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_54" ID="{453919E0-B7ED-4226-859E-8C30967D05F9}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_27" ID="{924D5A76-3E0A-48C8-AC8A-3B68C9241EE7}">
+							<ChildrenList>
+								<Action Name="" ID="{9D44A71D-EACE-41EE-8BF0-1BF9D734F41D}" ShortID="959998879">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="16.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C6837713-7CC9-4531-9E96-82A1ED365EA7}" ShortID="923912423">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_26" ID="{44DDFA26-37A1-4AFA-A623-CDCED8B6704F}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_30" ID="{5A81AC19-22B9-4013-BA12-25CA1399781D}">
+							<ChildrenList>
+								<Action Name="" ID="{A4BA9013-86F4-4DD0-9812-F70E5BE9139D}" ShortID="722216483">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="18"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{80EC4A4A-C9D0-4B76-8FDD-7EF6A3EB5880}" ShortID="721109712">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_29" ID="{E171DC19-BE2B-4D64-8E3A-CB7191EEA980}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_04" ID="{9731B8B9-53F7-4ACA-96B0-A95A774015B4}">
+							<ChildrenList>
+								<Action Name="" ID="{BD5C2255-DFFF-4F6E-8652-7282B0564966}" ShortID="1005816625">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="2.4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{8C2ABC11-EB84-4C72-9219-06ADFFBD39F3}" ShortID="490253910">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_03" ID="{889308C8-9F17-4F96-BF2C-A303CAC79AEA}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_53" ID="{C58AD065-7D7C-43C9-A68B-0A0CA565AEC4}">
+							<ChildrenList>
+								<Action Name="" ID="{CD991E1B-BD76-456B-9F51-A2BC392B5F10}" ShortID="718129506">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="31.8"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6771B173-28B5-4814-84C0-92D277A6BA1A}" ShortID="162462804">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_52" ID="{1ABA731C-75E9-4654-B42B-997646452B6F}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_52" ID="{2DF79932-53B1-4DF7-B7EF-93DEC4763AC0}">
+							<ChildrenList>
+								<Action Name="" ID="{C4508641-F726-4D15-A684-B6A444FA4654}" ShortID="641745501">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="31.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{83B7FDCD-B5FA-4C69-96CC-42735FE3B587}" ShortID="110661646">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_51" ID="{047594B1-6925-43E9-A231-D25DC4FA078D}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Game_Parameter_TimeCounter_54" ID="{7B4C7C16-9818-453C-8F55-4EDA618143D3}">
+							<ChildrenList>
+								<Action Name="" ID="{7B33F5F8-DBF1-4872-8A04-1FBE3B3F28F7}" ShortID="485332429">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="32.4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9C0D4E70-158C-48E2-841C-B125198C4835}" ShortID="925661050">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondsLeft_53" ID="{7D09613B-A0AF-48A4-9114-32E48DB03F90}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Clock" ID="{848A8488-CF4B-4B3E-A087-E92F4ECAE694}" ShortID="1008132044">
+					<ChildrenList>
+						<Event Name="Play_OneSecond" ID="{24A3A14A-BC53-479F-AA90-6EBE6E530C07}">
+							<ChildrenList>
+								<Action Name="" ID="{314909E1-5077-4110-8A37-5072B3749E7F}" ShortID="784511347">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SecondCounter" ID="{99DD1724-D049-41C0-A816-EF4440DB75AD}" WorkUnitID="{9E72D605-FD93-4BE5-A926-DDF0E26F3E4E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Game Events" ID="{FB86244A-D429-41CB-A339-68CC6EAF4B96}" ShortID="847897709">
+					<ChildrenList>
+						<Event Name="StartGame" ID="{FABA1379-FE0F-4960-A1B8-3B7F35E1F163}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="26"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{0BEA017C-68C8-44BA-97E1-47BAA5856015}" ShortID="705156412">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="60"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}" WorkUnitID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{11B1FB5D-09B4-4E77-8B10-82D850FAB585}" ShortID="849229228">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Set_Game_Parameter_TimeCounter_60" ID="{A2EB8710-46CB-4536-8391-56304E92775C}" WorkUnitID="{8C963A76-7B40-483A-A826-0D7AA8A07B7F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C95925AE-6530-491A-B03A-EA6A0EBB0ED8}" ShortID="159848615">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot" ID="{4DB8759A-DAB1-4329-AF0D-F3F4F773B425}" WorkUnitID="{9E72D605-FD93-4BE5-A926-DDF0E26F3E4E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7D7FEF1C-6AEF-46F4-96B0-1A17FBF8AB1F}" ShortID="137723287">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Clock" ID="{DD4BAB82-A97F-4015-8CE1-101304123129}" WorkUnitID="{9E72D605-FD93-4BE5-A926-DDF0E26F3E4E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{22219E77-98F3-4296-B390-CD890BC26F61}" ShortID="156050174">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Set_State_Green_Light" ID="{F5834A56-7437-4F2B-B7B4-3F92EB1C7339}" WorkUnitID="{8C963A76-7B40-483A-A826-0D7AA8A07B7F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5FBF0DDA-5D7B-4289-BCB4-EDB3819C3C34}" ShortID="468795555">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience" ID="{FFF63F2F-810B-495E-A3C4-CA58D3AFB70D}" WorkUnitID="{94CC1962-28A8-4FC4-B2E4-89DF9011D180}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A8379146-7748-4012-A559-3CFA1B1A0771}" ShortID="776338046">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Set_State_Distance_00" ID="{924694F6-9EE7-4396-BC36-FA626E61888E}" WorkUnitID="{8C963A76-7B40-483A-A826-0D7AA8A07B7F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DB52E636-398E-44CB-9007-3E1483308EAA}" ShortID="264942598">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Set_Switch_CoastIsClear" ID="{1B089274-DED4-4E73-9ED7-9B033D8739D5}" WorkUnitID="{8C963A76-7B40-483A-A826-0D7AA8A07B7F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{22CDC3FE-7F65-4C3F-B1BE-B1EC16EA81F1}" ShortID="286089147">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Red or Green Light" ID="{07FF53DC-1EDF-44E5-91B7-93E43B45FFD9}" WorkUnitID="{9E72D605-FD93-4BE5-A926-DDF0E26F3E4E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Red or Green Light" ID="{CAF49051-B8F8-428C-B980-A826ADD5C712}" ShortID="140849902">
+					<ChildrenList>
+						<Event Name="Set_State_Green_Light" ID="{F5834A56-7437-4F2B-B7B4-3F92EB1C7339}">
+							<ChildrenList>
+								<Action Name="" ID="{EF2293E1-513B-4348-AD6F-F7BE6AAEC202}" ShortID="124619173">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Green_Light" ID="{08802C99-00E8-48AD-A041-E84F7ABFC0DF}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Red_Light" ID="{D07E46C7-0FFC-4787-BFB2-2B9CCF41F414}">
+							<ChildrenList>
+								<Action Name="" ID="{90EE5283-9933-44F4-8600-12481FA5A332}" ShortID="165477883">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Red_Light" ID="{BE1D5075-FB5B-4E14-A712-5E971E34F28C}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Motion" ID="{13823221-7E87-4B7D-8AB2-5AD7E7498940}" ShortID="237144403">
+					<ChildrenList>
+						<Event Name="Play_Footsteps" ID="{69DFDF50-7ADA-42A3-B884-0AA90B5B77B5}">
+							<ChildrenList>
+								<Action Name="" ID="{9710B6BA-9DC6-4EE2-8EA6-8E33CCEE3270}" ShortID="216353374">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps" ID="{699D773E-5D3C-404F-85EB-A53678D43653}" WorkUnitID="{94CC1962-28A8-4FC4-B2E4-89DF9011D180}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Walk" ID="{5B7A1A54-745D-4B96-B446-4ED45371F595}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="22"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{6E40AF00-1C42-45CF-8792-6EB96C6C5B75}" ShortID="535013324">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Walk" ID="{DD642F35-FD57-43C5-92FF-A443C07A0323}" WorkUnitID="{9E72D605-FD93-4BE5-A926-DDF0E26F3E4E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{CB575917-E026-4E26-8670-5377B700C367}" ShortID="179378823">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Delay" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Walk" ID="{DD642F35-FD57-43C5-92FF-A443C07A0323}" WorkUnitID="{9E72D605-FD93-4BE5-A926-DDF0E26F3E4E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Distance" ID="{F4220A83-A2D2-48AF-95F8-9235CAB5E53E}" ShortID="655633791">
+					<ChildrenList>
+						<Event Name="Set_State_Distance_33" ID="{50184F92-4DD3-4DF9-8581-E71505C983E2}">
+							<ChildrenList>
+								<Action Name="" ID="{285E602C-9780-4CA1-948C-D9B810DA727C}" ShortID="463758389">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_33" ID="{4D02C980-7289-4546-8EAD-BCAD25ACD159}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_44" ID="{76A96466-352E-465B-AE0A-90F095E5E891}">
+							<ChildrenList>
+								<Action Name="" ID="{1DC3FCB0-34F6-4871-B1F8-657C66ABB16B}" ShortID="24388610">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_44" ID="{1A24C7A8-89CD-4C63-947D-58BD3DFFF37E}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_23" ID="{5BE8E61A-2213-4C65-915F-28BB8F635710}">
+							<ChildrenList>
+								<Action Name="" ID="{4A36D26E-F328-4C51-982F-84D9AB60BD7D}" ShortID="663247911">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_23" ID="{B2AB9103-A881-4C48-8F4C-6919EB2D5111}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_35" ID="{32796D9C-67C5-42A9-B316-D51110A7B203}">
+							<ChildrenList>
+								<Action Name="" ID="{55DD70E8-5DB9-40D3-9949-1A8FBB2800D3}" ShortID="356714569">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_35" ID="{5CAB99E3-F9D5-4081-8908-26C9267B5850}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_40" ID="{14556FDB-B039-449E-B6C9-26D5A2DD2C7D}">
+							<ChildrenList>
+								<Action Name="" ID="{47FFD726-FA51-4511-9720-AE69C295E337}" ShortID="666955177">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_40" ID="{410C1BF0-2BA4-4C52-AB0D-AEB7116FAF6D}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_50" ID="{CF88E922-515C-46A3-85E2-D88B546CCBC9}">
+							<ChildrenList>
+								<Action Name="" ID="{F73E5051-2FD8-4ACF-824A-D0C844679857}" ShortID="413965929">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_50" ID="{35427E86-8CA9-42B1-9B4B-7AA5C60A2215}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_22" ID="{297FF02E-05A0-4906-876E-9C0CAE855A4F}">
+							<ChildrenList>
+								<Action Name="" ID="{5B698890-B81B-48FC-90C9-2CD52B4409F3}" ShortID="820688638">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_22" ID="{19404A3B-A0D8-457C-B319-4F65D2D2F7F5}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_27" ID="{52478FFF-3B8B-477A-BEA8-E9B5DB132C51}">
+							<ChildrenList>
+								<Action Name="" ID="{D52865EC-77CC-42F8-ACAD-C2D77F85F860}" ShortID="635764764">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_27" ID="{90DA41E5-0AE3-451B-B391-A1D00021B673}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_29" ID="{5908E4EA-38E9-49F0-AC0D-7929E9372E39}">
+							<ChildrenList>
+								<Action Name="" ID="{75C53883-B0AD-4C04-A342-438A162C20CA}" ShortID="1014650984">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_29" ID="{BA038BAF-3BDC-4E79-AB04-370F42B0EBEE}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_51" ID="{05E6EB6F-0A71-4D6F-BEBC-7641987A3842}">
+							<ChildrenList>
+								<Action Name="" ID="{0E20D1F2-91C6-4AB6-945A-273AA734C754}" ShortID="746303717">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_51" ID="{D9BE74F6-9D9E-4BF2-B53F-E5662966E9F1}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_49" ID="{EB200EE6-D35E-4020-8DDC-AA86FDB3F24B}">
+							<ChildrenList>
+								<Action Name="" ID="{64AC2F7F-6752-447D-87CD-D031C6A6369C}" ShortID="45994636">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_49" ID="{20EC2553-47FC-4284-8EED-DDB5A59D1AD4}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_24" ID="{B93046C2-99A2-4733-B91A-A54D2FD629E3}">
+							<ChildrenList>
+								<Action Name="" ID="{7C77D600-45C0-4416-ABB3-1706E5902B33}" ShortID="798108463">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_24" ID="{5D7B6EEA-4160-4C7D-BD76-B7D4145202D1}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_34" ID="{B00D9DEA-2348-48BD-AEE4-A9334EF783CE}">
+							<ChildrenList>
+								<Action Name="" ID="{CFB8C7E8-44C4-471C-A46F-AAA7AB2FCC13}" ShortID="995588249">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_34" ID="{A3DEEE6D-BA7B-4A6F-A811-233CB12A9EA6}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_30" ID="{AD35665F-25FF-4BFE-8F93-148C06BEE40E}">
+							<ChildrenList>
+								<Action Name="" ID="{F59AD617-D739-4634-B750-943C2AB03375}" ShortID="294344797">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_30" ID="{FE2C06A8-6772-4CB7-A98C-4F4C3E8168BC}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_20" ID="{23153078-24C4-4C43-BC51-75B176DE2E54}">
+							<ChildrenList>
+								<Action Name="" ID="{296886D1-7FD4-4E09-9535-79D2C8FEE74F}" ShortID="156231338">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_20" ID="{B7E21DDD-940E-4BB6-AAF3-80D2701936C7}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_16" ID="{626CA120-00F9-40D8-BA4C-B1B03F3BB9B1}">
+							<ChildrenList>
+								<Action Name="" ID="{872DE5DE-FA16-48EB-99B1-1B16767F9DC1}" ShortID="392131554">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_16" ID="{F8187F0C-37DA-4342-B020-91AC35CC7B5E}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_37" ID="{BB26E788-7838-42C6-8A74-CF42B273764C}">
+							<ChildrenList>
+								<Action Name="" ID="{E01B85FA-B9F9-4674-B990-83058FB694E4}" ShortID="32457632">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_37" ID="{06E7ED97-6B52-4488-91DC-4A02C380B038}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_46" ID="{FA8D570C-16C6-4251-B89E-74429C6BCAD4}">
+							<ChildrenList>
+								<Action Name="" ID="{C2C0B973-7ACC-4598-8001-F0565B21B97D}" ShortID="642652385">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_46" ID="{9653D7D8-F1B9-43E2-B0F1-E4DC2662105C}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_17" ID="{C26850D4-2DAA-42C3-BA8D-0E3D4EB7C663}">
+							<ChildrenList>
+								<Action Name="" ID="{C6D47297-EC59-43E0-A6B2-6CC0094DA007}" ShortID="926399307">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_17" ID="{B44AFF73-69E1-48F0-AFC7-6C380117705C}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_15" ID="{C76934F4-DAF7-4BD8-87D7-1D2982D16B33}">
+							<ChildrenList>
+								<Action Name="" ID="{23013F86-C618-4A27-B84C-64DEDD7D4EF6}" ShortID="587217271">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_15" ID="{AF7ADA98-D9E4-47FF-A48D-FB14AB5972F6}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_31" ID="{2EAC4262-3DD7-404F-B63C-74FE99BBB3F0}">
+							<ChildrenList>
+								<Action Name="" ID="{4D04C1C1-8076-4637-A0F1-D667AA6400B3}" ShortID="976537768">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_31" ID="{B5009637-2262-473F-BD53-D5D2DAF0D9DE}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_25" ID="{51FD74A3-240A-44EF-8E05-3C947C9A6310}">
+							<ChildrenList>
+								<Action Name="" ID="{6EA67FF4-F5BB-4690-BC54-98F477677827}" ShortID="113429276">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_25" ID="{3671E4F6-04DA-486A-8F9B-75AA8C383A49}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_41" ID="{8459671B-FEB6-4CFD-B9E2-F82861D13517}">
+							<ChildrenList>
+								<Action Name="" ID="{99D424A0-E5D3-4301-86AA-A999DE2C0F53}" ShortID="245213416">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_41" ID="{4179E6F9-5ADB-4499-9F51-54B6F16CA4F8}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_42" ID="{0571FBBD-8EB5-4DB6-85D4-23EDA07952CE}">
+							<ChildrenList>
+								<Action Name="" ID="{48A055EE-BC9E-4AE4-AA3D-EB671ACCD312}" ShortID="1059753485">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_42" ID="{85DA49B0-4D08-4987-B50F-82E72A1B3404}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_43" ID="{93A25D15-9118-4D91-8072-32A107D161BC}">
+							<ChildrenList>
+								<Action Name="" ID="{C9B7FDE7-27D6-4FDF-A689-ED4DD489C992}" ShortID="1045424709">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_43" ID="{6436E3D2-378E-476B-8C54-B34E7FB7B45A}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_45" ID="{F2616C52-1AC2-4AF6-9B80-3514708A2F6E}">
+							<ChildrenList>
+								<Action Name="" ID="{7A291420-3204-493C-8A78-327ECD8BDE72}" ShortID="721450941">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_45" ID="{C87874D8-6874-4E98-89D2-857CCA8AC25D}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_48" ID="{4E9269BF-E37B-4315-94E4-2B9DF4915140}">
+							<ChildrenList>
+								<Action Name="" ID="{D506402B-E5DB-4B68-8755-637B8BD76A4A}" ShortID="123245005">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_48" ID="{CB90F091-AB75-4F78-A27A-12BDA6AA7FC9}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_47" ID="{2587F671-4A14-4A7E-AEFA-1DE16A20F8A9}">
+							<ChildrenList>
+								<Action Name="" ID="{324B7B21-8093-4D81-8137-1BFBDB72F2BD}" ShortID="96846804">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_47" ID="{52054778-0946-4BB3-A968-4C20DFC9E813}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_38" ID="{C41174B9-92B2-4931-A5BD-7852654B9726}">
+							<ChildrenList>
+								<Action Name="" ID="{476C2770-9FB7-42AA-9C94-886842855E54}" ShortID="144768331">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_38" ID="{5F842DE3-0796-49BD-9868-4F32A586ED50}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_39" ID="{BCD0ECBB-4D87-455E-A868-54ED661A5F47}">
+							<ChildrenList>
+								<Action Name="" ID="{ABCB64BD-C92C-464A-A7AB-1790339E65F5}" ShortID="359931012">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_39" ID="{105A75ED-3C78-4772-9ED9-F4AC68B58614}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_36" ID="{94E5EB7A-9A15-4C41-82C9-D9624756CCE8}">
+							<ChildrenList>
+								<Action Name="" ID="{87B7394F-2E23-42E0-8D63-2A0DA05902CA}" ShortID="454647365">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_36" ID="{8B643E78-BA8F-4188-B26E-EB038A58BF70}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_18" ID="{6F1EC321-F276-4AAF-A770-94B1A48791F2}">
+							<ChildrenList>
+								<Action Name="" ID="{CDE72DEB-0899-444C-9C74-D225DC829F5A}" ShortID="41295888">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_18" ID="{43965DEF-174F-4AFA-8542-A8D6961840F8}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_19" ID="{2AE9901B-77F7-4C9B-B299-654B5EA7E872}">
+							<ChildrenList>
+								<Action Name="" ID="{51AE8679-2AEB-46B4-8449-A3EB64A2DCFA}" ShortID="831342809">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_19" ID="{4EAA0698-446F-420A-A7B6-7C80B0119EB3}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_21" ID="{79F848A0-40EE-4CD9-BF64-F101D026B8DA}">
+							<ChildrenList>
+								<Action Name="" ID="{AFE9C33B-37EA-4AC0-A630-029F1AF1EF38}" ShortID="818704810">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_21" ID="{02A91060-8797-4619-900D-6E0D934F42A4}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_32" ID="{79156080-F82C-4894-AC53-D0961E27BF99}">
+							<ChildrenList>
+								<Action Name="" ID="{DB9177A1-7DDD-4826-A5B8-AF3888C462A6}" ShortID="886876720">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_32" ID="{F7C787BB-0B2E-413F-B0E0-D40116182634}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_28" ID="{4AE2C3F0-9C8F-4D01-98B2-97C97F18820A}">
+							<ChildrenList>
+								<Action Name="" ID="{FA3C88C9-5A17-4463-A3E1-1FD0B2AC2415}" ShortID="154287225">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_28" ID="{B7E5A2FC-3C83-470C-B462-F5A0A3B18BEB}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_02" ID="{ED657DB2-E380-4C23-83E0-89A79342FB2B}">
+							<ChildrenList>
+								<Action Name="" ID="{AD8C1977-9E70-40AE-A9AB-160D62C15EDE}" ShortID="272056303">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_02" ID="{03179832-348A-42D4-A94A-A792DED1C3EF}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_00" ID="{924694F6-9EE7-4396-BC36-FA626E61888E}">
+							<ChildrenList>
+								<Action Name="" ID="{AD30C86F-D7EC-403C-AE8A-E8CF58BAAD75}" ShortID="138130677">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_00" ID="{E1DA38FF-6A76-4EDC-A1EA-8D426A250281}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_01" ID="{BDB6AFA1-C72F-487F-9EE8-BA784DBB737C}">
+							<ChildrenList>
+								<Action Name="" ID="{D75380BB-72C0-45CE-9D81-6706B3A3DC1A}" ShortID="1029087210">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_01" ID="{75DF3CBD-F9DA-4A3E-8B43-C01A35AC0DCB}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_03" ID="{42D3386C-E2BA-4CE3-BF67-2F9708513038}">
+							<ChildrenList>
+								<Action Name="" ID="{D39B3928-CA13-483F-AB7C-320710DF1905}" ShortID="553467084">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_03" ID="{B1F17399-EF2F-44D9-9436-41707D979302}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_05" ID="{B0E857DA-44D3-4D7C-821B-62B2A2876081}">
+							<ChildrenList>
+								<Action Name="" ID="{33F5A9C0-9608-4D3C-A23D-3ED3D264D5A4}" ShortID="617655860">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_05" ID="{7EE446B3-FA0E-417C-B455-6414C10B619C}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_09" ID="{4BAE6FC2-D591-4006-AF8E-37A73FD65A87}">
+							<ChildrenList>
+								<Action Name="" ID="{412654D2-B4BD-443B-B3C2-1CAC36A8C07D}" ShortID="250915203">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_09" ID="{B11193DE-F823-4F8A-8685-B233D641CD32}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_04" ID="{F8082C83-AD99-4D68-807D-95255E85ED34}">
+							<ChildrenList>
+								<Action Name="" ID="{9FE6B092-661A-402D-8076-F6612C663599}" ShortID="604644061">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_04" ID="{5FB5E7C0-2761-4051-AC82-321BAACE0AAB}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_08" ID="{D0BEE3F5-849F-472F-AEBB-8999081D5951}">
+							<ChildrenList>
+								<Action Name="" ID="{4EC96F28-3B2A-4F55-9BC8-A3BBD04902FB}" ShortID="39139688">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_08" ID="{340F1C55-669F-41BD-AD9A-7E0CA5D52F87}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_10" ID="{17798231-66D9-4ED2-BC22-A795A1E576BE}">
+							<ChildrenList>
+								<Action Name="" ID="{C49DA345-BF6C-465D-8E68-D308245D1D04}" ShortID="1013382860">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_10" ID="{D58742AB-1905-459E-A31E-E497224A25B8}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_26" ID="{A567D067-E726-47B5-AA53-5F234795108F}">
+							<ChildrenList>
+								<Action Name="" ID="{66B1DE31-BDE8-46B7-BFA4-A304C02FCD60}" ShortID="367577786">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_26" ID="{227F842A-0331-441C-827D-1E0709745C09}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_12" ID="{5B5DAB8D-6EFC-4056-9630-769F60CA8C79}">
+							<ChildrenList>
+								<Action Name="" ID="{85C857B3-FA1E-4521-89A3-D828E3F776AD}" ShortID="201834109">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_12" ID="{ECA69A37-3548-4549-81F3-7D4A1BDFFAA0}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_13" ID="{E2C33488-9753-4F95-9102-D6A94CC2BA8C}">
+							<ChildrenList>
+								<Action Name="" ID="{4D600DCD-AD31-48F4-B782-FE07FAF3830E}" ShortID="512076769">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_13" ID="{A3EEDD86-BF7E-4F9C-BF8F-C04E55AC0BF9}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_06" ID="{81131272-2711-41D3-83A9-1D12483A58CF}">
+							<ChildrenList>
+								<Action Name="" ID="{577CB7F7-1FE3-4642-A562-A4AACEC2A554}" ShortID="643045164">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_06" ID="{9D915B68-5F55-45E3-B613-187A219D1F04}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_11" ID="{3F26EF68-981F-4561-AFE7-543A863EF66B}">
+							<ChildrenList>
+								<Action Name="" ID="{8CB6EA36-F12B-4F85-BA22-B011F0DE4BD8}" ShortID="937972187">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_11" ID="{CB979BC2-A0D3-4C03-A75C-CC3A5605BE92}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_07" ID="{85885B05-86EA-4E27-9070-374D4657E729}">
+							<ChildrenList>
+								<Action Name="" ID="{5CBA70D2-978A-4A5F-8059-D5015F1E75EF}" ShortID="810899275">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_07" ID="{93277A59-2427-4982-BD60-6C27C43E8DE0}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_State_Distance_14" ID="{0C589F1D-F0F7-4E2C-BA64-C04243046530}">
+							<ChildrenList>
+								<Action Name="" ID="{C2A91F85-6C1C-42B3-BDCC-22BA570F59E8}" ShortID="509075430">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance_14" ID="{8DAFCCC9-812D-4CD3-8592-BA2E33F741FE}" WorkUnitID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Next_Distance" ID="{C4A5523D-E99D-4EC1-A5FB-A899482328A0}">
+							<ChildrenList>
+								<Action Name="" ID="{2CAC2E00-1797-463A-8A6E-4A69B0AD7855}" ShortID="46682639">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Distance" ID="{18C33BF4-F60B-48F6-B4A3-86F6945AD438}" WorkUnitID="{9E72D605-FD93-4BE5-A926-DDF0E26F3E4E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Robot" ID="{C63E6992-862C-405A-8902-D2E2EFC4AEE8}" ShortID="362432613">
+					<ChildrenList>
+						<Event Name="Robot_Shoot" ID="{18C76817-FE2F-4E97-B7E6-33A36C5E8EC1}">
+							<ChildrenList>
+								<Action Name="" ID="{C0AFC9FA-11FE-4F83-B152-3B76D728FFCF}" ShortID="537474348">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MachineGun" ID="{9B548BB3-283E-4805-9E0B-733AA25DC795}" WorkUnitID="{94CC1962-28A8-4FC4-B2E4-89DF9011D180}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6E03A029-4096-4461-B475-8A54D198DC5E}" ShortID="352047293">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="4.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience" ID="{FFF63F2F-810B-495E-A3C4-CA58D3AFB70D}" WorkUnitID="{94CC1962-28A8-4FC4-B2E4-89DF9011D180}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="PlayerStatus" ID="{CD59FC77-9F8D-4C6D-B4B0-4C57C5B6DBD7}" ShortID="652328305">
+					<ChildrenList>
+						<Event Name="Set_Switch_Busted" ID="{A2DBA931-8371-4405-B448-54E35526E764}">
+							<ChildrenList>
+								<Action Name="" ID="{35325962-8E7D-41B0-870C-7ACA413ADBD5}" ShortID="766658562">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Busted" ID="{F78654C0-379C-4E45-98DB-7E7FC0518F35}" WorkUnitID="{AF024F80-86F3-463D-B333-2DC686D8B6F5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Switch_CoastIsClear" ID="{1B089274-DED4-4E73-9ED7-9B033D8739D5}">
+							<ChildrenList>
+								<Action Name="" ID="{EEA8D6F4-AFE4-472E-B596-6C3A4D2A637B}" ShortID="994696511">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CoastIsClear" ID="{F9C63AEC-300D-491E-8A5B-1C6513E22AF1}" WorkUnitID="{AF024F80-86F3-463D-B333-2DC686D8B6F5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Song" ID="{F3C4295C-4435-4282-9F33-8551284F756C}" ShortID="713879090">
+					<ChildrenList>
+						<Event Name="Stop_Song_Playlist" ID="{FE57DD33-1899-4446-A92C-E3D007B8B2C7}">
+							<ChildrenList>
+								<Action Name="" ID="{0D46D9B1-0A64-4BE6-97BD-94D42219A1F5}" ShortID="982158135">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot" ID="{4DB8759A-DAB1-4329-AF0D-F3F4F773B425}" WorkUnitID="{9E72D605-FD93-4BE5-A926-DDF0E26F3E4E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

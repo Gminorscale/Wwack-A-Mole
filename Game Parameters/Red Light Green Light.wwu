@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Red Light Green Light" ID="{C56E79FF-36C6-44E2-97B1-BE5A33ED23B0}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="60"/>
+						<Property Name="Max" Type="Real64" Value="60"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

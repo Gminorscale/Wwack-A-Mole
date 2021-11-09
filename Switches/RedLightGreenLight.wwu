@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AF024F80-86F3-463D-B333-2DC686D8B6F5}" SchemaVersion="103">
+	<Switches>
+		<WorkUnit Name="RedLightGreenLight" ID="{AF024F80-86F3-463D-B333-2DC686D8B6F5}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="PlayerStatus" ID="{BF9F7B03-8EB1-49C7-8533-63E29B0E16B1}">
+					<ChildrenList>
+						<Switch Name="CoastIsClear" ID="{F9C63AEC-300D-491E-8A5B-1C6513E22AF1}"/>
+						<Switch Name="Busted" ID="{F78654C0-379C-4E45-98DB-7E7FC0518F35}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

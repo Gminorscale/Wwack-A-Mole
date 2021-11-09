@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Red Light Green Light" ID="{EF52405E-7601-485E-90C0-BAB0BBF02A12}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Time" ID="{7DE29E67-28ED-43F2-8BD6-D91214EFA9CE}">
+					<ChildrenList>
+						<State Name="None" ID="{7F2DA623-7F8F-4FBE-94FB-624FE5B41CB8}"/>
+						<State Name="SecondsLeft_00" ID="{7FDFD575-C129-439F-9516-929444EFD1B1}"/>
+						<State Name="SecondsLeft_01" ID="{DC92FA16-5364-44C6-A0EE-1D1642BDAEB0}"/>
+						<State Name="SecondsLeft_02" ID="{C7333F8A-34B3-45EA-B6D5-B51FDE784A99}"/>
+						<State Name="SecondsLeft_03" ID="{889308C8-9F17-4F96-BF2C-A303CAC79AEA}"/>
+						<State Name="SecondsLeft_04" ID="{3D16614C-E821-499E-9748-D91CC200DFBE}"/>
+						<State Name="SecondsLeft_05" ID="{908D84C0-F884-454A-A3C8-9FE6288FEC41}"/>
+						<State Name="SecondsLeft_06" ID="{5EE037AD-EFED-474E-B5A1-1A6CCB339E88}"/>
+						<State Name="SecondsLeft_07" ID="{FBEAC3B7-9C59-4617-948A-4ADF58FD0105}"/>
+						<State Name="SecondsLeft_08" ID="{BC562561-2B30-44A2-8A98-13E8085F8ED0}"/>
+						<State Name="SecondsLeft_09" ID="{CA5BADAC-F44F-4C78-B83B-F8B82339769B}"/>
+						<State Name="SecondsLeft_10" ID="{78C0486E-C421-4134-9887-FC686C2153BB}"/>
+						<State Name="SecondsLeft_11" ID="{A74ECD43-6C49-4AAC-8BFB-86CE816FAD29}"/>
+						<State Name="SecondsLeft_12" ID="{868594BF-EB87-493D-AA05-3EC77E92F257}"/>
+						<State Name="SecondsLeft_13" ID="{21175D4A-7EF0-4623-B361-0437C7F51863}"/>
+						<State Name="SecondsLeft_14" ID="{B2A26C5A-DE6D-494B-9F00-4DB708AB4B31}"/>
+						<State Name="SecondsLeft_15" ID="{85C9BC15-B001-43E3-B13D-963A71FDC137}"/>
+						<State Name="SecondsLeft_16" ID="{178C4235-43B6-4122-8AA8-1A3E839F9371}"/>
+						<State Name="SecondsLeft_17" ID="{AF5135B8-88AE-407B-9950-56A51BBFA288}"/>
+						<State Name="SecondsLeft_18" ID="{62A0D5CD-633E-4976-9FBA-FC12FAEAD14C}"/>
+						<State Name="SecondsLeft_19" ID="{15FC0A42-67C6-45B9-AA04-ACD8159E1CF9}"/>
+						<State Name="SecondsLeft_20" ID="{4E4A692E-4694-46A3-81DF-AEC04E3C90C7}"/>
+						<State Name="SecondsLeft_21" ID="{DB689B6E-04E6-4177-9A79-15375D9D25F9}"/>
+						<State Name="SecondsLeft_22" ID="{65F93D51-783A-4D2A-A181-55536A9FC6D0}"/>
+						<State Name="SecondsLeft_23" ID="{B570510B-B080-491F-98F7-BED0A48C72F4}"/>
+						<State Name="SecondsLeft_24" ID="{A9CA6BA1-D1DF-4CCE-A9F5-381AACBB34AE}"/>
+						<State Name="SecondsLeft_25" ID="{1D12E263-FFC6-47FA-97F6-997580ED3465}"/>
+						<State Name="SecondsLeft_26" ID="{44DDFA26-37A1-4AFA-A623-CDCED8B6704F}"/>
+						<State Name="SecondsLeft_27" ID="{EE5D66A9-E024-43A2-87E1-8D049F5FC5C3}"/>
+						<State Name="SecondsLeft_28" ID="{67A54868-2172-4817-BB71-90B5A4332924}"/>
+						<State Name="SecondsLeft_29" ID="{E171DC19-BE2B-4D64-8E3A-CB7191EEA980}"/>
+						<State Name="SecondsLeft_30" ID="{5CEA7BF5-D8E4-4095-957F-0CD3F9385876}"/>
+						<State Name="SecondsLeft_31" ID="{D7AB67A7-0618-43E1-8874-0B7FF7E58333}"/>
+						<State Name="SecondsLeft_32" ID="{8D8D9A71-8F8B-423B-A018-AAC79A800A7F}"/>
+						<State Name="SecondsLeft_33" ID="{3C65B50C-08ED-4513-9067-97D3538665A5}"/>
+						<State Name="SecondsLeft_34" ID="{022B3834-A05E-4C5F-8747-805734958836}"/>
+						<State Name="SecondsLeft_35" ID="{DC80E787-197C-4ABA-BA86-F8258997A5DB}"/>
+						<State Name="SecondsLeft_36" ID="{7990ACEF-BD24-43F9-B500-83640D6F78FE}"/>
+						<State Name="SecondsLeft_37" ID="{60DC1061-8894-469B-8105-1ACD616A1171}"/>
+						<State Name="SecondsLeft_38" ID="{009C1079-94CA-4936-A725-ADB1DDB6D35A}"/>
+						<State Name="SecondsLeft_39" ID="{85357BED-002E-43A8-88E7-A0C1B5933420}"/>
+						<State Name="SecondsLeft_40" ID="{55973F21-1A10-4C0A-83EA-AB64D560B051}"/>
+						<State Name="SecondsLeft_41" ID="{959A94F2-5E78-49F1-8A35-49A0956F9D52}"/>
+						<State Name="SecondsLeft_42" ID="{5A4A4094-4BE1-4BAD-80F4-D6253DC1DDA7}"/>
+						<State Name="SecondsLeft_43" ID="{BF000C3B-4DB8-4DFD-BD0D-0B2EFB3390B7}"/>
+						<State Name="SecondsLeft_44" ID="{09984913-13F9-4DB0-8754-F74F67C5025C}"/>
+						<State Name="SecondsLeft_45" ID="{187CF129-F0A9-4B1A-80D0-651DBD082F70}"/>
+						<State Name="SecondsLeft_46" ID="{C102A05D-3250-46BB-A4DB-F5A6A0CD9BC1}"/>
+						<State Name="SecondsLeft_47" ID="{25ACC46E-4C88-4CCC-A29F-B35DACD17295}"/>
+						<State Name="SecondsLeft_48" ID="{F0B847DB-108F-4689-BEE0-012D1799EAF6}"/>
+						<State Name="SecondsLeft_49" ID="{880AA79F-3874-4994-A583-91D5E4F2E443}"/>
+						<State Name="SecondsLeft_50" ID="{5E00C8E0-1B2E-462A-8E93-32906E559036}"/>
+						<State Name="SecondsLeft_51" ID="{047594B1-6925-43E9-A231-D25DC4FA078D}"/>
+						<State Name="SecondsLeft_52" ID="{1ABA731C-75E9-4654-B42B-997646452B6F}"/>
+						<State Name="SecondsLeft_53" ID="{7D09613B-A0AF-48A4-9114-32E48DB03F90}"/>
+						<State Name="SecondsLeft_54" ID="{453919E0-B7ED-4226-859E-8C30967D05F9}"/>
+						<State Name="SecondsLeft_55" ID="{E2FD09FA-CC72-4F08-9D7D-A23D771D982E}"/>
+						<State Name="SecondsLeft_56" ID="{12B27D74-16FA-4B89-8747-5B15D3580FC3}"/>
+						<State Name="SecondsLeft_57" ID="{3DD027C9-EBE5-46B8-BD85-E426328A3B34}"/>
+						<State Name="SecondsLeft_58" ID="{164AC2A5-64E0-4345-AC09-21EAE469980B}"/>
+						<State Name="SecondsLeft_59" ID="{201BF02E-937A-4C12-8473-9CBE695BB2F6}"/>
+						<State Name="SecondsLeft_60" ID="{C4B8E7CD-EA70-4C81-B6C3-6F0B5AD98377}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="RedLightGreenLight" ID="{5D25BC6E-8290-4C96-AD46-76BCD7C51322}">
+					<ChildrenList>
+						<State Name="None" ID="{50FF1203-A617-4B1A-8DA4-653D47617746}"/>
+						<State Name="Green_Light" ID="{08802C99-00E8-48AD-A041-E84F7ABFC0DF}"/>
+						<State Name="Red_Light" ID="{BE1D5075-FB5B-4E14-A712-5E971E34F28C}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Distance" ID="{A25D2B15-D62B-49A8-A888-88BCA78C37D3}">
+					<ChildrenList>
+						<State Name="None" ID="{7EC88494-AD09-47E2-BA27-4442B2DA0A52}"/>
+						<State Name="Distance_00" ID="{E1DA38FF-6A76-4EDC-A1EA-8D426A250281}"/>
+						<State Name="Distance_01" ID="{75DF3CBD-F9DA-4A3E-8B43-C01A35AC0DCB}"/>
+						<State Name="Distance_02" ID="{03179832-348A-42D4-A94A-A792DED1C3EF}"/>
+						<State Name="Distance_03" ID="{B1F17399-EF2F-44D9-9436-41707D979302}"/>
+						<State Name="Distance_04" ID="{5FB5E7C0-2761-4051-AC82-321BAACE0AAB}"/>
+						<State Name="Distance_05" ID="{7EE446B3-FA0E-417C-B455-6414C10B619C}"/>
+						<State Name="Distance_06" ID="{9D915B68-5F55-45E3-B613-187A219D1F04}"/>
+						<State Name="Distance_07" ID="{93277A59-2427-4982-BD60-6C27C43E8DE0}"/>
+						<State Name="Distance_08" ID="{340F1C55-669F-41BD-AD9A-7E0CA5D52F87}"/>
+						<State Name="Distance_09" ID="{B11193DE-F823-4F8A-8685-B233D641CD32}"/>
+						<State Name="Distance_10" ID="{D58742AB-1905-459E-A31E-E497224A25B8}"/>
+						<State Name="Distance_11" ID="{CB979BC2-A0D3-4C03-A75C-CC3A5605BE92}"/>
+						<State Name="Distance_12" ID="{ECA69A37-3548-4549-81F3-7D4A1BDFFAA0}"/>
+						<State Name="Distance_13" ID="{A3EEDD86-BF7E-4F9C-BF8F-C04E55AC0BF9}"/>
+						<State Name="Distance_14" ID="{8DAFCCC9-812D-4CD3-8592-BA2E33F741FE}"/>
+						<State Name="Distance_15" ID="{AF7ADA98-D9E4-47FF-A48D-FB14AB5972F6}"/>
+						<State Name="Distance_16" ID="{F8187F0C-37DA-4342-B020-91AC35CC7B5E}"/>
+						<State Name="Distance_17" ID="{B44AFF73-69E1-48F0-AFC7-6C380117705C}"/>
+						<State Name="Distance_18" ID="{43965DEF-174F-4AFA-8542-A8D6961840F8}"/>
+						<State Name="Distance_19" ID="{4EAA0698-446F-420A-A7B6-7C80B0119EB3}"/>
+						<State Name="Distance_20" ID="{B7E21DDD-940E-4BB6-AAF3-80D2701936C7}"/>
+						<State Name="Distance_21" ID="{02A91060-8797-4619-900D-6E0D934F42A4}"/>
+						<State Name="Distance_22" ID="{19404A3B-A0D8-457C-B319-4F65D2D2F7F5}"/>
+						<State Name="Distance_23" ID="{B2AB9103-A881-4C48-8F4C-6919EB2D5111}"/>
+						<State Name="Distance_24" ID="{5D7B6EEA-4160-4C7D-BD76-B7D4145202D1}"/>
+						<State Name="Distance_25" ID="{3671E4F6-04DA-486A-8F9B-75AA8C383A49}"/>
+						<State Name="Distance_26" ID="{227F842A-0331-441C-827D-1E0709745C09}"/>
+						<State Name="Distance_27" ID="{90DA41E5-0AE3-451B-B391-A1D00021B673}"/>
+						<State Name="Distance_28" ID="{B7E5A2FC-3C83-470C-B462-F5A0A3B18BEB}"/>
+						<State Name="Distance_29" ID="{BA038BAF-3BDC-4E79-AB04-370F42B0EBEE}"/>
+						<State Name="Distance_30" ID="{FE2C06A8-6772-4CB7-A98C-4F4C3E8168BC}"/>
+						<State Name="Distance_31" ID="{B5009637-2262-473F-BD53-D5D2DAF0D9DE}"/>
+						<State Name="Distance_32" ID="{F7C787BB-0B2E-413F-B0E0-D40116182634}"/>
+						<State Name="Distance_33" ID="{4D02C980-7289-4546-8EAD-BCAD25ACD159}"/>
+						<State Name="Distance_34" ID="{A3DEEE6D-BA7B-4A6F-A811-233CB12A9EA6}"/>
+						<State Name="Distance_35" ID="{5CAB99E3-F9D5-4081-8908-26C9267B5850}"/>
+						<State Name="Distance_36" ID="{8B643E78-BA8F-4188-B26E-EB038A58BF70}"/>
+						<State Name="Distance_37" ID="{06E7ED97-6B52-4488-91DC-4A02C380B038}"/>
+						<State Name="Distance_38" ID="{5F842DE3-0796-49BD-9868-4F32A586ED50}"/>
+						<State Name="Distance_39" ID="{105A75ED-3C78-4772-9ED9-F4AC68B58614}"/>
+						<State Name="Distance_40" ID="{410C1BF0-2BA4-4C52-AB0D-AEB7116FAF6D}"/>
+						<State Name="Distance_41" ID="{4179E6F9-5ADB-4499-9F51-54B6F16CA4F8}"/>
+						<State Name="Distance_42" ID="{85DA49B0-4D08-4987-B50F-82E72A1B3404}"/>
+						<State Name="Distance_43" ID="{6436E3D2-378E-476B-8C54-B34E7FB7B45A}"/>
+						<State Name="Distance_44" ID="{1A24C7A8-89CD-4C63-947D-58BD3DFFF37E}"/>
+						<State Name="Distance_45" ID="{C87874D8-6874-4E98-89D2-857CCA8AC25D}"/>
+						<State Name="Distance_46" ID="{9653D7D8-F1B9-43E2-B0F1-E4DC2662105C}"/>
+						<State Name="Distance_47" ID="{52054778-0946-4BB3-A968-4C20DFC9E813}"/>
+						<State Name="Distance_48" ID="{CB90F091-AB75-4F78-A27A-12BDA6AA7FC9}"/>
+						<State Name="Distance_49" ID="{20EC2553-47FC-4284-8EED-DDB5A59D1AD4}"/>
+						<State Name="Distance_50" ID="{35427E86-8CA9-42B1-9B4B-7AA5C60A2215}"/>
+						<State Name="Distance_51" ID="{D9BE74F6-9D9E-4BF2-B53F-E5662966E9F1}"/>
+						<State Name="Distance_52" ID="{1E7E535D-65C3-458E-8215-345A6641B8EF}"/>
+						<State Name="Distance_53" ID="{288D1811-77E1-48D6-BA2C-8AF4A619FBA2}"/>
+						<State Name="Distance_54" ID="{0B35070A-5E53-4CFB-A020-63D7AB518562}"/>
+						<State Name="Distance_55" ID="{BFFDB807-85CC-4418-B230-3FCFB0B0B3FA}"/>
+						<State Name="Distance_56" ID="{A0A488E7-6EE8-400E-AAF2-16E647B27B66}"/>
+						<State Name="Distance_57" ID="{2EDB954D-16C3-4413-9ACB-F230321FDC75}"/>
+						<State Name="Distance_58" ID="{4C784EA3-3E42-4CB4-BC6E-B8C356C86668}"/>
+						<State Name="Distance_59" ID="{9DC1DDA5-D6A0-4114-A722-6A2EA9C60411}"/>
+						<State Name="Distance_60" ID="{1AB07D4F-4A6D-47A5-B655-C1553A137B9F}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

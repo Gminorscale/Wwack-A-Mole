@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{94CC1962-28A8-4FC4-B2E4-89DF9011D180}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Red Light Green Light" ID="{94CC1962-28A8-4FC4-B2E4-89DF9011D180}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Footsteps" ID="{699D773E-5D3C-404F-85EB-A53678D43653}" ShortID="1059468303">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{2A9FA662-C6CB-48AD-8387-2A029995E38F}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="15"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{0DE98BC5-8AFE-4FAC-BF6B-608271B1161F}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="200"/>
+											<Property Name="Min" Type="Real64" Value="-200"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="You, a broke guy" ID="{96A13D0F-5BE5-4B57-91F9-9077F119C55D}" WorkUnitID="{FDCB34BD-CE8B-4308-A068-190C43346271}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Running for your life_01" ID="{4756A06F-356E-4BF2-BD69-2DCF46F5E068}" ShortID="167738914">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Footsteps, Human, Asphalt, Bare Foot, Running 1 SND0992" ID="{CCF64CF4-F299-427F-B5AE-29D0C78410FB}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.217564512184276"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0546626311810744"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Footsteps, Human, Asphalt, Bare Foot, Running 1 SND0992.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="392612964"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Footsteps, Human, Asphalt, Bare Foot, Running 1 SND0992" ID="{CCF64CF4-F299-427F-B5AE-29D0C78410FB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Running for your life_02" ID="{10C376D4-44E9-456F-B346-DDA047C17E61}" ShortID="219241804">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Footsteps, Human, Asphalt, Bare Foot, Running 1 SND0992 1" ID="{DF08FDAD-90C7-4A76-8B48-6BC4B9BC0B84}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.203678050515831"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0206067235859125"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Footsteps, Human, Asphalt, Bare Foot, Running 1 SND0992 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="245455538"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Footsteps, Human, Asphalt, Bare Foot, Running 1 SND0992 1" ID="{DF08FDAD-90C7-4A76-8B48-6BC4B9BC0B84}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Running for your life_03" ID="{E862B61F-F39D-4436-BA6E-BC3AA8579621}" ShortID="149695101">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Footsteps, Human, Asphalt, Bare Foot, Running 1 SND0992 2" ID="{B7EEBA1E-50DC-47FD-B2DF-8D9E0044E8CE}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.25962722340804"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.00995503157239417"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.288297714336535"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Footsteps, Human, Asphalt, Bare Foot, Running 1 SND0992 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="409925120"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Footsteps, Human, Asphalt, Bare Foot, Running 1 SND0992 2" ID="{B7EEBA1E-50DC-47FD-B2DF-8D9E0044E8CE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Running for your life_04" ID="{7CCA6140-B614-4884-8705-D9727469C22C}" ShortID="188240388">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Footsteps, Human, Asphalt, Bare Foot, Running 1 SND0992 3" ID="{7C7FC904-4D16-451D-8645-35747324004B}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0838129224475276"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Footsteps, Human, Asphalt, Bare Foot, Running 1 SND0992 3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="318021260"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Footsteps, Human, Asphalt, Bare Foot, Running 1 SND0992 3" ID="{7C7FC904-4D16-451D-8645-35747324004B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Running for your life_05" ID="{49C06BC4-85DD-49A2-BE10-4C5FF743AE44}" ShortID="925865560">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Footsteps, Human, Asphalt, Bare Foot, Running 1 SND0992 4" ID="{7B3E6C2C-EB33-482C-A324-EC8EEC8677B5}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.143355122732124"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.280845717716115"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Footsteps, Human, Asphalt, Bare Foot, Running 1 SND0992 4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="790387971"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Footsteps, Human, Asphalt, Bare Foot, Running 1 SND0992 4" ID="{7B3E6C2C-EB33-482C-A324-EC8EEC8677B5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Running for your life_06" ID="{FEEB6675-2BC2-4734-9E4E-D089FFC8B2E1}" ShortID="118790739">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Footsteps, Human, Asphalt, Bare Foot, Running 1 SND0992 5" ID="{8E7A33F3-1A72-4A96-94EA-43082EF00ED8}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.274003768676627"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.287687666755603"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Footsteps, Human, Asphalt, Bare Foot, Running 1 SND0992 5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="65693651"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Footsteps, Human, Asphalt, Bare Foot, Running 1 SND0992 5" ID="{8E7A33F3-1A72-4A96-94EA-43082EF00ED8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Running for your life_07" ID="{DE24445B-BCE6-49B9-BCBD-3B4C9428D4A7}" ShortID="152010075">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Footsteps, Human, Asphalt, Bare Foot, Running 1 SND0992 6" ID="{8C8618D3-C3DE-4B3B-8F17-3D5EA70A7AD3}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.10146147945571"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.00602741462113127"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.301035874688723"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Footsteps, Human, Asphalt, Bare Foot, Running 1 SND0992 6.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="555017127"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Footsteps, Human, Asphalt, Bare Foot, Running 1 SND0992 6" ID="{8C8618D3-C3DE-4B3B-8F17-3D5EA70A7AD3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Running for your life_08" ID="{12CC0C93-E239-471F-B275-7B1923E88D04}" ShortID="282026929">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Footsteps, Human, Asphalt, Bare Foot, Running 1 SND0992 7" ID="{F65EFE34-E127-47BA-B3D9-173A0EA0D95D}">
+									<Language>SFX</Language>
+									<AudioFile>Footsteps, Human, Asphalt, Bare Foot, Running 1 SND0992 7.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="336117548"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Footsteps, Human, Asphalt, Bare Foot, Running 1 SND0992 7" ID="{F65EFE34-E127-47BA-B3D9-173A0EA0D95D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Gunshot" ID="{BC349DEA-50A2-4ED1-8A6B-4CFA0936EBE1}" ShortID="97062360">
+					<PropertyList>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+				<BlendContainer Name="MachineGun" ID="{9B548BB3-283E-4805-9E0B-733AA25DC795}" ShortID="772472003">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Guns, Automatic, Light Machine Gun, RPK, Short Bursts SND35542 4" ID="{F5B39762-80E1-48AB-AF48-414309678CFB}" ShortID="484113251">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Guns, Automatic, Light Machine Gun, RPK, Short Bursts SND35542 4" ID="{22292D9E-DF35-47F5-BACE-76AB86F1E928}">
+									<Language>SFX</Language>
+									<AudioFile>Guns, Automatic, Light Machine Gun, RPK, Short Bursts SND35542 4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="805004980"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Guns, Automatic, Light Machine Gun, RPK, Short Bursts SND35542 4" ID="{22292D9E-DF35-47F5-BACE-76AB86F1E928}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Guns, Mechanism, SIG Sauer P226, Handgun Load, Unload 01 SND55722" ID="{9B03BDFA-6910-4CDE-9F91-BFE00C40EFB6}" ShortID="567608292">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Guns, Mechanism, SIG Sauer P226, Handgun Load, Unload 01 SND55722" ID="{BBB64BFC-3B79-47A3-AFA5-EA8EE9C48C04}">
+									<Language>SFX</Language>
+									<AudioFile>Guns, Mechanism, SIG Sauer P226, Handgun Load, Unload 01 SND55722.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="105194566"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Guns, Mechanism, SIG Sauer P226, Handgun Load, Unload 01 SND55722" ID="{BBB64BFC-3B79-47A3-AFA5-EA8EE9C48C04}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</BlendContainer>
+				<BlendContainer Name="Ambience" ID="{FFF63F2F-810B-495E-A3C4-CA58D3AFB70D}" ShortID="229980003">
+					<PropertyList>
+						<Property Name="BlendBehavior" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="AmbienceRandom" ID="{5C49934E-6730-405D-887E-31BA73A1E665}" ShortID="834707098">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2.5"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Ambience, Room Tone, Empty Office, Deep, Quiet, 2ch SND36286" ID="{F28B5311-6C34-4764-BAB3-4AAFE206B38A}" ShortID="1008756063">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ambience, Room Tone, Empty Office, Deep, Quiet, 2ch SND36286" ID="{8C8A107B-7A08-4D7B-B90D-98EB18EE1344}">
+											<Language>SFX</Language>
+											<AudioFile>Ambience, Room Tone, Empty Office, Deep, Quiet, 2ch SND36286.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="944169851"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Ambience, Room Tone, Empty Office, Deep, Quiet, 2ch SND36286" ID="{8C8A107B-7A08-4D7B-B90D-98EB18EE1344}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ambience, Room Tone, Empty Office, Deep, Quiet, 2ch SND36286_01" ID="{FE214A7B-C644-4390-B8B5-8E6F7380A209}" ShortID="64755804">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ambience, Room Tone, Empty Office, Deep, Quiet, 2ch SND36286" ID="{0EC593A1-BDF7-470B-8A29-9ED4B0CF2494}">
+											<Language>SFX</Language>
+											<AudioFile>Ambience, Room Tone, Empty Office, Deep, Quiet, 2ch SND36286.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="944169851"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Ambience, Room Tone, Empty Office, Deep, Quiet, 2ch SND36286" ID="{0EC593A1-BDF7-470B-8A29-9ED4B0CF2494}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</BlendContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

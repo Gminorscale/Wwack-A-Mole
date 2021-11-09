@@ -35,10 +35,16 @@
 							<GameParameterRef Name="GameMusic_Pitch" ID="{03EF4C80-2D62-486A-B585-3E7A535615D1}"/>
 							<Value>0</Value>
 						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}"/>
+							<Value>0</Value>
+						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Lifes_Left_03" ID="{D34250FE-4B86-49AD-ABC0-6F5FA3B6BFE9}"/>
+						<CurrentStateRef Name="SecondsLeft_53" ID="{7D09613B-A0AF-48A4-9114-32E48DB03F90}"/>
 						<CurrentStateRef Name="Difficulty_Hard" ID="{5E837F09-D4AA-4F0A-91FA-1D56912041C8}"/>
+						<CurrentStateRef Name="Red_Light" ID="{BE1D5075-FB5B-4E14-A712-5E971E34F28C}"/>
 						<CurrentStateRef Name="Score_00" ID="{A38C85E3-5072-4394-B1A4-24723BD1B196}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
@@ -175,6 +181,42 @@
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Up" ID="{CC84DC04-5C92-4D60-A566-FBC341FBBD6C}"/>
+						<CurrentSwitchRef Name="Mole03" ID="{8E7E658A-9D2A-43A7-ADEE-5B60BA172492}"/>
+						<CurrentSwitchRef Name="Hit" ID="{B4A1C7C4-8590-4101-A145-9635A0C74A06}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Red Light Green Light" ID="{01C44787-2ADF-4381-940A-67CD74BABD0F}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Walk" ID="{5B7A1A54-745D-4B96-B446-4ED45371F595}" WorkUnitID="{8C963A76-7B40-483A-A826-0D7AA8A07B7F}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="StartGame" ID="{FABA1379-FE0F-4960-A1B8-3B7F35E1F163}" WorkUnitID="{8C963A76-7B40-483A-A826-0D7AA8A07B7F}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="GameMusic_Pitch" ID="{03EF4C80-2D62-486A-B585-3E7A535615D1}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}"/>
+							<Value>48.355795148248</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Lifes_Left_03" ID="{D34250FE-4B86-49AD-ABC0-6F5FA3B6BFE9}"/>
+						<CurrentStateRef Name="SecondsLeft_49" ID="{880AA79F-3874-4994-A583-91D5E4F2E443}"/>
+						<CurrentStateRef Name="Difficulty_Medium" ID="{164CB082-2FFB-4C0F-8B84-0B0694B1D928}"/>
+						<CurrentStateRef Name="Distance_03" ID="{B1F17399-EF2F-44D9-9436-41707D979302}"/>
+						<CurrentStateRef Name="Red_Light" ID="{BE1D5075-FB5B-4E14-A712-5E971E34F28C}"/>
+						<CurrentStateRef Name="Score_00" ID="{A38C85E3-5072-4394-B1A4-24723BD1B196}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Up" ID="{CC84DC04-5C92-4D60-A566-FBC341FBBD6C}"/>
+						<CurrentSwitchRef Name="Busted" ID="{F78654C0-379C-4E45-98DB-7E7FC0518F35}"/>
 						<CurrentSwitchRef Name="Mole03" ID="{8E7E658A-9D2A-43A7-ADEE-5B60BA172492}"/>
 						<CurrentSwitchRef Name="Hit" ID="{B4A1C7C4-8590-4101-A145-9635A0C74A06}"/>
 					</CurrentSwitchList>
