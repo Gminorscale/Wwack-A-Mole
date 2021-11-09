@@ -1,30 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{7F031A29-2220-4BF0-83A4-E137A95B420B}" SchemaVersion="103">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{7F031A29-2220-4BF0-83A4-E137A95B420B}" PersistMode="Standalone">
-			<ChildrenList>
-				<SwitchGroup Name="UpOrDown" ID="{AB3609D9-141C-46BF-8F06-E026E129F824}">
-					<ChildrenList>
-						<Switch Name="Up" ID="{CC84DC04-5C92-4D60-A566-FBC341FBBD6C}"/>
-						<Switch Name="Down" ID="{8648D8C3-7A0E-4764-812C-67064E79A5D5}"/>
-					</ChildrenList>
-				</SwitchGroup>
-				<SwitchGroup Name="HitOrMiss" ID="{51D2A26D-AEC1-4FA4-80CA-25CC88D5D474}">
-					<ChildrenList>
-						<Switch Name="Miss" ID="{DC2E32D3-DAC1-409B-9BEB-124D2BAFAA94}"/>
-						<Switch Name="Hit" ID="{B4A1C7C4-8590-4101-A145-9635A0C74A06}"/>
-					</ChildrenList>
-				</SwitchGroup>
-				<SwitchGroup Name="Mole" ID="{CFBFF245-EF17-4F40-A775-35A900C774A8}">
-					<ChildrenList>
-						<Switch Name="Mole01" ID="{53414473-8A3A-47B7-8064-AF42D22946A4}"/>
-						<Switch Name="Mole02" ID="{053EF673-0B66-4070-87EE-E26D44150886}"/>
-						<Switch Name="Mole03" ID="{8E7E658A-9D2A-43A7-ADEE-5B60BA172492}"/>
-						<Switch Name="Mole04" ID="{8F9DF798-43EA-4449-B4B1-D06B514DF413}"/>
-						<Switch Name="NoMole" ID="{934513DA-57BF-4AE4-B9EE-0926F944604C}"/>
-					</ChildrenList>
-				</SwitchGroup>
-			</ChildrenList>
-		</WorkUnit>
+		<WorkUnit Name="Default Work Unit" ID="{7F031A29-2220-4BF0-83A4-E137A95B420B}" PersistMode="Standalone"/>
 	</Switches>
 </WwiseDocument>

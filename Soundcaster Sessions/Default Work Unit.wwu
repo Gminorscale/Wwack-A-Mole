@@ -208,9 +208,9 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Lifes_Left_03" ID="{D34250FE-4B86-49AD-ABC0-6F5FA3B6BFE9}"/>
-						<CurrentStateRef Name="SecondsLeft_49" ID="{880AA79F-3874-4994-A583-91D5E4F2E443}"/>
+						<CurrentStateRef Name="SecondsLeft_38" ID="{009C1079-94CA-4936-A725-ADB1DDB6D35A}"/>
 						<CurrentStateRef Name="Difficulty_Medium" ID="{164CB082-2FFB-4C0F-8B84-0B0694B1D928}"/>
-						<CurrentStateRef Name="Distance_03" ID="{B1F17399-EF2F-44D9-9436-41707D979302}"/>
+						<CurrentStateRef Name="Distance_00" ID="{E1DA38FF-6A76-4EDC-A1EA-8D426A250281}"/>
 						<CurrentStateRef Name="Red_Light" ID="{BE1D5075-FB5B-4E14-A712-5E971E34F28C}"/>
 						<CurrentStateRef Name="Score_00" ID="{A38C85E3-5072-4394-B1A4-24723BD1B196}"/>
 					</CurrentStateList>
