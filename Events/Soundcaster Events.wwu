@@ -48,13 +48,20 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 							<ChildrenList>
+								<Action Name="" ID="{B0615BA4-A2A5-435D-9B65-3AE2AA51F785}" ShortID="916619176">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Soundcaster Switch" ID="{F741D212-3E50-45C4-A1FD-A62289D80FCF}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{4DEAD179-1E9D-4DC2-AB2D-1972BF3C3922}" ShortID="814084429">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="41"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="GameStart" ID="{EC530C51-3F00-4955-A6C0-873F33B47FD6}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
+											<ObjectRef Name="StartTheGame" ID="{EC530C51-3F00-4955-A6C0-873F33B47FD6}" WorkUnitID="{E2A14253-EA94-4285-9180-16C35D098AFA}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

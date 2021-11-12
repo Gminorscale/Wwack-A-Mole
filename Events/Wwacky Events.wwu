@@ -274,7 +274,7 @@
 				</Folder>
 				<Folder Name="Game Events" ID="{9EB9C61A-9121-488D-8136-FE911DCEBE7F}" ShortID="453489998">
 					<ChildrenList>
-						<Event Name="GameStart" ID="{EC530C51-3F00-4955-A6C0-873F33B47FD6}">
+						<Event Name="StartTheGame" ID="{EC530C51-3F00-4955-A6C0-873F33B47FD6}">
 							<ChildrenList>
 								<Action Name="" ID="{D89E06B8-21AF-4CAB-A4DB-72AE1F58F02F}" ShortID="789826634">
 									<PropertyList>
