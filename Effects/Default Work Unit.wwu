@@ -37,6 +37,8 @@
 				</Effect>
 				<Effect Name="Distortion" ID="{C34331DD-AC4C-4D38-9071-EBFFFC6DE69D}" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
 					<PropertyList>
+						<Property Name="DistortionDrive" Type="Real32" Value="20"/>
+						<Property Name="DistortionType" Type="int32" Value="2"/>
 						<Property Name="PostEQBand1Enable" Type="bool" Value="True"/>
 						<Property Name="PostEQBand1FilterType" Type="int32" Value="4"/>
 						<Property Name="PostEQBand1Frequency" Type="Real32" Value="218"/>

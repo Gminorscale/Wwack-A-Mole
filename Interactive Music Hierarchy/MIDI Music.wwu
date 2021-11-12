@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{325D885E-F97E-4485-9035-8A18AB45237E}" SchemaVersion="103" RootDocumentID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}" ParentDocumentID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}">
+	<InteractiveMusic>
+		<WorkUnit Name="MIDI Music" ID="{325D885E-F97E-4485-9035-8A18AB45237E}" OwnerID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}" PersistMode="Nested">
+			<ChildrenList>
+				<MusicSwitchContainer Name="SW_EntryTheGladiators" ID="{1EA1DB72-0471-46E2-99AD-F61E5D3F554F}" ShortID="292175884">
+					<PropertyList>
+						<Property Name="Tempo" Type="Real64" Value="240"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+						</Reference>
+						<Reference Name="MidiTarget">
+							<ObjectRef Name="Piano_Sampler_Soft" ID="{5F305B49-C8F9-4DD3-9F88-15684C2071A1}" WorkUnitID="{6A070D54-8672-4B9A-A1C7-AA29F51229E9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="Asection-EntryOfTheGladiators" ID="{9D85ED61-1322-4220-9D4E-E61AA7251422}" ShortID="317304415">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="A-EntrytheGladiators" ID="{21A02879-1385-4DAB-A051-DC0E16A4E6D1}" ShortID="402787658">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="160971.354166667"/>
+										<Property Name="Tempo" Type="Real64" Value="240"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+										</Reference>
+										<Reference Name="MidiTarget">
+											<ObjectRef Name="SynthOne" ID="{26FCE029-6D7F-4C2B-ABD5-245C32A58B2C}" WorkUnitID="{95A0C28C-CF1F-468A-B652-24ED9B311369}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="EntryOfTheGladiorsMIDI" ID="{9BEB8DFC-F4FA-491C-AE9E-CAD2C8B40900}" ShortID="61126473">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MidiFileSource Name="Entry of the Gladiators_ (March of Triumph)" ID="{0417405A-EAFE-4B37-BD78-5CADB21FA197}" ShortID="969943144">
+													<Language>SFX</Language>
+													<MidiFile>Entry of the Gladiators. (March of Triumph).mid</MidiFile>
+													<MediaIDList>
+														<MediaID ID="901294678"/>
+													</MediaIDList>
+												</MidiFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{35FC6459-0E8D-41ED-84B3-23A955679613}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{02F1BAD9-6B05-4F31-A667-FC084955F2A0}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClipMidi Name="" ID="{5177AF04-1D5C-4175-8310-83B7B0D09B11}">
+																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="12000"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="44000"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-12000"/>
+																					</PropertyList>
+																					<MidiSourceRef Name="Entry of the Gladiators_ (March of Triumph)" ID="{719CC920-0C31-445C-9738-04278E8B5680}"/>
+																				</MusicClipMidi>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{9FC6C56B-0D23-4D27-968E-5717484A5B0B}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{4DB2F4F6-DBCA-4B89-8264-674C73C4881B}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="32000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Intro01-EntryOfTheGladiors" ID="{EEDFBA1D-9B02-46FA-B7CA-320666BFD13D}" ShortID="798052183">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="17199.596559985"/>
+										<Property Name="Tempo" Type="Real64" Value="240"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+										</Reference>
+										<Reference Name="MidiTarget">
+											<ObjectRef Name="SynthOne" ID="{26FCE029-6D7F-4C2B-ABD5-245C32A58B2C}" WorkUnitID="{95A0C28C-CF1F-468A-B652-24ED9B311369}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="EntryOfTheGladiorsMIDI" ID="{E25C0E42-8FA7-4F4B-BA78-C48FED153AA3}" ShortID="799971543">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MidiFileSource Name="Entry of the Gladiators_ (March of Triumph)" ID="{719CC920-0C31-445C-9738-04278E8B5680}" ShortID="901294678">
+													<Language>SFX</Language>
+													<MidiFile>Entry of the Gladiators. (March of Triumph).mid</MidiFile>
+													<MediaIDList>
+														<MediaID ID="901294678"/>
+													</MediaIDList>
+												</MidiFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{82F693AB-1FB1-4159-951B-BAA6226F7976}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{1E7C607D-0D1A-4674-9314-3582DD917D49}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClipMidi Name="Entry of the Gladiators_ (March of Triumph)" ID="{ED4574A9-68D0-4EFD-9D87-4894BDAFD77D}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
+																					</PropertyList>
+																					<MidiSourceRef Name="Entry of the Gladiators_ (March of Triumph)" ID="{719CC920-0C31-445C-9738-04278E8B5680}"/>
+																				</MusicClipMidi>
+																			</Local>
+																		</Reference>
+																		<Reference>
+																			<Local>
+																				<MusicClipMidi Name="Entry of the Gladiators_ (March of Triumph)" ID="{2F8E7D75-4AAF-43D4-9F39-364892CD5A9A}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
+																						<Property Name="PlayAt" Type="Real64" Value="8000"/>
+																					</PropertyList>
+																					<MidiSourceRef Name="Entry of the Gladiators_ (March of Triumph)" ID="{719CC920-0C31-445C-9738-04278E8B5680}"/>
+																				</MusicClipMidi>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{40220704-96CB-4F95-8631-10BD3AC13A61}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{77A6BF1F-E995-45E5-96D1-8BCBB7739184}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="16000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Intro02-EntryOfTheGladiors_01" ID="{8305BBF1-21D9-43A9-B0D8-76F76CCC6B35}" ShortID="70159822">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="4262.88387641208"/>
+										<Property Name="Tempo" Type="Real64" Value="240"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+										</Reference>
+										<Reference Name="MidiTarget">
+											<ObjectRef Name="SynthOne" ID="{26FCE029-6D7F-4C2B-ABD5-245C32A58B2C}" WorkUnitID="{95A0C28C-CF1F-468A-B652-24ED9B311369}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="EntryOfTheGladiorsMIDI" ID="{2AC4FC94-2155-493E-9571-A504E6C46FF2}" ShortID="641806644">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{A7EB2E88-4D0F-42D3-8716-763676AA00A1}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{F1CC51FE-6572-4A49-9918-F81D64AAF79C}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClipMidi Name="Entry of the Gladiators_ (March of Triumph)" ID="{CFE7E6DE-F5E2-4078-B25E-49C1892E814C}">
+																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="8000"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="12000"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-8000"/>
+																					</PropertyList>
+																					<MidiSourceRef Name="Entry of the Gladiators_ (March of Triumph)" ID="{719CC920-0C31-445C-9738-04278E8B5680}"/>
+																				</MusicClipMidi>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{F22A3C57-7A42-4AE3-BC43-B5A7B2516806}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{462E6E79-4E57-4486-A0B6-C9D8440008F5}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="4000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="AtoB-EntrytheGladiators" ID="{0BA884B6-CAC5-45FD-BC4C-D77197B48EED}" ShortID="822204879">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="160971.354166667"/>
+										<Property Name="Tempo" Type="Real64" Value="240"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+										</Reference>
+										<Reference Name="MidiTarget">
+											<ObjectRef Name="SynthOne" ID="{26FCE029-6D7F-4C2B-ABD5-245C32A58B2C}" WorkUnitID="{95A0C28C-CF1F-468A-B652-24ED9B311369}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="EntryOfTheGladiorsMIDI" ID="{B83BCFDA-F3A7-45B7-9A09-779CD24366CB}" ShortID="818405554">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MidiFileSource Name="Entry of the Gladiators_ (March of Triumph)" ID="{9966FA0F-80D5-46DB-B1AC-8A23AB0C5B97}" ShortID="933463109">
+													<Language>SFX</Language>
+													<MidiFile>Entry of the Gladiators. (March of Triumph).mid</MidiFile>
+													<MediaIDList>
+														<MediaID ID="901294678"/>
+													</MediaIDList>
+												</MidiFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{399CAC21-CCDE-45DE-9D32-2D11D9804A88}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{9FF808F4-4D89-49F9-8AA2-128B2190491A}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClipMidi Name="Entry of the Gladiators_ (March of Triumph)" ID="{135EC742-AFBE-4A38-A1A9-606BE75EF43C}">
+																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="44000"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="48000"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-44000"/>
+																					</PropertyList>
+																					<MidiSourceRef Name="Entry of the Gladiators_ (March of Triumph)" ID="{719CC920-0C31-445C-9738-04278E8B5680}"/>
+																				</MusicClipMidi>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{3E381EE5-E53D-4527-AAF3-B46CDE35F29C}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{481957BB-95A7-487A-8CC9-0BB5337EB021}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="4000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="B-EntrytheGladiators" ID="{4D0A59DE-D318-4F32-B340-0153B7AF0C28}" ShortID="60856579">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="160971.354166667"/>
+										<Property Name="Tempo" Type="Real64" Value="240"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+										</Reference>
+										<Reference Name="MidiTarget">
+											<ObjectRef Name="SynthOne" ID="{26FCE029-6D7F-4C2B-ABD5-245C32A58B2C}" WorkUnitID="{95A0C28C-CF1F-468A-B652-24ED9B311369}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="EntryOfTheGladiorsMIDI" ID="{DED1C0C2-8FD9-4A38-AF32-C723F71AE370}" ShortID="762873047">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MidiFileSource Name="Entry of the Gladiators_ (March of Triumph)" ID="{153CE454-6859-4265-A89C-0D1B5D902FF0}" ShortID="893428499">
+													<Language>SFX</Language>
+													<MidiFile>Entry of the Gladiators. (March of Triumph).mid</MidiFile>
+													<MediaIDList>
+														<MediaID ID="901294678"/>
+													</MediaIDList>
+												</MidiFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{14E727BD-9998-4E08-9CE1-6F0B5641A03E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{54EEFCD2-993A-429F-B14D-567EACA10EFC}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClipMidi Name="Entry of the Gladiators_ (March of Triumph)" ID="{5B97A4C2-4028-4CAF-98DD-6ED26D299B60}">
+																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="48000"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="81000"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-48000"/>
+																					</PropertyList>
+																					<MidiSourceRef Name="Entry of the Gladiators_ (March of Triumph)" ID="{719CC920-0C31-445C-9738-04278E8B5680}"/>
+																				</MusicClipMidi>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{7F84ECD6-CC80-4C50-82F0-81E5F7729316}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{E0074D2B-2A59-45EC-BB61-2C45246FC2DC}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="22782.4125261659"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="D-EntrytheGladiators" ID="{E51F61F3-51A2-4B33-9F33-F56E073AB13B}" ShortID="24706192">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="160971.354166667"/>
+										<Property Name="Tempo" Type="Real64" Value="240"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+										</Reference>
+										<Reference Name="MidiTarget">
+											<ObjectRef Name="SynthOne" ID="{26FCE029-6D7F-4C2B-ABD5-245C32A58B2C}" WorkUnitID="{95A0C28C-CF1F-468A-B652-24ED9B311369}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="EntryOfTheGladiorsMIDI" ID="{7AEEA140-1B57-4A0E-80C5-6E92E783FDE8}" ShortID="231787201">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MidiFileSource Name="Entry of the Gladiators_ (March of Triumph)" ID="{E1332EDB-37E1-4E98-B6AE-AF15227803FA}" ShortID="693471846">
+													<Language>SFX</Language>
+													<MidiFile>Entry of the Gladiators. (March of Triumph).mid</MidiFile>
+													<MediaIDList>
+														<MediaID ID="901294678"/>
+													</MediaIDList>
+												</MidiFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{EF5A53DA-57B2-42CA-8309-66B16A703B3D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{DFC5C079-4752-409C-B1B6-F3191B0B0218}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClipMidi Name="Entry of the Gladiators_ (March of Triumph)" ID="{112C9980-CB3C-4CED-9CAB-2A52E1F066FA}">
+																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="126000"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="159019.951664288"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-126000"/>
+																					</PropertyList>
+																					<MidiSourceRef Name="Entry of the Gladiators_ (March of Triumph)" ID="{719CC920-0C31-445C-9738-04278E8B5680}"/>
+																				</MusicClipMidi>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{47059AA3-8F9B-44AB-8B9E-047759171886}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{9495315D-FF1E-40D7-A6CE-571019984E92}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="10000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="C-EntrytheGladiators" ID="{A98E6401-B0F2-43F9-8FBD-A2372E16842C}" ShortID="36629401">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="160971.354166667"/>
+										<Property Name="Tempo" Type="Real64" Value="240"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+										</Reference>
+										<Reference Name="MidiTarget">
+											<ObjectRef Name="SynthOne" ID="{26FCE029-6D7F-4C2B-ABD5-245C32A58B2C}" WorkUnitID="{95A0C28C-CF1F-468A-B652-24ED9B311369}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="EntryOfTheGladiorsMIDI" ID="{48331EA3-1D18-4D81-8753-6D01ADE93627}" ShortID="991007214">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MidiFileSource Name="Entry of the Gladiators_ (March of Triumph)" ID="{6D1E6A0A-C67C-493A-970D-8AEFB5A7D181}" ShortID="888192985">
+													<Language>SFX</Language>
+													<MidiFile>Entry of the Gladiators. (March of Triumph).mid</MidiFile>
+													<MediaIDList>
+														<MediaID ID="901294678"/>
+													</MediaIDList>
+												</MidiFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{D752ADFB-3C84-40B5-A433-50BC8605CFEB}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{6508F226-269B-4F6B-9FD7-8ED1FF296CF8}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClipMidi Name="Entry of the Gladiators_ (March of Triumph)" ID="{E64F1F6B-956D-4874-958D-26EEFB2B4884}">
+																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="81000"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="116250"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-81000"/>
+																					</PropertyList>
+																					<MidiSourceRef Name="Entry of the Gladiators_ (March of Triumph)" ID="{719CC920-0C31-445C-9738-04278E8B5680}"/>
+																				</MusicClipMidi>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{B4B2DD70-B5CD-484D-82A7-E7A314FF4E4F}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{C37B6248-6E08-4029-BF7D-B3A8605F5BEB}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="32000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="CtoD-EntrytheGladiators" ID="{90E14A62-1137-428E-ADD0-DD7DBEEB1C9B}" ShortID="29551573">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="160971.354166667"/>
+										<Property Name="Tempo" Type="Real64" Value="240"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+										</Reference>
+										<Reference Name="MidiTarget">
+											<ObjectRef Name="SynthOne" ID="{26FCE029-6D7F-4C2B-ABD5-245C32A58B2C}" WorkUnitID="{95A0C28C-CF1F-468A-B652-24ED9B311369}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="EntryOfTheGladiorsMIDI" ID="{6EC9B82B-F07D-4EA7-91AB-DC342A2CE45B}" ShortID="544754977">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MidiFileSource Name="Entry of the Gladiators_ (March of Triumph)" ID="{70F1B457-9B47-462E-9503-8A3D7E909B21}" ShortID="868853648">
+													<Language>SFX</Language>
+													<MidiFile>Entry of the Gladiators. (March of Triumph).mid</MidiFile>
+													<MediaIDList>
+														<MediaID ID="901294678"/>
+													</MediaIDList>
+												</MidiFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{AE7FB6E2-A3FC-480A-9A02-FC5E5CAB3E69}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{54F9D9C1-0FB9-4879-86E4-12DB05354092}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClipMidi Name="Entry of the Gladiators_ (March of Triumph)" ID="{AD090788-B117-4BA2-8E77-4692E35C87A4}">
+																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="116250"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="126000"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-116000"/>
+																					</PropertyList>
+																					<MidiSourceRef Name="Entry of the Gladiators_ (March of Triumph)" ID="{719CC920-0C31-445C-9738-04278E8B5680}"/>
+																				</MusicClipMidi>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{DE14AAEC-9F7B-4D42-848A-709A685E4449}">
+														<PropertyList>
+															<Property Name="TimeMs" Type="Real64" Value="1000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{B85F1A4F-DA51-4BD4-BC8C-EDA318BA5611}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="10000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="OutroLoop" ID="{3949DD6A-07B9-48B7-8B3C-B902FE9C511D}" ShortID="960584454">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="160971.354166667"/>
+										<Property Name="Tempo" Type="Real64" Value="240"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+										</Reference>
+										<Reference Name="MidiTarget">
+											<ObjectRef Name="SynthOne" ID="{26FCE029-6D7F-4C2B-ABD5-245C32A58B2C}" WorkUnitID="{95A0C28C-CF1F-468A-B652-24ED9B311369}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="EntryOfTheGladiorsMIDI" ID="{100FFA25-2DAC-4C43-80C6-447A967FAC51}" ShortID="432856889">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MidiFileSource Name="Entry of the Gladiators_ (March of Triumph)_01" ID="{E6F7D6A6-3E24-4EC4-A6EF-40D08184753E}" ShortID="337693341">
+													<Language>SFX</Language>
+													<MidiFile>Entry of the Gladiators. (March of Triumph).mid</MidiFile>
+													<MediaIDList>
+														<MediaID ID="901294678"/>
+													</MediaIDList>
+												</MidiFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{80981D0B-F0FC-4705-BB64-7575488D3A79}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{D0E0C32D-371E-406E-AB6E-69891FE503CE}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClipMidi Name="Entry of the Gladiators_ (March of Triumph)" ID="{A9E867A6-8B2E-4A2F-9190-7226AB46061C}">
+																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="157250"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="158250"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-157250"/>
+																					</PropertyList>
+																					<MidiSourceRef Name="Entry of the Gladiators_ (March of Triumph)" ID="{719CC920-0C31-445C-9738-04278E8B5680}"/>
+																				</MusicClipMidi>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{BF06E781-C236-4C8F-8805-7100A33B89D0}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{97D1BB2B-9EFF-467A-AA64-87D371197DCE}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="1000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="OutroLast" ID="{6CB6ECBC-1DFA-4597-B03B-86F2429EBF9F}" ShortID="921578039">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="160971.354166667"/>
+										<Property Name="Tempo" Type="Real64" Value="240"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+										</Reference>
+										<Reference Name="MidiTarget">
+											<ObjectRef Name="SynthOne" ID="{26FCE029-6D7F-4C2B-ABD5-245C32A58B2C}" WorkUnitID="{95A0C28C-CF1F-468A-B652-24ED9B311369}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="EntryOfTheGladiorsMIDI" ID="{359693C4-2B2B-4282-85F7-8E73715F604D}" ShortID="32410662">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MidiFileSource Name="Entry of the Gladiators_ (March of Triumph)_01" ID="{7D075BDD-8994-49E8-9164-CBEDAAAD4135}" ShortID="28242097">
+													<Language>SFX</Language>
+													<MidiFile>Entry of the Gladiators. (March of Triumph).mid</MidiFile>
+													<MediaIDList>
+														<MediaID ID="901294678"/>
+													</MediaIDList>
+												</MidiFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{21DAA896-95FD-4E60-B237-8D29F3FE70D7}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{38B87671-4D5E-449E-BA52-0A8F86BA5851}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClipMidi Name="Entry of the Gladiators_ (March of Triumph)" ID="{C7954133-2059-45C9-AEB7-1988FBB97EBF}">
+																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="157250"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="158971.030083063"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-157250"/>
+																					</PropertyList>
+																					<MidiSourceRef Name="Entry of the Gladiators_ (March of Triumph)" ID="{719CC920-0C31-445C-9738-04278E8B5680}"/>
+																				</MusicClipMidi>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{08E4DF5A-91C7-444F-9765-8910B60E7170}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{8A509498-ECFD-44A3-BCA9-C809088B45BE}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="1750"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{AEEC49DE-C21E-49A7-B5EA-91A5C0835C60}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{AB64F186-C7D0-4EDA-B3B3-D071793CA633}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{7E8DC58F-59B0-4E91-8EDA-70F328AE9BC4}" ShortID="844235160">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{9D90F42F-8A94-4E33-8316-9E4F33196DE3}" ShortID="540706774">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Intro01-EntryOfTheGladiors" ID="{EEDFBA1D-9B02-46FA-B7CA-320666BFD13D}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{99219B97-CFBC-4C29-914A-3E9E3D204CAE}" ShortID="819895111">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Intro02-EntryOfTheGladiors_01" ID="{8305BBF1-21D9-43A9-B0D8-76F76CCC6B35}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{1677993E-56B5-4452-855F-E100C83996CA}" ShortID="439517338">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="A-EntrytheGladiators" ID="{21A02879-1385-4DAB-A051-DC0E16A4E6D1}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{06AE00B4-55D2-45FE-A0D9-F230CD0305AC}" ShortID="351219826">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="AtoB-EntrytheGladiators" ID="{0BA884B6-CAC5-45FD-BC4C-D77197B48EED}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{2EFA8E17-A666-4DA4-A861-604E370C2B64}" ShortID="513768888">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="B-EntrytheGladiators" ID="{4D0A59DE-D318-4F32-B340-0153B7AF0C28}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{0B50EFBD-D7F6-47F4-884A-3B213A75F4A2}" ShortID="960992549">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="C-EntrytheGladiators" ID="{A98E6401-B0F2-43F9-8FBD-A2372E16842C}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{A248F6A7-23E1-41CA-A62D-BD5BA652B5A0}" ShortID="303094219">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="D-EntrytheGladiators" ID="{E51F61F3-51A2-4B33-9F33-F56E073AB13B}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{A2682E94-C334-4099-A5E2-50E700874785}" ShortID="347427783">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="CtoD-EntrytheGladiators" ID="{90E14A62-1137-428E-ADD0-DD7DBEEB1C9B}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{B6700137-9221-46A3-94DC-1F7B9E4ED8AD}" ShortID="655581836">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="OutroLast" ID="{6CB6ECBC-1DFA-4597-B03B-86F2429EBF9F}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{70CF608F-36BD-4C3C-A1F0-5726845F9E22}" ShortID="667048825">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="OutroLoop" ID="{3949DD6A-07B9-48B7-8B3C-B902FE9C511D}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Intro" ID="{69B049C1-6F36-48AC-BDB2-C1A88A6F59CB}" ShortID="135349285">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+								</Reference>
+							</ReferenceList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{2E2F6CE7-35C1-453D-9B31-968855FC56DE}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{28BF4C76-4D53-43FB-8EBB-740010E48B11}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{51E2B655-7089-42EF-80AA-6D8105E9F2FD}" ShortID="1042823576">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Asection-EntryOfTheGladiators_01" ID="{7358597A-216A-46B1-8AAD-1A5E08AB1FCC}" ShortID="284171910">
+							<PropertyList>
+								<Property Name="Tempo" Type="Real64" Value="240"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+								</Reference>
+								<Reference Name="MidiTarget">
+									<ObjectRef Name="SynthOne" ID="{26FCE029-6D7F-4C2B-ABD5-245C32A58B2C}" WorkUnitID="{95A0C28C-CF1F-468A-B652-24ED9B311369}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="EntryOfTheGladiorsMIDI_01" ID="{9E0D9A3D-560D-4CD8-9A12-2351D954530A}" ShortID="673361305">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="160971.354166667"/>
+										<Property Name="Tempo" Type="Real64" Value="240"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+										</Reference>
+										<Reference Name="MidiTarget">
+											<ObjectRef Name="SynthOne" ID="{26FCE029-6D7F-4C2B-ABD5-245C32A58B2C}" WorkUnitID="{95A0C28C-CF1F-468A-B652-24ED9B311369}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="EntryOfTheGladiorsMIDI" ID="{DC8A4604-3A08-42A5-A7F3-80C5FE9246E0}" ShortID="214545144">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MidiFileSource Name="Entry of the Gladiators_ (March of Triumph)" ID="{DCE41F02-6CEF-4C23-8213-1F5E1DBB6E05}" ShortID="9207525">
+													<Language>SFX</Language>
+													<MidiFile>Entry of the Gladiators. (March of Triumph).mid</MidiFile>
+													<MediaIDList>
+														<MediaID ID="901294678"/>
+													</MediaIDList>
+												</MidiFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{A31C8551-94E8-4CDD-82B2-3E22440EEC50}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{A08F2C98-EDDE-4F2C-8F12-4234D067B00D}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClipMidi Name="Entry of the Gladiators_ (March of Triumph)" ID="{EAC65033-2812-405A-A116-9DAE58F7F612}">
+																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="8000"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="158971.354166667"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-8000"/>
+																					</PropertyList>
+																					<MidiSourceRef Name="Entry of the Gladiators_ (March of Triumph)" ID="{719CC920-0C31-445C-9738-04278E8B5680}"/>
+																				</MusicClipMidi>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{39B4A4D2-03EF-45ED-8E52-C927A7068EF6}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{F2378196-CF1E-4010-8297-DC0EA55EEA03}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="32000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{24D492FC-AE8F-4C8A-A661-EB5E72A2FC32}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{84CB3778-6FAB-4143-A3FB-E3C6FBD6D9EE}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{DCD692F4-3BFC-40C3-A3E3-276F9B04F45F}" ShortID="991120556">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{F0D6FA88-99B3-4972-83B6-ED1803F4791D}" ShortID="439711469">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="EntryOfTheGladiorsMIDI_01" ID="{9E0D9A3D-560D-4CD8-9A12-2351D954530A}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{219B2E88-C99D-496D-83D0-408DF3D5E28C}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{46E49A84-C68B-4CC3-8708-A165B413D99F}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ObjectLists/>
+				</MusicSwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

@@ -195,6 +195,38 @@
 						<CurrentSwitchRef Name="Hit" ID="{B4A1C7C4-8590-4101-A145-9635A0C74A06}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
+				<SoundcasterSession Name="MIDI Music" ID="{BB1C509C-D0A8-4080-85A4-3CFF6D344867}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Asection-EntryOfTheGladiators" ID="{9D85ED61-1322-4220-9D4E-E61AA7251422}" WorkUnitID="{325D885E-F97E-4485-9035-8A18AB45237E}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="GameMusic_Pitch" ID="{03EF4C80-2D62-486A-B585-3E7A535615D1}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="TimeCounter" ID="{A5D70CE8-9A68-4F32-9C21-9B775DCB6906}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Lifes_Left_03" ID="{D34250FE-4B86-49AD-ABC0-6F5FA3B6BFE9}"/>
+						<CurrentStateRef Name="SecondsLeft_53" ID="{7D09613B-A0AF-48A4-9114-32E48DB03F90}"/>
+						<CurrentStateRef Name="Difficulty_Hard" ID="{5E837F09-D4AA-4F0A-91FA-1D56912041C8}"/>
+						<CurrentStateRef Name="None" ID="{7EC88494-AD09-47E2-BA27-4442B2DA0A52}"/>
+						<CurrentStateRef Name="Red_Light" ID="{BE1D5075-FB5B-4E14-A712-5E971E34F28C}"/>
+						<CurrentStateRef Name="Score_00" ID="{A38C85E3-5072-4394-B1A4-24723BD1B196}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Up" ID="{CC84DC04-5C92-4D60-A566-FBC341FBBD6C}"/>
+						<CurrentSwitchRef Name="Busted" ID="{F78654C0-379C-4E45-98DB-7E7FC0518F35}"/>
+						<CurrentSwitchRef Name="Mole03" ID="{8E7E658A-9D2A-43A7-ADEE-5B60BA172492}"/>
+						<CurrentSwitchRef Name="Hit" ID="{B4A1C7C4-8590-4101-A145-9635A0C74A06}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundcasterSessions>

@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6A070D54-8672-4B9A-A1C7-AA29F51229E9}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="PianoSampler" ID="{6A070D54-8672-4B9A-A1C7-AA29F51229E9}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Piano" ID="{FB446998-30F3-4A51-94B4-3CC7B80D14BF}" ShortID="647886788">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="Piano_Sampler_Soft" ID="{5F305B49-C8F9-4DD3-9F88-15684C2071A1}" ShortID="290300114">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiBreakOnNoteOff" Type="bool" Value="True"/>
+								<Property Name="MidiTransposition" Type="int32" Value="-12"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<BlendContainer Name="Piano_p" ID="{65681AB9-3B20-49F9-B3A5-0602F4CD796D}" ShortID="207535495">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Piano_p_e2" ID="{819147A5-82F8-443F-B489-04558AFF7378}" ShortID="895045056">
+											<PropertyList>
+												<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+												<Property Name="MidiKeyFilterMax" Type="int32" Value="40"/>
+												<Property Name="MidiKeyFilterMin" Type="int32" Value="34"/>
+												<Property Name="MidiTrackingRootNote" Type="int32" Value="40"/>
+												<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Pleyel Felt-rr1-p-e2" ID="{6E38D949-22F9-4B38-AC4E-14D98B57DA49}" ShortID="631104885">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pleyel Felt-rr1-p-e2" ID="{5FAFED45-0AC5-42B5-8AF9-3B9137A4589A}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.23474059151558"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.23474059151558"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Piano Sampler\Pleyel Felt-rr1-p-e2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="549002672"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Pleyel Felt-rr2-p-e2" ID="{3B21282F-DA46-40C3-9A1A-6E665AAF0FE6}">
+															<Language>SFX</Language>
+															<AudioFile>Piano Sampler\Pleyel Felt-rr2-p-e2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="294353277"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Pleyel Felt-rr1-p-e2" ID="{5FAFED45-0AC5-42B5-8AF9-3B9137A4589A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pleyel Felt-rr2-p-e2" ID="{E9C0A2F7-01C4-4B43-8C32-547A7DC02E2F}" ShortID="382605757">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pleyel Felt-rr2-p-e2" ID="{6EE9508E-C2C8-4232-BDBA-AB2A3F7EEB12}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.23871419812561"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.23871419812561"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Piano Sampler\Pleyel Felt-rr2-p-e2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="497817234"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Pleyel Felt-rr2-p-e2" ID="{6EE9508E-C2C8-4232-BDBA-AB2A3F7EEB12}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Piano_p_a#5" ID="{025789D3-8006-47F7-A17A-06FD808E4302}" ShortID="473033357">
+											<PropertyList>
+												<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+												<Property Name="MidiKeyFilterMax" Type="int32" Value="82"/>
+												<Property Name="MidiKeyFilterMin" Type="int32" Value="74"/>
+												<Property Name="MidiTrackingRootNote" Type="int32" Value="82"/>
+												<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Pleyel Felt-rr1-p-a#5" ID="{4091D87D-4C0F-41C6-9D2E-F8F3F556EF33}" ShortID="570790424">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pleyel Felt-rr1-p-a#5" ID="{ED988965-D19A-454F-9A81-B7BABB909C50}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.943338880616623"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.943338880616623"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Piano Sampler\Pleyel Felt-rr1-p-a#5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="828887561"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Pleyel Felt-rr1-p-a#5" ID="{ED988965-D19A-454F-9A81-B7BABB909C50}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pleyel Felt-rr2-p-a#5" ID="{0E1D7FD6-443A-4FB4-9E4F-0C8A6A9DE2FA}" ShortID="316193912">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pleyel Felt-rr2-p-a#5" ID="{F3901039-1B00-4582-A1D2-0384290AD86B}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.489427397091406"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.489427397091406"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Piano Sampler\Pleyel Felt-rr2-p-a#5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="749913589"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Pleyel Felt-rr2-p-a#5" ID="{F3901039-1B00-4582-A1D2-0384290AD86B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Piano_p_a1" ID="{9F98BE00-885C-4028-A4A8-D6224E7621FB}" ShortID="238083576">
+											<PropertyList>
+												<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+												<Property Name="MidiKeyFilterMax" Type="int32" Value="33"/>
+												<Property Name="MidiKeyFilterMin" Type="int32" Value="27"/>
+												<Property Name="MidiTrackingRootNote" Type="int32" Value="33"/>
+												<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Pleyel Felt-rr1-p-a1" ID="{6077E546-493F-45F4-BF47-4D160C1125E0}" ShortID="902075200">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pleyel Felt-rr1-p-a1" ID="{1568393E-DF49-4BA2-BA1E-1BCE7A9D2480}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.803806214903701"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.6076124298074"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Piano Sampler\Pleyel Felt-rr1-p-a1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="849992160"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Pleyel Felt-rr1-p-a1" ID="{1568393E-DF49-4BA2-BA1E-1BCE7A9D2480}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pleyel Felt-rr2-p-a1" ID="{70ACD419-88B5-4BBA-BC73-71FD1903DEAA}" ShortID="760085083">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pleyel Felt-rr2-p-a1" ID="{D52BDC9A-4FD4-4D90-99A2-84C314F20698}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.71061711093593"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.71061711093593"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Piano Sampler\Pleyel Felt-rr2-p-a1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="720391727"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Pleyel Felt-rr2-p-a1" ID="{D52BDC9A-4FD4-4D90-99A2-84C314F20698}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Piano_p_b2" ID="{65126D25-75CB-44AD-B14E-16E1F2D099A9}" ShortID="12987108">
+											<PropertyList>
+												<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+												<Property Name="MidiKeyFilterMax" Type="int32" Value="47"/>
+												<Property Name="MidiKeyFilterMin" Type="int32" Value="41"/>
+												<Property Name="MidiTrackingRootNote" Type="int32" Value="47"/>
+												<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Pleyel Felt-rr1-p-b2" ID="{B9010896-302F-4B1F-9DF7-10D2F84CED97}" ShortID="575165280">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pleyel Felt-rr1-p-b2" ID="{7A7108A3-BECD-45B1-82B9-434E0157C331}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.71769609322031"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.71769609322031"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Piano Sampler\Pleyel Felt-rr1-p-b2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="618948576"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Pleyel Felt-rr1-p-b2" ID="{7A7108A3-BECD-45B1-82B9-434E0157C331}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pleyel Felt-rr2-p-b2" ID="{ECF1C284-9DFD-4BC2-8FB6-F7357969106C}" ShortID="307890299">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pleyel Felt-rr2-p-b2" ID="{EFADF94F-4F9C-4128-8146-2C339C8A14AD}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.67122088892782"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.67122088892782"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Piano Sampler\Pleyel Felt-rr2-p-b2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="188320904"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Pleyel Felt-rr2-p-b2" ID="{EFADF94F-4F9C-4128-8146-2C339C8A14AD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Piano_p_c#4" ID="{62CAC480-8A7C-43EA-8712-8CD9797EB48E}" ShortID="826880029">
+											<PropertyList>
+												<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+												<Property Name="MidiKeyFilterMax" Type="int32" Value="61"/>
+												<Property Name="MidiKeyFilterMin" Type="int32" Value="55"/>
+												<Property Name="MidiTrackingRootNote" Type="int32" Value="61"/>
+												<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Pleyel Felt-rr1-p-c#4" ID="{5F481694-6497-447A-8A12-7FE5C5D122F9}" ShortID="85327086">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pleyel Felt-rr1-p-c#4" ID="{CC1ECBB0-63A9-4E3D-8E9B-73F0AC8EAD40}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.78525330971683"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.78525330971683"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Piano Sampler\Pleyel Felt-rr1-p-c#4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="608279760"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Pleyel Felt-rr1-p-c#4" ID="{CC1ECBB0-63A9-4E3D-8E9B-73F0AC8EAD40}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pleyel Felt-rr2-p-c#4" ID="{F1091A9D-C702-46A1-B8B6-09EF005E85B2}" ShortID="214253038">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pleyel Felt-rr2-p-c#4" ID="{5216A265-22A5-4EA2-8EFA-EB23FB2E8189}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.736682984114008"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.736682984114008"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Piano Sampler\Pleyel Felt-rr2-p-c#4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="373734912"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Pleyel Felt-rr2-p-c#4" ID="{5216A265-22A5-4EA2-8EFA-EB23FB2E8189}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Piano_p_c0" ID="{BAF1F6CF-6ADA-487E-A44B-27A37ED794A8}" ShortID="805101523">
+											<PropertyList>
+												<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+												<Property Name="MidiKeyFilterMax" Type="int32" Value="12"/>
+												<Property Name="MidiKeyFilterMin" Type="int32" Value="9"/>
+												<Property Name="MidiTrackingRootNote" Type="int32" Value="12"/>
+												<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Pleyel Felt-rr1-p-c0" ID="{922EB44B-E25F-443E-A66B-41501B475399}" ShortID="230987970">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pleyel Felt-rr1-p-c0" ID="{E8742869-7C2B-48E1-B34C-0EEEBDC6D4F1}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="2.20692417739629"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="2.20692417739629"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Piano Sampler\Pleyel Felt-rr1-p-c0.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="445771466"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Pleyel Felt-rr1-p-c0" ID="{E8742869-7C2B-48E1-B34C-0EEEBDC6D4F1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pleyel Felt-rr2-p-c0" ID="{BF8DEDEB-258A-43CE-A7A3-39006E5DBD7C}" ShortID="650447709">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pleyel Felt-rr2-p-c0" ID="{2D279E97-6A93-4957-AFAF-80446EDFD70A}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="3.16028184091949"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="3.16028184091949"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Piano Sampler\Pleyel Felt-rr2-p-c0.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="269443662"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Pleyel Felt-rr2-p-c0" ID="{2D279E97-6A93-4957-AFAF-80446EDFD70A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Piano_p_d#5" ID="{C081106E-2818-482A-98AE-4EE1334B97F3}" ShortID="343271912">
+											<PropertyList>
+												<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+												<Property Name="MidiKeyFilterMax" Type="int32" Value="75"/>
+												<Property Name="MidiKeyFilterMin" Type="int32" Value="69"/>
+												<Property Name="MidiTrackingRootNote" Type="int32" Value="75"/>
+												<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Pleyel Felt-rr1-p-d#5" ID="{76D9B5B9-2FE8-499D-8A4A-1E36554213A7}" ShortID="1063628433">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pleyel Felt-rr1-p-d#5" ID="{6A3289C9-3964-43AF-B617-5C8F7967CDC8}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.743998423403696"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.743998423403696"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Piano Sampler\Pleyel Felt-rr1-p-d#5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="921398467"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Pleyel Felt-rr1-p-d#5" ID="{6A3289C9-3964-43AF-B617-5C8F7967CDC8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pleyel Felt-rr2-p-d#5" ID="{146061B8-F869-43D4-BE69-6ABC4C5E7579}" ShortID="788185350">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pleyel Felt-rr2-p-d#5" ID="{6D50BBA7-2891-4B52-9577-8EB2CDB069F8}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.450210699444298"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.450210699444298"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Piano Sampler\Pleyel Felt-rr2-p-d#5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="52838004"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Pleyel Felt-rr2-p-d#5" ID="{6D50BBA7-2891-4B52-9577-8EB2CDB069F8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Piano_p_d1" ID="{3BFA0AC0-C60C-43C9-8E4E-84AD66A9D00F}" ShortID="348694992">
+											<PropertyList>
+												<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+												<Property Name="MidiKeyFilterMax" Type="int32" Value="26"/>
+												<Property Name="MidiKeyFilterMin" Type="int32" Value="20"/>
+												<Property Name="MidiTrackingRootNote" Type="int32" Value="26"/>
+												<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Pleyel Felt-rr1-p-d1" ID="{B269A125-3727-4E81-A0F2-C960B2FFA583}" ShortID="883587647">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pleyel Felt-rr1-p-d1" ID="{42B2476F-C390-4E9E-B485-43D0AF9E7B81}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.62845869869168"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.62845869869168"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Piano Sampler\Pleyel Felt-rr1-p-d1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="118722029"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Pleyel Felt-rr2-p-d1" ID="{D27B890F-1349-45C8-9269-48203B03F582}">
+															<Language>SFX</Language>
+															<AudioFile>Piano Sampler\Pleyel Felt-rr2-p-d1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1035809082"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Pleyel Felt-rr1-p-d1" ID="{42B2476F-C390-4E9E-B485-43D0AF9E7B81}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pleyel Felt-rr2-p-d1" ID="{89621D41-2CA3-4000-A96D-3F131EACE949}" ShortID="130236003">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pleyel Felt-rr2-p-d1" ID="{C7BA915E-4315-45B8-991E-5B28935B75D2}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.6862363142682"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.6862363142682"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Piano Sampler\Pleyel Felt-rr2-p-d1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="763536799"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Pleyel Felt-rr2-p-d1" ID="{C7BA915E-4315-45B8-991E-5B28935B75D2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Piano_p_f#3" ID="{D18F05B3-C6BD-4F5F-83E8-4D3B49D7C438}" ShortID="232273915">
+											<PropertyList>
+												<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+												<Property Name="MidiKeyFilterMax" Type="int32" Value="54"/>
+												<Property Name="MidiKeyFilterMin" Type="int32" Value="48"/>
+												<Property Name="MidiTrackingRootNote" Type="int32" Value="54"/>
+												<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Pleyel Felt-rr1-p-f#3" ID="{BCA364C5-AC79-4238-97E1-C08310F2CB1B}" ShortID="987181304">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pleyel Felt-rr1-p-f#3" ID="{FA518186-E07A-43DF-87AC-10876B02B0D6}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.88014705166759"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.88014705166759"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Piano Sampler\Pleyel Felt-rr1-p-f#3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="911516437"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Pleyel Felt-rr1-p-f#3" ID="{FA518186-E07A-43DF-87AC-10876B02B0D6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pleyel Felt-rr2-p-f#3" ID="{63CA50F2-830F-4F48-99E1-D779BAA2D329}" ShortID="220949932">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pleyel Felt-rr2-p-f#3" ID="{235BC71B-EFED-4A67-892E-8F560E2DD19B}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.758350023843586"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.758350023843586"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Piano Sampler\Pleyel Felt-rr2-p-f#3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1043119142"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Pleyel Felt-rr2-p-f#3" ID="{235BC71B-EFED-4A67-892E-8F560E2DD19B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Piano_p_f6" ID="{60653BDA-B738-4EBC-AB3F-3DED14887DB4}" ShortID="1040784183">
+											<PropertyList>
+												<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+												<Property Name="MidiKeyFilterMax" Type="int32" Value="89"/>
+												<Property Name="MidiKeyFilterMin" Type="int32" Value="83"/>
+												<Property Name="MidiTrackingRootNote" Type="int32" Value="89"/>
+												<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Pleyel Felt-rr1-p-f6" ID="{E97DB9C7-DFF6-4B5C-9F3E-C94D99F759FC}" ShortID="10068205">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pleyel Felt-rr1-p-f6" ID="{0E6552BC-FB41-4730-B89C-2A8F38240F02}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.722924878105748"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.722924878105748"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Piano Sampler\Pleyel Felt-rr1-p-f6.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="178142243"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Pleyel Felt-rr2-p-f6" ID="{08A8C08C-4CF7-43DF-8B34-9F4BDA1AB821}">
+															<Language>SFX</Language>
+															<AudioFile>Piano Sampler\Pleyel Felt-rr2-p-f6.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="834261077"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Pleyel Felt-rr1-p-f6" ID="{0E6552BC-FB41-4730-B89C-2A8F38240F02}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pleyel Felt-rr2-p-f6" ID="{E508D0DD-15CE-4386-BE13-0C7E92F1945A}" ShortID="789076270">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pleyel Felt-rr2-p-f6" ID="{57F87B17-D9D4-4951-9533-1C93E59B290B}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.613158253287009"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.613158253287009"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Piano Sampler\Pleyel Felt-rr2-p-f6.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="975047907"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Pleyel Felt-rr2-p-f6" ID="{57F87B17-D9D4-4951-9533-1C93E59B290B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Piano_p_g#4" ID="{75D2099F-8FD4-41AC-8255-5E47CCCF3D1A}" ShortID="810152377">
+											<PropertyList>
+												<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+												<Property Name="MidiKeyFilterMax" Type="int32" Value="68"/>
+												<Property Name="MidiKeyFilterMin" Type="int32" Value="62"/>
+												<Property Name="MidiTrackingRootNote" Type="int32" Value="68"/>
+												<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Pleyel Felt-rr1-p-g#4" ID="{9E52E3F3-E482-44C3-AF80-20780673458E}" ShortID="523843864">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pleyel Felt-rr1-p-g#4" ID="{3DD766AD-950E-49EF-A3E6-2E3C95686252}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.631153413201237"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.631153413201237"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Piano Sampler\Pleyel Felt-rr1-p-g#4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="52750777"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Pleyel Felt-rr1-p-g#4" ID="{3DD766AD-950E-49EF-A3E6-2E3C95686252}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pleyel Felt-rr2-p-g#4" ID="{031DCF53-9F1E-4A9A-84BB-4D40549C0A79}" ShortID="623433435">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pleyel Felt-rr2-p-g#4" ID="{A43755A2-62DC-48D3-8967-E9894DE47E29}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.547071780548174"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.547071780548174"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Piano Sampler\Pleyel Felt-rr2-p-g#4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="230524461"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Pleyel Felt-rr2-p-g#4" ID="{A43755A2-62DC-48D3-8967-E9894DE47E29}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Piano_p_g0" ID="{78F5807E-841C-4679-B56B-784578D34521}" ShortID="732629457">
+											<PropertyList>
+												<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+												<Property Name="MidiKeyFilterMax" Type="int32" Value="19"/>
+												<Property Name="MidiKeyFilterMin" Type="int32" Value="13"/>
+												<Property Name="MidiTrackingRootNote" Type="int32" Value="19"/>
+												<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Pleyel Felt-rr1-p-g0" ID="{DB5E749B-2E48-4C82-BD25-F237E7BEBAB6}" ShortID="573708993">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pleyel Felt-rr1-p-g0" ID="{07D5D4BE-D5BF-4E8F-92AE-7311E476B899}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.9248464116214"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.9248464116214"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Piano Sampler\Pleyel Felt-rr1-p-g0.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="366818725"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Pleyel Felt-rr1-p-g0" ID="{07D5D4BE-D5BF-4E8F-92AE-7311E476B899}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+								</BlendContainer>
+							</ChildrenList>
+							<ObjectLists/>
+						</BlendContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

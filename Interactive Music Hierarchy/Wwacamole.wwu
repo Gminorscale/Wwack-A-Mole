@@ -6313,6 +6313,7 @@
 						</Entry>
 					</EntryList>
 				</MusicSwitchContainer>
+				<WorkUnit Name="MIDI Music" ID="{325D885E-F97E-4485-9035-8A18AB45237E}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>
