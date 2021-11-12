@@ -274,20 +274,6 @@
 					</ChildrenList>
 					<ObjectLists/>
 				</RandomSequenceContainer>
-				<RandomSequenceContainer Name="Gunshot" ID="{BC349DEA-50A2-4ED1-8A6B-4CFA0936EBE1}" ShortID="97062360">
-					<PropertyList>
-						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A8B8934F-7BD5-4E66-B6D8-CC4AB82DBE81}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Enjoy And Listen" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F7B6F1A-F686-47E4-9308-569BACF22BB4}"/>
-						</Reference>
-					</ReferenceList>
-					<ObjectLists/>
-				</RandomSequenceContainer>
 				<BlendContainer Name="MachineGun" ID="{9B548BB3-283E-4805-9E0B-733AA25DC795}" ShortID="772472003">
 					<ReferenceList>
 						<Reference Name="Conversion">

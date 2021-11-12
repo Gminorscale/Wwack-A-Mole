@@ -2452,32 +2452,7 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Robot" ID="{C63E6992-862C-405A-8902-D2E2EFC4AEE8}" ShortID="362432613">
-					<ChildrenList>
-						<Event Name="Robot_Shoot" ID="{18C76817-FE2F-4E97-B7E6-33A36C5E8EC1}">
-							<ChildrenList>
-								<Action Name="" ID="{C0AFC9FA-11FE-4F83-B152-3B76D728FFCF}" ShortID="537474348">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="MachineGun" ID="{9B548BB3-283E-4805-9E0B-733AA25DC795}" WorkUnitID="{94CC1962-28A8-4FC4-B2E4-89DF9011D180}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{6E03A029-4096-4461-B475-8A54D198DC5E}" ShortID="352047293">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-										<Property Name="FadeTime" Type="Real64" Value="4.5"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Ambience" ID="{FFF63F2F-810B-495E-A3C4-CA58D3AFB70D}" WorkUnitID="{94CC1962-28A8-4FC4-B2E4-89DF9011D180}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-					</ChildrenList>
-				</Folder>
+				<Folder Name="Robot" ID="{C63E6992-862C-405A-8902-D2E2EFC4AEE8}" ShortID="362432613"/>
 				<Folder Name="PlayerStatus" ID="{CD59FC77-9F8D-4C6D-B4B0-4C57C5B6DBD7}" ShortID="652328305">
 					<ChildrenList>
 						<Event Name="Set_Switch_Busted" ID="{A2DBA931-8371-4405-B448-54E35526E764}">

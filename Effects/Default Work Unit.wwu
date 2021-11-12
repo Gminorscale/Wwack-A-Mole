@@ -10,7 +10,7 @@
 								<RTPC Name="" ID="{6486B7F1-738C-4B50-B038-4148DE9CE386}" ShortID="694871781">
 									<ReferenceList>
 										<Reference Name="ControlInput">
-											<ObjectRef Name="GameMusic_Pitch" ID="{03EF4C80-2D62-486A-B585-3E7A535615D1}" WorkUnitID="{657DA3D1-2A15-4614-858F-3631F369059C}"/>
+											<ObjectRef Name="GameMusic_Pitch" ID="{03EF4C80-2D62-486A-B585-3E7A535615D1}" WorkUnitID="{04EAA5FD-52DF-44AF-8D26-2EB94259C95F}"/>
 										</Reference>
 									</ReferenceList>
 									<Curve Name="" ID="{AB8DF7AA-B7A0-4E9F-B1A3-374839D40FDA}">
@@ -47,7 +47,7 @@
 								<RTPC Name="" ID="{2BB202DD-F973-4441-9424-AC06BDEBEA77}" ShortID="1007956207">
 									<ReferenceList>
 										<Reference Name="ControlInput">
-											<ObjectRef Name="GameMusic_Pitch" ID="{03EF4C80-2D62-486A-B585-3E7A535615D1}" WorkUnitID="{657DA3D1-2A15-4614-858F-3631F369059C}"/>
+											<ObjectRef Name="GameMusic_Pitch" ID="{03EF4C80-2D62-486A-B585-3E7A535615D1}" WorkUnitID="{04EAA5FD-52DF-44AF-8D26-2EB94259C95F}"/>
 										</Reference>
 									</ReferenceList>
 									<Curve Name="" ID="{246E9D2F-B2F3-4C70-8872-6D287331A94D}">

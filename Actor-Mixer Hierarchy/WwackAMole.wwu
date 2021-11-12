@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{14425AED-6CE7-45A9-9436-FCABA733FE69}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="WwackAMole" ID="{14425AED-6CE7-45A9-9436-FCABA733FE69}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Text" ID="{E37A1765-81C3-4083-AF35-DD51BAEACF6D}" PersistMode="Reference"/>
+				<WorkUnit Name="Audio Objects" ID="{3FF616C2-867F-4E72-8192-DDE682525E58}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

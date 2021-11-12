@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{E37A1765-81C3-4083-AF35-DD51BAEACF6D}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{E37A1765-81C3-4083-AF35-DD51BAEACF6D}" SchemaVersion="103" RootDocumentID="{14425AED-6CE7-45A9-9436-FCABA733FE69}" ParentDocumentID="{14425AED-6CE7-45A9-9436-FCABA733FE69}">
 	<AudioObjects>
-		<WorkUnit Name="Text" ID="{E37A1765-81C3-4083-AF35-DD51BAEACF6D}" PersistMode="Standalone">
+		<WorkUnit Name="Text" ID="{E37A1765-81C3-4083-AF35-DD51BAEACF6D}" OwnerID="{14425AED-6CE7-45A9-9436-FCABA733FE69}" PersistMode="Nested">
 			<ChildrenList>
 				<Folder Name="TutorialText" ID="{58AB4A89-525D-40A2-8A02-454807D73A99}" ShortID="857009080">
 					<ChildrenList>

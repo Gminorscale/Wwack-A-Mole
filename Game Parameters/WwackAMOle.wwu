@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{04EAA5FD-52DF-44AF-8D26-2EB94259C95F}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="WwackAMOle" ID="{04EAA5FD-52DF-44AF-8D26-2EB94259C95F}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="GameMusic_Pitch" ID="{03EF4C80-2D62-486A-B585-3E7A535615D1}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

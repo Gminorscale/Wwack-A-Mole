@@ -4259,21 +4259,7 @@
 													<Reference>
 														<Local>
 															<MusicTrackSequence Name="" ID="{0B9300DF-C2A3-49DD-937C-88347BB96DCA}">
-																<ObjectLists>
-																	<ObjectList Name="Clips">
-																		<Reference>
-																			<Local>
-																				<MusicEventCue Name="" ID="{18179823-D0B0-47FD-9C1A-EE84096B97FF}" ShortID="417519398">
-																					<ReferenceList>
-																						<Reference Name="PostEventTarget">
-																							<ObjectRef Name="Robot_Shoot" ID="{18C76817-FE2F-4E97-B7E6-33A36C5E8EC1}" WorkUnitID="{8C963A76-7B40-483A-A826-0D7AA8A07B7F}"/>
-																						</Reference>
-																					</ReferenceList>
-																				</MusicEventCue>
-																			</Local>
-																		</Reference>
-																	</ObjectList>
-																</ObjectLists>
+																<ObjectLists/>
 															</MusicTrackSequence>
 														</Local>
 													</Reference>

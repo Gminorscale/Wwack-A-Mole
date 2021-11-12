@@ -282,7 +282,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="GameMusic_Pitch" ID="{03EF4C80-2D62-486A-B585-3E7A535615D1}" WorkUnitID="{657DA3D1-2A15-4614-858F-3631F369059C}"/>
+											<ObjectRef Name="GameMusic_Pitch" ID="{03EF4C80-2D62-486A-B585-3E7A535615D1}" WorkUnitID="{04EAA5FD-52DF-44AF-8D26-2EB94259C95F}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -330,6 +330,13 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Circus Music" ID="{F2DA0109-5EB5-4278-AB1F-EA7957732BBC}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{8744C30F-064B-43FE-ABE9-8E9A90F48C8A}" ShortID="334122214">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Soundcaster Switch" ID="{F741D212-3E50-45C4-A1FD-A62289D80FCF}" WorkUnitID="{37F01406-3353-4B2C-ACDA-D941A8BE314E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -398,7 +405,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="GameMusic_Pitch" ID="{03EF4C80-2D62-486A-B585-3E7A535615D1}" WorkUnitID="{657DA3D1-2A15-4614-858F-3631F369059C}"/>
+											<ObjectRef Name="GameMusic_Pitch" ID="{03EF4C80-2D62-486A-B585-3E7A535615D1}" WorkUnitID="{04EAA5FD-52DF-44AF-8D26-2EB94259C95F}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
